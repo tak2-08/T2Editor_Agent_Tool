@@ -1,0 +1,1359 @@
+{
+  "css/t2-foundation.css": {
+    "lines": 933,
+    "defCount": 214,
+    "families": {
+      "기타": {
+        "count": 159,
+        "sample": [
+          "--t2-product-strong",
+          "--t2-product-soft",
+          "--t2-product-selection",
+          "--t2-product-ink",
+          "--t2-product-tone",
+          "--t2-product-select"
+        ]
+      },
+      "--t2-s*": {
+        "count": 21,
+        "sample": [
+          "--t2-surface",
+          "--t2-success",
+          "--t2-s1",
+          "--t2-s5",
+          "--t2-sticky-top",
+          "--t2-shadow-overlay"
+        ]
+      },
+      "--t2-u*": {
+        "count": 7,
+        "sample": [
+          "--t2-u8",
+          "--t2-u316",
+          "--t2-u4",
+          "--t2-u38",
+          "--t2-u2",
+          "--t2-u34"
+        ]
+      },
+      "--t2-toolbar-*": {
+        "count": 1,
+        "sample": [
+          "--t2-toolbar-gap"
+        ]
+      },
+      "--t2-plugin-*": {
+        "count": 26,
+        "sample": [
+          "--t2-plugin-product",
+          "--t2-plugin-product-strong",
+          "--t2-plugin-product-soft",
+          "--t2-plugin-product-ring",
+          "--t2-plugin-action",
+          "--t2-plugin-action-hover"
+        ]
+      }
+    },
+    "atLayers": [
+      {
+        "layer": "t2.content",
+        "line": 42
+      },
+      {
+        "layer": "t2.token, t2.content, t2.legacy, t2.module, t2.product, t2.plugin, t2.contract",
+        "line": 51
+      },
+      {
+        "layer": "t2.token",
+        "line": 53
+      },
+      {
+        "layer": "t2.token",
+        "line": 552
+      },
+      {
+        "layer": "t2.product",
+        "line": 555
+      },
+      {
+        "layer": "t2.product",
+        "line": 639
+      },
+      {
+        "layer": "t2.contract",
+        "line": 643
+      },
+      {
+        "layer": "t2.contract",
+        "line": 932
+      }
+    ],
+    "defs": [
+      {
+        "token": "--t2-product-strong",
+        "value": "#295EA8",
+        "line": 74
+      },
+      {
+        "token": "--t2-product-soft",
+        "value": "rgba(53,111,192,.10)",
+        "line": 75
+      },
+      {
+        "token": "--t2-product-selection",
+        "value": "rgba(53,111,192,.16)",
+        "line": 76
+      },
+      {
+        "token": "--t2-product-ink",
+        "value": "var(--t2-product-strong)",
+        "line": 77
+      },
+      {
+        "token": "--t2-product-tone",
+        "value": "var(--t2-product-soft)",
+        "line": 78
+      },
+      {
+        "token": "--t2-product-select",
+        "value": "var(--t2-product-selection)",
+        "line": 79
+      },
+      {
+        "token": "--t2-product-wash",
+        "value": "rgba(53,111,192,.07)",
+        "line": 80
+      },
+      {
+        "token": "--t2-product-rgb",
+        "value": "53,111,192",
+        "line": 81
+      },
+      {
+        "token": "--t2-on-product",
+        "value": "#FFFFFF",
+        "line": 84
+      },
+      {
+        "token": "--t2-base",
+        "value": "#F2F3F5",
+        "line": 87
+      },
+      {
+        "token": "--t2-workspace",
+        "value": "#F7F8F9",
+        "line": 88
+      },
+      {
+        "token": "--t2-surface",
+        "value": "#FFFFFF",
+        "line": 89
+      },
+      {
+        "token": "--t2-inset",
+        "value": "#ECEEF1",
+        "line": 90
+      },
+      {
+        "token": "--t2-floating",
+        "value": "#FFFFFF",
+        "line": 91
+      },
+      {
+        "token": "--t2-line",
+        "value": "#D4D7DC",
+        "line": 92
+      },
+      {
+        "token": "--t2-line-strong",
+        "value": "#BFC5CF",
+        "line": 93
+      },
+      {
+        "token": "--t2-tool-tile",
+        "value": "var(--t2-design-tile-light, transparent)",
+        "line": 105
+      },
+      {
+        "token": "--t2-tool-tile-hover",
+        "value": "var(--t2-design-tile-hover-light, var(--t2-product-wash))",
+        "line": 106
+      },
+      {
+        "token": "--t2-tool-tile-active",
+        "value": "var(--t2-tool-tile)",
+        "line": 107
+      },
+      {
+        "token": "--t2-tool-ink",
+        "value": "var(--t2-design-ink-light, var(--t2-ink-muted))",
+        "line": 108
+      },
+      {
+        "token": "--t2-chrome-fill",
+        "value": "var(--t2-design-chrome-light, var(--t2-workspace))",
+        "line": 113
+      },
+      {
+        "token": "--t2-canvas-fill",
+        "value": "var(--t2-design-canvas-light, var(--t2-surface))",
+        "line": 114
+      },
+      {
+        "token": "--t2-toggle-on",
+        "value": "var(--t2-design-toggle-on-light, var(--t2-product))",
+        "line": 120
+      },
+      {
+        "token": "--t2-toggle-off",
+        "value": "var(--t2-design-toggle-off-light, var(--t2-line-strong))",
+        "line": 121
+      },
+      {
+        "token": "--t2-toggle-thumb",
+        "value": "#FFFFFF",
+        "line": 122
+      },
+      {
+        "token": "--t2-ink",
+        "value": "#17191C",
+        "line": 124
+      },
+      {
+        "token": "--t2-ink-muted",
+        "value": "#62676F",
+        "line": 125
+      },
+      {
+        "token": "--t2-ink-faint",
+        "value": "#8B9199",
+        "line": 126
+      },
+      {
+        "token": "--t2-danger",
+        "value": "#B4232D",
+        "line": 128
+      },
+      {
+        "token": "--t2-success",
+        "value": "#1D7346",
+        "line": 129
+      },
+      {
+        "token": "--t2-warning",
+        "value": "#8F5300",
+        "line": 130
+      },
+      {
+        "token": "--t2-info",
+        "value": "var(--t2-product)",
+        "line": 131
+      },
+      {
+        "token": "--t2-info-soft",
+        "value": "var(--t2-product-wash)",
+        "line": 132
+      },
+      {
+        "token": "--t2-radius-structural",
+        "value": "0px",
+        "line": 161
+      },
+      {
+        "token": "--t2-radius-edge",
+        "value": "3px",
+        "line": 162
+      },
+      {
+        "token": "--t2-radius-field",
+        "value": "6px",
+        "line": 163
+      },
+      {
+        "token": "--t2-radius-control",
+        "value": "6px",
+        "line": 164
+      },
+      {
+        "token": "--t2-radius-tile",
+        "value": "6px",
+        "line": 165
+      },
+      {
+        "token": "--t2-radius-brand",
+        "value": "6px",
+        "line": 166
+      },
+      {
+        "token": "--t2-radius-inner",
+        "value": "7px",
+        "line": 167
+      },
+      {
+        "token": "--t2-radius-island",
+        "value": "8px",
+        "line": 168
+      },
+      {
+        "token": "--t2-radius-overlay",
+        "value": "8px",
+        "line": 169
+      },
+      {
+        "token": "--t2-radius-shell",
+        "value": "12px",
+        "line": 170
+      },
+      {
+        "token": "--t2-radius-modal",
+        "value": "12px",
+        "line": 171
+      },
+      {
+        "token": "--t2-radius-popover",
+        "value": "14px",
+        "line": 172
+      },
+      {
+        "token": "--t2-radius-sheet",
+        "value": "16px",
+        "line": 173
+      },
+      {
+        "token": "--t2-radius-pill",
+        "value": "999px",
+        "line": 174
+      },
+      {
+        "token": "--t2-s1",
+        "value": "4px",
+        "line": 179
+      },
+      {
+        "token": "--t2-s5",
+        "value": "20px",
+        "line": 180
+      },
+      {
+        "token": "--t2-inset-shell",
+        "value": "var(--t2-s5)",
+        "line": 183
+      },
+      {
+        "token": "--t2-inset-section",
+        "value": "var(--t2-s4)",
+        "line": 184
+      },
+      {
+        "token": "--t2-inset-island",
+        "value": "var(--t2-s3)",
+        "line": 185
+      },
+      {
+        "token": "--t2-inset-control",
+        "value": "var(--t2-s2)",
+        "line": 186
+      },
+      {
+        "token": "--t2-inset-chip",
+        "value": "var(--t2-s1)",
+        "line": 187
+      },
+      {
+        "token": "--t2-gap-tight",
+        "value": "var(--t2-s1)",
+        "line": 189
+      },
+      {
+        "token": "--t2-gap-related",
+        "value": "var(--t2-s2)",
+        "line": 190
+      },
+      {
+        "token": "--t2-gap-group",
+        "value": "var(--t2-s4)",
+        "line": 191
+      },
+      {
+        "token": "--t2-gap-section",
+        "value": "var(--t2-s6)",
+        "line": 192
+      },
+      {
+        "token": "--t2-lead-title",
+        "value": "var(--t2-s6)",
+        "line": 194
+      },
+      {
+        "token": "--t2-trail-title",
+        "value": "var(--t2-s3)",
+        "line": 195
+      },
+      {
+        "token": "--t2-lead-subtitle",
+        "value": "var(--t2-s5)",
+        "line": 196
+      },
+      {
+        "token": "--t2-trail-subtitle",
+        "value": "var(--t2-s2)",
+        "line": 197
+      },
+      {
+        "token": "--t2-trail-locator",
+        "value": "var(--t2-s1)",
+        "line": 198
+      },
+      {
+        "token": "--t2-sticky-top",
+        "value": "0px",
+        "line": 200
+      },
+      {
+        "token": "--t2-rail-w",
+        "value": "2px",
+        "line": 202
+      },
+      {
+        "token": "--t2-rail-inset",
+        "value": "7px",
+        "line": 203
+      },
+      {
+        "token": "--t2-chamfer",
+        "value": "9px",
+        "line": 204
+      },
+      {
+        "token": "--t2-tick",
+        "value": "6px",
+        "line": 205
+      },
+      {
+        "token": "--t2-hit",
+        "value": "44px",
+        "line": 207
+      },
+      {
+        "token": "--t2-face",
+        "value": "30px",
+        "line": 208
+      },
+      {
+        "token": "--t2-motion-fast",
+        "value": "110ms cubic-bezier(.2,.75,.2,1)",
+        "line": 210
+      },
+      {
+        "token": "--t2-motion",
+        "value": "130ms cubic-bezier(.2,.75,.2,1)",
+        "line": 211
+      },
+      {
+        "token": "--t2-ease-spring",
+        "value": "cubic-bezier(.34, 1.56, .64, 1)",
+        "line": 216
+      },
+      {
+        "token": "--t2-motion-spring",
+        "value": "160ms var(--t2-ease-spring)",
+        "line": 217
+      },
+      {
+        "token": "--t2-shadow-overlay",
+        "value": "0 1px 2px rgba(16,20,26,.06), 0 10px 28px -6px rgba(16,20,26,.14)",
+        "line": 219
+      },
+      {
+        "token": "--t2-shadow-modal",
+        "value": "0 1px 2px rgba(16,20,26,.08), 0 20px 50px -10px rgba(16,20,26,.20)",
+        "line": 220
+      },
+      {
+        "token": "--t2-scrim",
+        "value": "rgba(14,17,21,.66)",
+        "line": 225
+      },
+      {
+        "token": "--t2-font-mono",
+        "value": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "line": 229
+      },
+      {
+        "token": "--t2-canvas-type-base",
+        "value": "16px",
+        "line": 243
+      },
+      {
+        "token": "--t2-canvas-type",
+        "value": "var(--t2-canvas-type-base)",
+        "line": 244
+      },
+      {
+        "token": "--t2-track-body",
+        "value": "-.011em",
+        "line": 245
+      },
+      {
+        "token": "--t2-track-title",
+        "value": "-.025em",
+        "line": 246
+      },
+      {
+        "token": "--t2-track-label",
+        "value": ".13em",
+        "line": 247
+      },
+      {
+        "token": "--t2-product-strong",
+        "value": "#A3BEFF",
+        "line": 254
+      },
+      {
+        "token": "--t2-product-soft",
+        "value": "rgba(127,168,255,.14)",
+        "line": 255
+      },
+      {
+        "token": "--t2-product-selection",
+        "value": "rgba(127,168,255,.20)",
+        "line": 256
+      },
+      {
+        "token": "--t2-product-ink",
+        "value": "var(--t2-product-strong)",
+        "line": 257
+      },
+      {
+        "token": "--t2-product-tone",
+        "value": "var(--t2-product-soft)",
+        "line": 258
+      },
+      {
+        "token": "--t2-product-select",
+        "value": "var(--t2-product-selection)",
+        "line": 259
+      },
+      {
+        "token": "--t2-product-wash",
+        "value": "rgba(127,168,255,.11)",
+        "line": 260
+      },
+      {
+        "token": "--t2-product-rgb",
+        "value": "127,168,255",
+        "line": 261
+      },
+      {
+        "token": "--t2-on-product",
+        "value": "#12151A",
+        "line": 264
+      },
+      {
+        "token": "--t2-base",
+        "value": "#1B1D20",
+        "line": 266
+      },
+      {
+        "token": "--t2-workspace",
+        "value": "#202327",
+        "line": 267
+      },
+      {
+        "token": "--t2-surface",
+        "value": "#24272B",
+        "line": 268
+      },
+      {
+        "token": "--t2-inset",
+        "value": "#2A2E33",
+        "line": 269
+      },
+      {
+        "token": "--t2-floating",
+        "value": "#30343A",
+        "line": 270
+      },
+      {
+        "token": "--t2-line",
+        "value": "#3A3F46",
+        "line": 271
+      },
+      {
+        "token": "--t2-line-strong",
+        "value": "#525962",
+        "line": 272
+      },
+      {
+        "token": "--t2-tool-tile",
+        "value": "var(--t2-design-tile-dark, transparent)",
+        "line": 277
+      },
+      {
+        "token": "--t2-tool-tile-hover",
+        "value": "var(--t2-design-tile-hover-dark, var(--t2-product-wash))",
+        "line": 278
+      },
+      {
+        "token": "--t2-tool-ink",
+        "value": "var(--t2-design-ink-dark, var(--t2-ink-muted))",
+        "line": 279
+      },
+      {
+        "token": "--t2-chrome-fill",
+        "value": "var(--t2-design-chrome-dark, var(--t2-workspace))",
+        "line": 280
+      },
+      {
+        "token": "--t2-canvas-fill",
+        "value": "var(--t2-design-canvas-dark, var(--t2-surface))",
+        "line": 281
+      },
+      {
+        "token": "--t2-toggle-on",
+        "value": "var(--t2-design-toggle-on-dark, var(--t2-product))",
+        "line": 283
+      },
+      {
+        "token": "--t2-toggle-off",
+        "value": "var(--t2-design-toggle-off-dark, var(--t2-line-strong))",
+        "line": 284
+      },
+      {
+        "token": "--t2-ink",
+        "value": "#F2F4F6",
+        "line": 286
+      },
+      {
+        "token": "--t2-ink-muted",
+        "value": "#A7ADB5",
+        "line": 287
+      },
+      {
+        "token": "--t2-ink-faint",
+        "value": "#7F8791",
+        "line": 288
+      },
+      {
+        "token": "--t2-dsc-ink",
+        "value": "#FF9A4D",
+        "line": 289
+      },
+      {
+        "token": "--t2-info",
+        "value": "var(--t2-product-strong)",
+        "line": 294
+      },
+      {
+        "token": "--t2-danger",
+        "value": "#FF8E98",
+        "line": 295
+      },
+      {
+        "token": "--t2-success",
+        "value": "#68D096",
+        "line": 296
+      },
+      {
+        "token": "--t2-warning",
+        "value": "#F0B45E",
+        "line": 297
+      },
+      {
+        "token": "--t2-shadow-overlay",
+        "value": "0 1px 2px rgba(0,0,0,.40), 0 14px 34px -8px rgba(0,0,0,.55)",
+        "line": 299
+      },
+      {
+        "token": "--t2-shadow-modal",
+        "value": "0 1px 2px rgba(0,0,0,.50), 0 26px 60px -12px rgba(0,0,0,.66)",
+        "line": 300
+      },
+      {
+        "token": "--t2-scrim",
+        "value": "rgba(0,0,0,.66)",
+        "line": 302
+      },
+      {
+        "token": "--t2-u8",
+        "value": "calc(var(--t2-u) / 8)",
+        "line": 381
+      },
+      {
+        "token": "--t2-u316",
+        "value": "calc(var(--t2-u) * 3 / 16)",
+        "line": 382
+      },
+      {
+        "token": "--t2-u4",
+        "value": "calc(var(--t2-u) / 4)",
+        "line": 383
+      },
+      {
+        "token": "--t2-u38",
+        "value": "calc(var(--t2-u) * 3 / 8)",
+        "line": 384
+      },
+      {
+        "token": "--t2-u2",
+        "value": "calc(var(--t2-u) / 2)",
+        "line": 385
+      },
+      {
+        "token": "--t2-u34",
+        "value": "calc(var(--t2-u) * 3 / 4)",
+        "line": 386
+      },
+      {
+        "token": "--t2-u78",
+        "value": "calc(var(--t2-u) * 7 / 8)",
+        "line": 387
+      },
+      {
+        "token": "--t2-chrome-inset",
+        "value": "var(--t2-u316)",
+        "line": 389
+      },
+      {
+        "token": "--t2-chrome-face",
+        "value": "var(--t2-u78)",
+        "line": 390
+      },
+      {
+        "token": "--t2-chrome-hit",
+        "value": "max(var(--t2-u78), var(--t2-hit))",
+        "line": 391
+      },
+      {
+        "token": "--t2-chrome-band",
+        "value": "calc(var(--t2-chrome-hit) + 2 * var(--t2-chrome-inset))",
+        "line": 392
+      },
+      {
+        "token": "--t2-toolbar-gap",
+        "value": "var(--t2-design-toolbar-gap, var(--t2-chrome-inset))",
+        "line": 397
+      },
+      {
+        "token": "--t2-status-inset",
+        "value": "var(--t2-u4)",
+        "line": 403
+      },
+      {
+        "token": "--t2-status-face",
+        "value": "var(--t2-u2)",
+        "line": 404
+      },
+      {
+        "token": "--t2-status-mark",
+        "value": "calc(var(--t2-u) * 0.22)",
+        "line": 408
+      },
+      {
+        "token": "--t2-status-hit",
+        "value": "max(var(--t2-u2), var(--t2-hit))",
+        "line": 409
+      },
+      {
+        "token": "--t2-status-band",
+        "value": "calc(var(--t2-status-face) + 2 * var(--t2-status-inset))",
+        "line": 410
+      },
+      {
+        "token": "--t2-status-pad",
+        "value": "max(var(--t2-u8), calc((var(--t2-status-band) - var(--t2-status-hit)) / 2))",
+        "line": 411
+      },
+      {
+        "token": "--t2-editor",
+        "value": "var(--t2-product)",
+        "line": 446
+      },
+      {
+        "token": "--t2-editor-strong",
+        "value": "var(--t2-product-ink)",
+        "line": 447
+      },
+      {
+        "token": "--t2-editor-soft",
+        "value": "var(--t2-product-wash)",
+        "line": 448
+      },
+      {
+        "token": "--t2-editor-rgb",
+        "value": "var(--t2-product-rgb)",
+        "line": 449
+      },
+      {
+        "token": "--t2-signature",
+        "value": "var(--t2-dsc)",
+        "line": 450
+      },
+      {
+        "token": "--t2-paper",
+        "value": "var(--t2-surface)",
+        "line": 451
+      },
+      {
+        "token": "--t2-paper-soft",
+        "value": "var(--t2-workspace)",
+        "line": 452
+      },
+      {
+        "token": "--t2-ground",
+        "value": "var(--t2-base)",
+        "line": 453
+      },
+      {
+        "token": "--t2-border",
+        "value": "var(--t2-line)",
+        "line": 454
+      },
+      {
+        "token": "--t2-ink-soft",
+        "value": "var(--t2-ink-muted)",
+        "line": 455
+      },
+      {
+        "token": "--t2-bg-primary",
+        "value": "var(--t2-surface)",
+        "line": 456
+      },
+      {
+        "token": "--t2-bg-secondary",
+        "value": "var(--t2-workspace)",
+        "line": 457
+      },
+      {
+        "token": "--t2-text-primary",
+        "value": "var(--t2-ink)",
+        "line": 458
+      },
+      {
+        "token": "--t2-text-secondary",
+        "value": "var(--t2-ink-muted)",
+        "line": 459
+      },
+      {
+        "token": "--t2-radius-s",
+        "value": "var(--t2-radius-control)",
+        "line": 460
+      },
+      {
+        "token": "--t2-radius-m",
+        "value": "var(--t2-radius-island)",
+        "line": 461
+      },
+      {
+        "token": "--t2-radius-l",
+        "value": "var(--t2-radius-modal)",
+        "line": 462
+      },
+      {
+        "token": "--t2-focus",
+        "value": "var(--t2-product)",
+        "line": 463
+      },
+      {
+        "token": "--t2-focus-outline",
+        "value": "var(--t2-product)",
+        "line": 464
+      },
+      {
+        "token": "--t2-focus-halo",
+        "value": "transparent",
+        "line": 465
+      },
+      {
+        "token": "--t2-shadow-float",
+        "value": "var(--t2-shadow-overlay)",
+        "line": 466
+      },
+      {
+        "token": "--t2-block-focus",
+        "value": "var(--t2-product)",
+        "line": 467
+      },
+      {
+        "token": "--t2-plugin-product",
+        "value": "var(--t2-product)",
+        "line": 469
+      },
+      {
+        "token": "--t2-plugin-product-strong",
+        "value": "var(--t2-product-ink)",
+        "line": 470
+      },
+      {
+        "token": "--t2-plugin-product-soft",
+        "value": "var(--t2-product-wash)",
+        "line": 471
+      },
+      {
+        "token": "--t2-plugin-product-ring",
+        "value": "transparent",
+        "line": 472
+      },
+      {
+        "token": "--t2-plugin-action",
+        "value": "transparent",
+        "line": 474
+      },
+      {
+        "token": "--t2-plugin-action-hover",
+        "value": "var(--t2-product-wash)",
+        "line": 475
+      },
+      {
+        "token": "--t2-plugin-on-action",
+        "value": "var(--t2-product-ink)",
+        "line": 476
+      },
+      {
+        "token": "--t2-plugin-dsc",
+        "value": "var(--t2-dsc)",
+        "line": 477
+      },
+      {
+        "token": "--t2-plugin-dsc-ink",
+        "value": "var(--t2-dsc-ink)",
+        "line": 478
+      },
+      {
+        "token": "--t2-plugin-surface",
+        "value": "var(--t2-surface)",
+        "line": 479
+      },
+      {
+        "token": "--t2-plugin-surface-muted",
+        "value": "var(--t2-workspace)",
+        "line": 480
+      },
+      {
+        "token": "--t2-plugin-surface-raised",
+        "value": "var(--t2-floating)",
+        "line": 481
+      },
+      {
+        "token": "--t2-plugin-surface-inset",
+        "value": "var(--t2-inset)",
+        "line": 482
+      },
+      {
+        "token": "--t2-plugin-text",
+        "value": "var(--t2-ink)",
+        "line": 483
+      },
+      {
+        "token": "--t2-plugin-text-muted",
+        "value": "var(--t2-ink-muted)",
+        "line": 484
+      },
+      {
+        "token": "--t2-plugin-text-soft",
+        "value": "var(--t2-ink-faint)",
+        "line": 485
+      },
+      {
+        "token": "--t2-plugin-border",
+        "value": "var(--t2-line)",
+        "line": 486
+      },
+      {
+        "token": "--t2-plugin-border-strong",
+        "value": "var(--t2-line-strong)",
+        "line": 487
+      },
+      {
+        "token": "--t2-plugin-danger",
+        "value": "var(--t2-danger)",
+        "line": 488
+      },
+      {
+        "token": "--t2-plugin-success",
+        "value": "var(--t2-success)",
+        "line": 489
+      },
+      {
+        "token": "--t2-plugin-warning",
+        "value": "var(--t2-warning)",
+        "line": 490
+      },
+      {
+        "token": "--t2-plugin-radius-surface",
+        "value": "var(--t2-radius-modal)",
+        "line": 496
+      },
+      {
+        "token": "--t2-plugin-radius-island",
+        "value": "var(--t2-radius-island)",
+        "line": 497
+      },
+      {
+        "token": "--t2-plugin-radius-control",
+        "value": "var(--t2-radius-control)",
+        "line": 498
+      },
+      {
+        "token": "--t2-plugin-shadow",
+        "value": "var(--t2-shadow-modal)",
+        "line": 499
+      },
+      {
+        "token": "--t2-plugin-shadow-soft",
+        "value": "var(--t2-shadow-overlay)",
+        "line": 500
+      },
+      {
+        "token": "--md-primary",
+        "value": "var(--t2-product)",
+        "line": 514
+      },
+      {
+        "token": "--md-primary-l",
+        "value": "var(--t2-product)",
+        "line": 515
+      },
+      {
+        "token": "--md-primary-d",
+        "value": "var(--t2-product-ink)",
+        "line": 516
+      },
+      {
+        "token": "--md-primary-rgb",
+        "value": "var(--t2-product-rgb)",
+        "line": 517
+      },
+      {
+        "token": "--md-surface",
+        "value": "var(--t2-surface)",
+        "line": 518
+      },
+      {
+        "token": "--md-surface-2",
+        "value": "var(--t2-workspace)",
+        "line": 519
+      },
+      {
+        "token": "--md-surface-3",
+        "value": "var(--t2-inset)",
+        "line": 520
+      },
+      {
+        "token": "--md-bg",
+        "value": "var(--t2-base)",
+        "line": 521
+      },
+      {
+        "token": "--md-on-primary",
+        "value": "#FFFFFF",
+        "line": 522
+      },
+      {
+        "token": "--md-on-surface",
+        "value": "var(--t2-ink)",
+        "line": 523
+      },
+      {
+        "token": "--md-on-muted",
+        "value": "var(--t2-ink-muted)",
+        "line": 524
+      },
+      {
+        "token": "--md-on-faint",
+        "value": "var(--t2-ink-faint)",
+        "line": 525
+      },
+      {
+        "token": "--md-border",
+        "value": "var(--t2-line)",
+        "line": 526
+      },
+      {
+        "token": "--md-border-l",
+        "value": "var(--t2-line)",
+        "line": 527
+      },
+      {
+        "token": "--md-border-s",
+        "value": "var(--t2-line-strong)",
+        "line": 528
+      },
+      {
+        "token": "--md-error",
+        "value": "var(--t2-danger)",
+        "line": 529
+      },
+      {
+        "token": "--md-success",
+        "value": "var(--t2-success)",
+        "line": 530
+      },
+      {
+        "token": "--md-warn",
+        "value": "var(--t2-warning)",
+        "line": 531
+      },
+      {
+        "token": "--md-info",
+        "value": "var(--t2-info)",
+        "line": 532
+      },
+      {
+        "token": "--md-danger",
+        "value": "var(--t2-danger)",
+        "line": 533
+      },
+      {
+        "token": "--md-overlay",
+        "value": "var(--t2-scrim)",
+        "line": 538
+      },
+      {
+        "token": "--md-el1",
+        "value": "none",
+        "line": 539
+      },
+      {
+        "token": "--md-el4",
+        "value": "var(--t2-shadow-overlay)",
+        "line": 540
+      },
+      {
+        "token": "--md-on",
+        "value": "var(--t2-ink)",
+        "line": 541
+      },
+      {
+        "token": "--md-outline",
+        "value": "var(--t2-line)",
+        "line": 542
+      },
+      {
+        "token": "--md-surface-container-low",
+        "value": "var(--t2-workspace)",
+        "line": 543
+      },
+      {
+        "token": "--md-warning",
+        "value": "var(--t2-warning)",
+        "line": 544
+      },
+      {
+        "token": "--radius",
+        "value": "var(--t2-radius-island)",
+        "line": 546
+      },
+      {
+        "token": "--radius-s",
+        "value": "var(--t2-radius-control)",
+        "line": 547
+      },
+      {
+        "token": "--radius-l",
+        "value": "var(--t2-radius-modal)",
+        "line": 548
+      },
+      {
+        "token": "--transition",
+        "value": "var(--t2-motion)",
+        "line": 549
+      }
+    ]
+  },
+  "css/t2-visual-system.css": {
+    "lines": 4178,
+    "defCount": 28,
+    "families": {
+      "--t2-toolbar-*": {
+        "count": 3,
+        "sample": [
+          "--t2-toolbar-btn",
+          "--t2-toolbar-pad",
+          "--t2-toolbar-fade"
+        ]
+      },
+      "--t2-s*": {
+        "count": 3,
+        "sample": [
+          "--t2-subtoolbar-h",
+          "--t2-subtoolbar-close-size",
+          "--t2-sticky-top"
+        ]
+      },
+      "기타": {
+        "count": 21,
+        "sample": [
+          "--t2-logo-height",
+          "--t2-logo-line",
+          "--t2-logo-text",
+          "--t2-logo-fit-prefix",
+          "--t2-logo-fit-suffix",
+          "--t2-toggle-h"
+        ]
+      },
+      "--t2-u*": {
+        "count": 1,
+        "sample": [
+          "--t2-uv"
+        ]
+      }
+    },
+    "atLayers": [
+      {
+        "layer": "t2.product",
+        "line": 9
+      },
+      {
+        "layer": "t2.product",
+        "line": 23
+      },
+      {
+        "layer": "t2.product",
+        "line": 4177
+      }
+    ],
+    "defs": [
+      {
+        "token": "--t2-toolbar-btn",
+        "value": "var(--t2-chrome-hit)",
+        "line": 433
+      },
+      {
+        "token": "--t2-toolbar-pad",
+        "value": "var(--t2-chrome-inset)",
+        "line": 434
+      },
+      {
+        "token": "--t2-toolbar-fade",
+        "value": "24px",
+        "line": 464
+      },
+      {
+        "token": "--t2-subtoolbar-h",
+        "value": "max(var(--t2-u), var(--t2-chrome-band))",
+        "line": 565
+      },
+      {
+        "token": "--t2-subtoolbar-close-size",
+        "value": "var(--t2-status-hit)",
+        "line": 568
+      },
+      {
+        "token": "--t2-logo-height",
+        "value": "var(--t2-status-face)",
+        "line": 1010
+      },
+      {
+        "token": "--t2-logo-line",
+        "value": "calc(var(--t2-logo-height) / 26)",
+        "line": 1011
+      },
+      {
+        "token": "--t2-logo-text",
+        "value": "calc(var(--t2-logo-height) * .478632)",
+        "line": 1012
+      },
+      {
+        "token": "--t2-logo-fit-prefix",
+        "value": ".81311",
+        "line": 1013
+      },
+      {
+        "token": "--t2-logo-fit-suffix",
+        "value": ".99702",
+        "line": 1014
+      },
+      {
+        "token": "--t2-toggle-h",
+        "value": "max(var(--t2-status-mark), 14px)",
+        "line": 1110
+      },
+      {
+        "token": "--t2-toggle-w",
+        "value": "calc(var(--t2-toggle-h) * 2)",
+        "line": 1111
+      },
+      {
+        "token": "--t2-block-island-h",
+        "value": "calc(var(--t2-hit) + var(--t2-s1) * 2 + 2px)",
+        "line": 1574
+      },
+      {
+        "token": "--t2-block-island-reserve",
+        "value": "calc(var(--t2-block-slot-offset, 6px) + var(--t2-block-island-h) + var(--t2-s1))",
+        "line": 1575
+      },
+      {
+        "token": "--t2-cp-face",
+        "value": "var(--t2-floating)",
+        "line": 1906
+      },
+      {
+        "token": "--t2-cp-chip",
+        "value": "color-mix(in srgb, var(--t2-ink) 7%, var(--t2-floating))",
+        "line": 1907
+      },
+      {
+        "token": "--t2-cp-chip-hover",
+        "value": "color-mix(in srgb, var(--t2-ink) 14%, var(--t2-floating))",
+        "line": 1908
+      },
+      {
+        "token": "--t2-cp-well",
+        "value": "var(--t2-paper-soft)",
+        "line": 1909
+      },
+      {
+        "token": "--t2-cp-ring",
+        "value": "color-mix(in srgb, var(--t2-ink) 22%, transparent)",
+        "line": 1910
+      },
+      {
+        "token": "--t2-uv",
+        "value": "calc(100dvh / 10)",
+        "line": 2655
+      },
+      {
+        "token": "--t2-sticky-top",
+        "value": "0px",
+        "line": 2931
+      },
+      {
+        "token": "--t2-aic-border",
+        "value": "var(--t2-line)",
+        "line": 3556
+      },
+      {
+        "token": "--t2-aic-surface",
+        "value": "var(--t2-surface)",
+        "line": 3557
+      },
+      {
+        "token": "--t2-aic-surface-muted",
+        "value": "var(--t2-inset)",
+        "line": 3558
+      },
+      {
+        "token": "--t2-aic-accent",
+        "value": "var(--t2-product)",
+        "line": 3559
+      },
+      {
+        "token": "--t2-collab-accent",
+        "value": "var(--t2-product)",
+        "line": 3560
+      },
+      {
+        "token": "--t2-collab-border",
+        "value": "var(--t2-line)",
+        "line": 3561
+      },
+      {
+        "token": "--t2-canvas-type",
+        "value": "calc(var(--t2-canvas-type-base) * var(--t2-skin-type-scale, 1))",
+        "line": 3897
+      }
+    ]
+  }
+}

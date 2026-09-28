@@ -1,0 +1,60 @@
+{
+  "schema": "t2at/manifest@1",
+  "generated_at": "2026-09-28T18:34:58.093Z",
+  "generated_by": "tools/t2at.mjs refresh",
+  "v11_commit": "57a8b5f0fb7d5a68d771cd598c992861ba513e3e",
+  "v11_dirty": true,
+  "extractor": "tools/lib/extract.mjs",
+  "inventory": [
+    {
+      "n": 821,
+      "kind": "패키지 파일",
+      "note": "T2Editor/ · 29,113,952 B"
+    },
+    {
+      "n": 17,
+      "kind": "플러그인",
+      "note": "등록 배열 16개 · core/editor.core.php:138"
+    },
+    {
+      "n": 239,
+      "kind": "설정 키",
+      "note": "최상위 그룹 3개 · T2Editor/config/t2_hard_config.php"
+    },
+    {
+      "n": 11,
+      "kind": "공개 진입점",
+      "note": "endpoints/ (X.php + X.core.php 쌍)"
+    },
+    {
+      "n": 10,
+      "kind": "게이트 단계",
+      "note": "t2-release-gate.sh — --quick 없음(문서 오류)"
+    },
+    {
+      "n": 16,
+      "kind": "CSS 계약 규칙",
+      "note": "tools/t2-css-contract.mjs"
+    },
+    {
+      "n": 304,
+      "kind": "시험",
+      "note": "tests/ (저장소 루트)"
+    },
+    {
+      "n": 5,
+      "kind": "로케일",
+      "note": "locales/"
+    },
+    {
+      "n": 12,
+      "kind": "번들 라이브러리",
+      "note": "vendor/ · 13,120,719 B"
+    },
+    {
+      "n": 93,
+      "kind": "레거시 릴리즈",
+      "note": "v1~v10 · 실제 배포일 전수 확보"
+    }
+  ]
+}

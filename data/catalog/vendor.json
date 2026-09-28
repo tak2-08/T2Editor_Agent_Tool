@@ -1,0 +1,227 @@
+{
+  "available": true,
+  "packages": [
+    {
+      "package": "formatjs",
+      "files": 1,
+      "bytes": 16651,
+      "versions": [
+        {
+          "file": "vendor/formatjs/t2i18n-polyfill.js",
+          "version": "10.2.1"
+        }
+      ],
+      "largest": [
+        {
+          "f": "vendor/formatjs/t2i18n-polyfill.js",
+          "b": 16651
+        }
+      ]
+    },
+    {
+      "package": "hlsjs",
+      "files": 2,
+      "bytes": 544705,
+      "versions": [],
+      "largest": [
+        {
+          "f": "vendor/hlsjs/hls.min.js",
+          "b": 543206
+        },
+        {
+          "f": "vendor/hlsjs/LICENSE",
+          "b": 1499
+        }
+      ]
+    },
+    {
+      "package": "jsqr",
+      "files": 2,
+      "bytes": 141952,
+      "versions": [],
+      "largest": [
+        {
+          "f": "vendor/jsqr/jsQR.min.js",
+          "b": 130594
+        },
+        {
+          "f": "vendor/jsqr/LICENSE",
+          "b": 11358
+        }
+      ]
+    },
+    {
+      "package": "jszip",
+      "files": 2,
+      "bytes": 131644,
+      "versions": [
+        {
+          "file": "vendor/jszip/jszip.min.js",
+          "version": "3.10.1"
+        }
+      ],
+      "largest": [
+        {
+          "f": "vendor/jszip/jszip.min.js",
+          "b": 97837
+        },
+        {
+          "f": "vendor/jszip/LICENSE.markdown",
+          "b": 33807
+        }
+      ]
+    },
+    {
+      "package": "nsfwjs",
+      "files": 4,
+      "bytes": 7135609,
+      "versions": [],
+      "largest": [
+        {
+          "f": "vendor/nsfwjs/models/mobilenet_v2_mid/group1-shard1of2.bin",
+          "b": 4194304
+        },
+        {
+          "f": "vendor/nsfwjs/nsfwjs.min.js",
+          "b": 2693126
+        },
+        {
+          "f": "vendor/nsfwjs/models/mobilenet_v2_mid/model.json",
+          "b": 141708
+        },
+        {
+          "f": "vendor/nsfwjs/models/mobilenet_v2_mid/group1-shard2of2.bin",
+          "b": 106471
+        }
+      ]
+    },
+    {
+      "package": "p2p-media-loader",
+      "files": 2,
+      "bytes": 120285,
+      "versions": [],
+      "largest": [
+        {
+          "f": "vendor/p2p-media-loader/p2p-media-loader-hlsjs.iife.min.js",
+          "b": 108766
+        },
+        {
+          "f": "vendor/p2p-media-loader/LICENSE",
+          "b": 11519
+        }
+      ]
+    },
+    {
+      "package": "pdfjs",
+      "files": 3,
+      "bytes": 1418991,
+      "versions": [
+        {
+          "file": "vendor/pdfjs/pdf.min.js",
+          "version": "3.11.174"
+        }
+      ],
+      "largest": [
+        {
+          "f": "vendor/pdfjs/pdf.worker.min.js",
+          "b": 1087424
+        },
+        {
+          "f": "vendor/pdfjs/pdf.min.js",
+          "b": 320209
+        },
+        {
+          "f": "vendor/pdfjs/LICENSE",
+          "b": 11358
+        }
+      ]
+    },
+    {
+      "package": "peerjs",
+      "files": 2,
+      "bytes": 93973,
+      "versions": [
+        {
+          "file": "vendor/peerjs/peerjs.min.js",
+          "version": "1.5.4"
+        }
+      ],
+      "largest": [
+        {
+          "f": "vendor/peerjs/peerjs.min.js",
+          "b": 92865
+        },
+        {
+          "f": "vendor/peerjs/LICENSE",
+          "b": 1108
+        }
+      ]
+    },
+    {
+      "package": "tfjs",
+      "files": 1,
+      "bytes": 1470045,
+      "versions": [
+        {
+          "file": "vendor/tfjs/tf.min.js",
+          "version": "3.29.1"
+        }
+      ],
+      "largest": [
+        {
+          "f": "vendor/tfjs/tf.min.js",
+          "b": 1470045
+        }
+      ]
+    },
+    {
+      "package": "tfjs-backend-wasm",
+      "files": 4,
+      "bytes": 1321449,
+      "versions": [],
+      "largest": [
+        {
+          "f": "vendor/tfjs-backend-wasm/tfjs-backend-wasm-threaded-simd.wasm",
+          "b": 435643
+        },
+        {
+          "f": "vendor/tfjs-backend-wasm/tfjs-backend-wasm-simd.wasm",
+          "b": 424594
+        },
+        {
+          "f": "vendor/tfjs-backend-wasm/tfjs-backend-wasm.wasm",
+          "b": 311123
+        },
+        {
+          "f": "vendor/tfjs-backend-wasm/tf-backend-wasm.min.js",
+          "b": 150089
+        }
+      ]
+    },
+    {
+      "package": "tfjs-backend-webgl",
+      "files": 1,
+      "bytes": 399648,
+      "versions": [],
+      "largest": [
+        {
+          "f": "vendor/tfjs-backend-webgl/tf-backend-webgl.min.js",
+          "b": 399648
+        }
+      ]
+    },
+    {
+      "package": "tfjs-backend-webgpu",
+      "files": 1,
+      "bytes": 325767,
+      "versions": [],
+      "largest": [
+        {
+          "f": "vendor/tfjs-backend-webgpu/tf-backend-webgpu.min.js",
+          "b": 325767
+        }
+      ]
+    }
+  ],
+  "totalBytes": 13120719
+}

@@ -1,0 +1,2606 @@
+{
+  "source": "T2Editor/config/t2_hard_config.php",
+  "rootArrayLine": 4,
+  "total": 239,
+  "groupCount": 3,
+  "subgroupCount": 83,
+  "topGroups": [
+    {
+      "group": "settings",
+      "line": 44,
+      "subgroups": 81,
+      "leaves": 233
+    },
+    {
+      "group": "surface",
+      "line": 36,
+      "subgroups": 1,
+      "leaves": 2
+    },
+    {
+      "group": "trusted_proxy_ips",
+      "line": 43,
+      "subgroups": 1,
+      "leaves": 0
+    }
+  ],
+  "keys": [
+    {
+      "path": "profile",
+      "kind": "leaf",
+      "value": "'max'",
+      "line": 17,
+      "depth": 0,
+      "inline": false
+    },
+    {
+      "path": "surface.format",
+      "kind": "leaf",
+      "value": "1",
+      "line": 36,
+      "depth": 1,
+      "inline": true
+    },
+    {
+      "path": "surface.enforce",
+      "kind": "leaf",
+      "value": "true",
+      "line": 36,
+      "depth": 1,
+      "inline": true
+    },
+    {
+      "path": "surface",
+      "kind": "group",
+      "value": "array('format' => 1, 'enforce' => true)",
+      "line": 36,
+      "depth": 0,
+      "inline": true
+    },
+    {
+      "path": "admin_enabled",
+      "kind": "leaf",
+      "value": "true",
+      "line": 38,
+      "depth": 0,
+      "inline": false
+    },
+    {
+      "path": "cms_admin_api_enabled",
+      "kind": "leaf",
+      "value": "true",
+      "line": 39,
+      "depth": 0,
+      "inline": false
+    },
+    {
+      "path": "admin_ip_access_bypass",
+      "kind": "leaf",
+      "value": "false",
+      "line": 41,
+      "depth": 0,
+      "inline": false
+    },
+    {
+      "path": "trusted_proxy_ips",
+      "kind": "group",
+      "value": "array()",
+      "line": 43,
+      "depth": 0,
+      "inline": true
+    },
+    {
+      "path": "settings",
+      "kind": "group",
+      "value": null,
+      "line": 44,
+      "depth": 0,
+      "inline": false
+    },
+    {
+      "path": "settings.editor",
+      "kind": "group",
+      "value": null,
+      "line": 45,
+      "depth": 1,
+      "inline": false
+    },
+    {
+      "path": "settings.editor.css_min",
+      "kind": "leaf",
+      "value": "true",
+      "line": 46,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.editor.js_min",
+      "kind": "leaf",
+      "value": "true",
+      "line": 47,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.editor.asset_bundle",
+      "kind": "leaf",
+      "value": "true",
+      "line": 49,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.editor.html_cache_enabled",
+      "kind": "leaf",
+      "value": "true",
+      "line": 50,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.editor.content_style_delivery",
+      "kind": "leaf",
+      "value": "'auto'",
+      "line": 53,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.editor.darkmode_button_enabled",
+      "kind": "leaf",
+      "value": "true",
+      "line": 54,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.editor.status_logo_enabled",
+      "kind": "leaf",
+      "value": "true",
+      "line": 55,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.editor.version_label_enabled",
+      "kind": "leaf",
+      "value": "true",
+      "line": 56,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.editor.admin_link_enabled",
+      "kind": "leaf",
+      "value": "true",
+      "line": 57,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.editor.debug_info_enabled",
+      "kind": "leaf",
+      "value": "false",
+      "line": 58,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.editor.debug_button_public",
+      "kind": "leaf",
+      "value": "false",
+      "line": 59,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.editor.darkmode_forced_theme",
+      "kind": "leaf",
+      "value": "null",
+      "line": 60,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.editor.migration_mode",
+      "kind": "leaf",
+      "value": "false",
+      "line": 61,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.editor.video_player_enabled",
+      "kind": "leaf",
+      "value": "true",
+      "line": 62,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.editor.content_height",
+      "kind": "leaf",
+      "value": "350",
+      "line": 63,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.editor.autosave_enabled",
+      "kind": "leaf",
+      "value": "true",
+      "line": 64,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.editor.autosave_submit_cleanup_enabled",
+      "kind": "leaf",
+      "value": "true",
+      "line": 65,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.editor.autosave_submit_cleanup_delay_seconds",
+      "kind": "leaf",
+      "value": "90",
+      "line": 66,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.editor.markdown_authoring_enabled",
+      "kind": "leaf",
+      "value": "false",
+      "line": 70,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.editor.char_count_enabled",
+      "kind": "leaf",
+      "value": "false",
+      "line": 73,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.editor.char_count_desktop",
+      "kind": "leaf",
+      "value": "true",
+      "line": 74,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.editor.char_count_tablet",
+      "kind": "leaf",
+      "value": "true",
+      "line": 75,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.editor.char_count_mobile",
+      "kind": "leaf",
+      "value": "true",
+      "line": 76,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.nsfw",
+      "kind": "group",
+      "value": null,
+      "line": 78,
+      "depth": 1,
+      "inline": false
+    },
+    {
+      "path": "settings.nsfw.enabled",
+      "kind": "leaf",
+      "value": "false",
+      "line": 79,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.nsfw.mode",
+      "kind": "leaf",
+      "value": "'browser'",
+      "line": 80,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.nsfw.allow_suspicious",
+      "kind": "leaf",
+      "value": "true",
+      "line": 81,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.nsfw.browser_backend_priority",
+      "kind": "leaf",
+      "value": "'webgpu,webgl,wasm,cpu'",
+      "line": 82,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.nsfw.plugin_permissions.image",
+      "kind": "leaf",
+      "value": "true",
+      "line": 83,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.nsfw.plugin_permissions.meme",
+      "kind": "leaf",
+      "value": "true",
+      "line": 83,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.nsfw.plugin_permissions",
+      "kind": "group",
+      "value": "array('image'=>true, 'meme'=>true)",
+      "line": 83,
+      "depth": 2,
+      "inline": true
+    },
+    {
+      "path": "settings.ai",
+      "kind": "group",
+      "value": null,
+      "line": 85,
+      "depth": 1,
+      "inline": false
+    },
+    {
+      "path": "settings.ai.enabled",
+      "kind": "leaf",
+      "value": "false",
+      "line": 86,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.ai.provider",
+      "kind": "leaf",
+      "value": "'openai'",
+      "line": 87,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.ai.max_input_chars",
+      "kind": "leaf",
+      "value": "100000",
+      "line": 88,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.ai.max_output_tokens",
+      "kind": "leaf",
+      "value": "4096",
+      "line": 89,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.ai.timeout_seconds",
+      "kind": "leaf",
+      "value": "90",
+      "line": 90,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.ai.providers",
+      "kind": "group",
+      "value": null,
+      "line": 91,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.ai.providers.openai",
+      "kind": "group",
+      "value": "array('endpoint'=>'https:",
+      "line": 92,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.ai.providers.anthropic",
+      "kind": "group",
+      "value": "array('endpoint'=>'https:",
+      "line": 93,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.ai.providers.gemini",
+      "kind": "group",
+      "value": "array('endpoint'=>'https:",
+      "line": 94,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.ai.providers.custom.endpoint",
+      "kind": "leaf",
+      "value": "''",
+      "line": 95,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.providers.custom.model",
+      "kind": "leaf",
+      "value": "''",
+      "line": 95,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.providers.custom.auth_header",
+      "kind": "leaf",
+      "value": "'Authorization'",
+      "line": 95,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.providers.custom.auth_prefix",
+      "kind": "leaf",
+      "value": "'Bearer '",
+      "line": 95,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.providers.custom.response_path",
+      "kind": "leaf",
+      "value": "'choices.0.message.content'",
+      "line": 95,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.providers.custom.stream_delta_path",
+      "kind": "leaf",
+      "value": "'choices.0.delta.content'",
+      "line": 95,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.providers.custom.request_template",
+      "kind": "leaf",
+      "value": "'{\"model\":{{model}}",
+      "line": 95,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.providers.custom",
+      "kind": "group",
+      "value": "array('endpoint'=>'','model'=>'','auth_header'=>'Authorization','auth_prefix'=>'Bearer ','response_path'=>'choices.0.mes",
+      "line": 95,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.runtime",
+      "kind": "group",
+      "value": null,
+      "line": 99,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.ai.runtime.core",
+      "kind": "leaf",
+      "value": "true, 'harness'=>true, 'tools'=>true, 'skills'=>true",
+      "line": 100,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.ai.runtime.stream",
+      "kind": "leaf",
+      "value": "true, 'web_llm'=>false, 'web_llm_model'=>'auto', 'web_llm_engine_url'=>''",
+      "line": 101,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.ai.runtime.tool_permissions",
+      "kind": "group",
+      "value": "array()",
+      "line": 102,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.runtime.tool_access",
+      "kind": "leaf",
+      "value": "'auto'",
+      "line": 103,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.ai.runtime.edit_policy",
+      "kind": "leaf",
+      "value": "'direct'",
+      "line": 104,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.ai.runtime.cap_tiers.S",
+      "kind": "leaf",
+      "value": "true",
+      "line": 105,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.runtime.cap_tiers.X",
+      "kind": "leaf",
+      "value": "true",
+      "line": 105,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.runtime.cap_tiers.D",
+      "kind": "leaf",
+      "value": "true",
+      "line": 105,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.runtime.cap_tiers",
+      "kind": "group",
+      "value": "array('S'=>true, 'X'=>true, 'D'=>true)",
+      "line": 105,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.runtime.cap_overrides",
+      "kind": "group",
+      "value": "array()",
+      "line": 106,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.runtime.token_economy",
+      "kind": "group",
+      "value": null,
+      "line": 107,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.ai.runtime.token_economy.recentMessages",
+      "kind": "leaf",
+      "value": "8, 'maxHistoryChars'=>6200, 'maxMessageChars'=>1800",
+      "line": 108,
+      "depth": 4,
+      "inline": false
+    },
+    {
+      "path": "settings.ai.runtime.token_economy.maxSummaryChars",
+      "kind": "leaf",
+      "value": "1100, 'maxDocumentChars'=>3600, 'maxTools'=>8",
+      "line": 109,
+      "depth": 4,
+      "inline": false
+    },
+    {
+      "path": "settings.ai.runtime.token_economy.maxAutomaticTools",
+      "kind": "leaf",
+      "value": "8, 'maxToolResultChars'=>1400",
+      "line": 110,
+      "depth": 4,
+      "inline": false
+    },
+    {
+      "path": "settings.ai.budget.enabled",
+      "kind": "leaf",
+      "value": "false",
+      "line": 113,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.budget.unlimited",
+      "kind": "leaf",
+      "value": "false",
+      "line": 113,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.budget.period",
+      "kind": "leaf",
+      "value": "'none'",
+      "line": 113,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.budget.token_limit",
+      "kind": "leaf",
+      "value": "0",
+      "line": 113,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.budget.anchor_at",
+      "kind": "leaf",
+      "value": "0",
+      "line": 113,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.budget.plugin_limits",
+      "kind": "leaf",
+      "value": "array(",
+      "line": 113,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.budget",
+      "kind": "group",
+      "value": "array('enabled'=>false, 'unlimited'=>false, 'period'=>'none', 'token_limit'=>0, 'anchor_at'=>0, 'plugin_limits'=>array()",
+      "line": 113,
+      "depth": 2,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.moderation",
+      "kind": "group",
+      "value": "array('enabled'=>true, 'max_score'=>25, 'threshold'=>20, 'remote_check_url'=>'https:",
+      "line": 114,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.ai.sub_agents",
+      "kind": "group",
+      "value": null,
+      "line": 115,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.ai.sub_agents.artifact.enabled",
+      "kind": "leaf",
+      "value": "true",
+      "line": 116,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.sub_agents.artifact.provider",
+      "kind": "leaf",
+      "value": "''",
+      "line": 116,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.sub_agents.artifact.model",
+      "kind": "leaf",
+      "value": "''",
+      "line": 116,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.sub_agents.artifact.max_output_tokens",
+      "kind": "leaf",
+      "value": "900",
+      "line": 116,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.sub_agents.artifact",
+      "kind": "group",
+      "value": "array('enabled'=>true, 'provider'=>'', 'model'=>'', 'max_output_tokens'=>900)",
+      "line": 116,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.sub_agents.guardian.enabled",
+      "kind": "leaf",
+      "value": "true",
+      "line": 117,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.sub_agents.guardian.provider",
+      "kind": "leaf",
+      "value": "''",
+      "line": 117,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.sub_agents.guardian.model",
+      "kind": "leaf",
+      "value": "''",
+      "line": 117,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.sub_agents.guardian.max_output_tokens",
+      "kind": "leaf",
+      "value": "320",
+      "line": 117,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.sub_agents.guardian.semantic_sample_interval",
+      "kind": "leaf",
+      "value": "6",
+      "line": 117,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.sub_agents.guardian",
+      "kind": "group",
+      "value": "array('enabled'=>true, 'provider'=>'', 'model'=>'', 'max_output_tokens'=>320, 'semantic_sample_interval'=>6)",
+      "line": 117,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.plugin_permissions",
+      "kind": "group",
+      "value": "array()",
+      "line": 121,
+      "depth": 2,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.consumer_permissions.admin_assistant",
+      "kind": "leaf",
+      "value": "true",
+      "line": 123,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.consumer_permissions",
+      "kind": "group",
+      "value": "array('admin_assistant'=>true)",
+      "line": 123,
+      "depth": 2,
+      "inline": true
+    },
+    {
+      "path": "settings.ai.plugin_routes",
+      "kind": "group",
+      "value": "array()",
+      "line": 124,
+      "depth": 2,
+      "inline": true
+    },
+    {
+      "path": "settings.ai_image",
+      "kind": "group",
+      "value": null,
+      "line": 126,
+      "depth": 1,
+      "inline": false
+    },
+    {
+      "path": "settings.ai_image.enabled",
+      "kind": "leaf",
+      "value": "false",
+      "line": 127,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.ai_image.provider",
+      "kind": "leaf",
+      "value": "'openai'",
+      "line": 128,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.ai_image.timeout_seconds",
+      "kind": "leaf",
+      "value": "120",
+      "line": 129,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.ai_image.max_images_per_request",
+      "kind": "leaf",
+      "value": "4",
+      "line": 130,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.ai_image.providers",
+      "kind": "group",
+      "value": null,
+      "line": 131,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.ai_image.providers.openai",
+      "kind": "group",
+      "value": "array('endpoint'=>'https:",
+      "line": 132,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.ai_image.providers.google",
+      "kind": "group",
+      "value": "array('endpoint'=>'https:",
+      "line": 133,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.ai_image.providers.stability",
+      "kind": "group",
+      "value": "array('endpoint'=>'https:",
+      "line": 134,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.ai_image.providers.custom.endpoint",
+      "kind": "leaf",
+      "value": "''",
+      "line": 135,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.ai_image.providers.custom.model",
+      "kind": "leaf",
+      "value": "''",
+      "line": 135,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.ai_image.providers.custom.auth_header",
+      "kind": "leaf",
+      "value": "'Authorization'",
+      "line": 135,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.ai_image.providers.custom.auth_prefix",
+      "kind": "leaf",
+      "value": "'Bearer '",
+      "line": 135,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.ai_image.providers.custom.images_path",
+      "kind": "leaf",
+      "value": "'data'",
+      "line": 135,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.ai_image.providers.custom.image_item_path",
+      "kind": "leaf",
+      "value": "'b64_json'",
+      "line": 135,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.ai_image.providers.custom.image_format",
+      "kind": "leaf",
+      "value": "'base64'",
+      "line": 135,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.ai_image.providers.custom.request_template",
+      "kind": "leaf",
+      "value": "'{\"model\":{{model}}",
+      "line": 135,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.ai_image.providers.custom",
+      "kind": "group",
+      "value": "array('endpoint'=>'','model'=>'','auth_header'=>'Authorization','auth_prefix'=>'Bearer ','images_path'=>'data','image_it",
+      "line": 135,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.privacy",
+      "kind": "group",
+      "value": null,
+      "line": 140,
+      "depth": 1,
+      "inline": false
+    },
+    {
+      "path": "settings.privacy.mode",
+      "kind": "leaf",
+      "value": "'consent'",
+      "line": 141,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.privacy.notice_level",
+      "kind": "leaf",
+      "value": "'standard'",
+      "line": 142,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.privacy.receipt_ttl_days",
+      "kind": "leaf",
+      "value": "180",
+      "line": 143,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.privacy.language_mode",
+      "kind": "leaf",
+      "value": "'browser'",
+      "line": 144,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.privacy.default_language",
+      "kind": "leaf",
+      "value": "'ko'",
+      "line": 145,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.privacy.fixed_language",
+      "kind": "leaf",
+      "value": "'ko'",
+      "line": 146,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.privacy.secondary_language",
+      "kind": "leaf",
+      "value": "'en'",
+      "line": 147,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.admin_assistant",
+      "kind": "group",
+      "value": null,
+      "line": 149,
+      "depth": 1,
+      "inline": false
+    },
+    {
+      "path": "settings.admin_assistant.enabled",
+      "kind": "leaf",
+      "value": "true",
+      "line": 150,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.admin_assistant.proficiency",
+      "kind": "leaf",
+      "value": "'standard'",
+      "line": 151,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.admin_assistant.provider_mode",
+      "kind": "leaf",
+      "value": "'auto'",
+      "line": 152,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.admin_assistant.override_enabled",
+      "kind": "leaf",
+      "value": "false",
+      "line": 153,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.admin_assistant.override_provider",
+      "kind": "leaf",
+      "value": "''",
+      "line": 154,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.admin_assistant.override_model",
+      "kind": "leaf",
+      "value": "''",
+      "line": 155,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.admin_assistant.default_workload",
+      "kind": "leaf",
+      "value": "'high'",
+      "line": 156,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.admin_assistant.advanced_workload",
+      "kind": "leaf",
+      "value": "false",
+      "line": 157,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.admin_assistant.thinking",
+      "kind": "leaf",
+      "value": "false",
+      "line": 158,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.upload",
+      "kind": "group",
+      "value": null,
+      "line": 160,
+      "depth": 1,
+      "inline": false
+    },
+    {
+      "path": "settings.upload.max_size_mb",
+      "kind": "leaf",
+      "value": "50",
+      "line": 161,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.upload.max_batch_files",
+      "kind": "leaf",
+      "value": "5",
+      "line": 162,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.upload.max_batch_mb",
+      "kind": "leaf",
+      "value": "200",
+      "line": 163,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.upload.convert_images_to_webp",
+      "kind": "leaf",
+      "value": "false",
+      "line": 164,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.upload.strict_webp",
+      "kind": "leaf",
+      "value": "true",
+      "line": 165,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.upload.max_image_pixels",
+      "kind": "leaf",
+      "value": "50000000",
+      "line": 166,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.upload.ticket_ttl_seconds",
+      "kind": "leaf",
+      "value": "180",
+      "line": 167,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.upload.rate_window_seconds",
+      "kind": "leaf",
+      "value": "60",
+      "line": 168,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.upload.rate_max_attempts",
+      "kind": "leaf",
+      "value": "12",
+      "line": 169,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.upload.rate_block_seconds",
+      "kind": "leaf",
+      "value": "120",
+      "line": 170,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.upload.rate_jitter_enabled",
+      "kind": "leaf",
+      "value": "true",
+      "line": 171,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.upload.adaptive",
+      "kind": "group",
+      "value": null,
+      "line": 172,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.upload.adaptive.adaptive_enabled",
+      "kind": "leaf",
+      "value": "true, 'intensity_level'=>1, 'manual_enabled'=>false",
+      "line": 173,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.upload.adaptive.parallel_enabled",
+      "kind": "leaf",
+      "value": "true, 'chunk_mode'=>'auto', 'auto_slowdown'=>true",
+      "line": 174,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.upload.adaptive.max_batch_files",
+      "kind": "leaf",
+      "value": "5",
+      "line": 175,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.upload.adaptive.manual.concurrent_files",
+      "kind": "leaf",
+      "value": "1",
+      "line": 176,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.upload.adaptive.manual.chunks_per_file",
+      "kind": "leaf",
+      "value": "1",
+      "line": 176,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.upload.adaptive.manual.requests_per_second",
+      "kind": "leaf",
+      "value": "1",
+      "line": 176,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.upload.adaptive.manual.chunk_size_kb",
+      "kind": "leaf",
+      "value": "512",
+      "line": 176,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.upload.adaptive.manual.request_gap_ms",
+      "kind": "leaf",
+      "value": "700",
+      "line": 176,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.upload.adaptive.manual.retries",
+      "kind": "leaf",
+      "value": "4",
+      "line": 176,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.upload.adaptive.manual",
+      "kind": "group",
+      "value": "array('concurrent_files'=>1,'chunks_per_file'=>1,'requests_per_second'=>1,'chunk_size_kb'=>512,'request_gap_ms'=>700,'re",
+      "line": 176,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.upload.adaptive.environment.source",
+      "kind": "leaf",
+      "value": "'fallback'",
+      "line": 177,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.upload.adaptive.environment.measured_at",
+      "kind": "leaf",
+      "value": "0",
+      "line": 177,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.upload.adaptive.environment.network_mbps",
+      "kind": "leaf",
+      "value": "0",
+      "line": 177,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.upload.adaptive.environment.server_cores",
+      "kind": "leaf",
+      "value": "0",
+      "line": 177,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.upload.adaptive.environment.php_workers",
+      "kind": "leaf",
+      "value": "0",
+      "line": 177,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.upload.adaptive.environment.memory_mb",
+      "kind": "leaf",
+      "value": "0",
+      "line": 177,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.upload.adaptive.environment.storage",
+      "kind": "leaf",
+      "value": "'shared'",
+      "line": 177,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.upload.adaptive.environment.recommended_level",
+      "kind": "leaf",
+      "value": "1",
+      "line": 177,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.upload.adaptive.environment.latency_ms",
+      "kind": "leaf",
+      "value": "0",
+      "line": 177,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.upload.adaptive.environment.server_write_mbps",
+      "kind": "leaf",
+      "value": "0",
+      "line": 177,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.upload.adaptive.environment",
+      "kind": "group",
+      "value": "array('source'=>'fallback','measured_at'=>0,'network_mbps'=>0,'server_cores'=>0,'php_workers'=>0,'memory_mb'=>0,'storage",
+      "line": 177,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.upload.extensions",
+      "kind": "group",
+      "value": null,
+      "line": 179,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.upload.extensions.document",
+      "kind": "group",
+      "value": "array('pdf','txt','doc','docx','xls','xlsx','ppt','pptx','hwp','odt','ods','odp','rtf')",
+      "line": 180,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.upload.extensions.image",
+      "kind": "group",
+      "value": "array('jpg','jpeg','png','gif','webp','bmp')",
+      "line": 181,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.upload.extensions.video",
+      "kind": "group",
+      "value": "array('mp4','webm','ogg','mov','avi','mkv','wmv','flv','m4v')",
+      "line": 182,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.upload.extensions.other",
+      "kind": "group",
+      "value": "array('zip','rar','7z','tar','gz','bz2','mp3','m4a','wav','flac','aac','wma','json','xml','csv')",
+      "line": 183,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.storage",
+      "kind": "group",
+      "value": null,
+      "line": 190,
+      "depth": 1,
+      "inline": false
+    },
+    {
+      "path": "settings.storage.local_layout",
+      "kind": "leaf",
+      "value": "'type'",
+      "line": 192,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.storage.external",
+      "kind": "group",
+      "value": null,
+      "line": 193,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.storage.external.enabled",
+      "kind": "leaf",
+      "value": "false",
+      "line": 194,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.storage.external.mode",
+      "kind": "leaf",
+      "value": "'per_type'",
+      "line": 196,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.storage.external.targets.image",
+      "kind": "leaf",
+      "value": "false",
+      "line": 197,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.storage.external.targets.video",
+      "kind": "leaf",
+      "value": "false",
+      "line": 197,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.storage.external.targets.document",
+      "kind": "leaf",
+      "value": "false",
+      "line": 197,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.storage.external.targets.other",
+      "kind": "leaf",
+      "value": "false",
+      "line": 197,
+      "depth": 4,
+      "inline": true
+    },
+    {
+      "path": "settings.storage.external.targets",
+      "kind": "group",
+      "value": "array('image'=>false, 'video'=>false, 'document'=>false, 'other'=>false)",
+      "line": 197,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.storage.external.endpoint_url",
+      "kind": "leaf",
+      "value": "''",
+      "line": 198,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.storage.external.base_url",
+      "kind": "leaf",
+      "value": "''",
+      "line": 199,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.storage.external.key_id",
+      "kind": "leaf",
+      "value": "''",
+      "line": 200,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.storage.external.timeout_seconds",
+      "kind": "leaf",
+      "value": "20",
+      "line": 201,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.storage.external.fallback_local",
+      "kind": "leaf",
+      "value": "true",
+      "line": 203,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.icons",
+      "kind": "group",
+      "value": "array()",
+      "line": 206,
+      "depth": 1,
+      "inline": true
+    },
+    {
+      "path": "settings.toolbar_groups",
+      "kind": "leaf",
+      "value": "null",
+      "line": 207,
+      "depth": 1,
+      "inline": false
+    },
+    {
+      "path": "settings.toolbar_layout.mode",
+      "kind": "leaf",
+      "value": "'rail'",
+      "line": 208,
+      "depth": 2,
+      "inline": true
+    },
+    {
+      "path": "settings.toolbar_layout.min_button_size",
+      "kind": "leaf",
+      "value": "30",
+      "line": 208,
+      "depth": 2,
+      "inline": true
+    },
+    {
+      "path": "settings.toolbar_layout",
+      "kind": "group",
+      "value": "array('mode'=>'rail', 'min_button_size'=>30)",
+      "line": 208,
+      "depth": 1,
+      "inline": true
+    },
+    {
+      "path": "settings.editor_design",
+      "kind": "group",
+      "value": null,
+      "line": 212,
+      "depth": 1,
+      "inline": false
+    },
+    {
+      "path": "settings.editor_design.tile_enabled",
+      "kind": "leaf",
+      "value": "true, 'gap_mode'=>'grid', 'gap_px'=>8",
+      "line": 213,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.editor_design.light.chrome",
+      "kind": "leaf",
+      "value": "''",
+      "line": 214,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.editor_design.light.canvas",
+      "kind": "leaf",
+      "value": "''",
+      "line": 214,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.editor_design.light.tile",
+      "kind": "leaf",
+      "value": "'#ECEEF1'",
+      "line": 214,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.editor_design.light.tile_hover",
+      "kind": "leaf",
+      "value": "''",
+      "line": 214,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.editor_design.light.ink",
+      "kind": "leaf",
+      "value": "''",
+      "line": 214,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.editor_design.light.toggle_on",
+      "kind": "leaf",
+      "value": "''",
+      "line": 214,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.editor_design.light.toggle_off",
+      "kind": "leaf",
+      "value": "''",
+      "line": 214,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.editor_design.light",
+      "kind": "group",
+      "value": "array('chrome'=>'', 'canvas'=>'', 'tile'=>'#ECEEF1', 'tile_hover'=>'', 'ink'=>'', 'toggle_on'=>'', 'toggle_off'=>'')",
+      "line": 214,
+      "depth": 2,
+      "inline": true
+    },
+    {
+      "path": "settings.editor_design.dark.chrome",
+      "kind": "leaf",
+      "value": "''",
+      "line": 215,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.editor_design.dark.canvas",
+      "kind": "leaf",
+      "value": "''",
+      "line": 215,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.editor_design.dark.tile",
+      "kind": "leaf",
+      "value": "'#2A2E33'",
+      "line": 215,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.editor_design.dark.tile_hover",
+      "kind": "leaf",
+      "value": "''",
+      "line": 215,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.editor_design.dark.ink",
+      "kind": "leaf",
+      "value": "''",
+      "line": 215,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.editor_design.dark.toggle_on",
+      "kind": "leaf",
+      "value": "''",
+      "line": 215,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.editor_design.dark.toggle_off",
+      "kind": "leaf",
+      "value": "''",
+      "line": 215,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.editor_design.dark",
+      "kind": "group",
+      "value": "array('chrome'=>'', 'canvas'=>'', 'tile'=>'#2A2E33', 'tile_hover'=>'', 'ink'=>'', 'toggle_on'=>'', 'toggle_off'=>'')",
+      "line": 215,
+      "depth": 2,
+      "inline": true
+    },
+    {
+      "path": "settings.editor_skin",
+      "kind": "group",
+      "value": null,
+      "line": 221,
+      "depth": 1,
+      "inline": false
+    },
+    {
+      "path": "settings.editor_skin.preset",
+      "kind": "leaf",
+      "value": "'', 'frame'=>'card'",
+      "line": 222,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.editor_skin.toolbar_placement",
+      "kind": "leaf",
+      "value": "'top', 'toolbar_align'=>'start', 'toolbar_button_shape'=>'soft'",
+      "line": 223,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.editor_skin.canvas_column",
+      "kind": "leaf",
+      "value": "'full', 'canvas_measure'=>66, 'canvas_typeface'=>'ui', 'canvas_scale'=>100",
+      "line": 224,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.editor_skin.status_placement",
+      "kind": "leaf",
+      "value": "'bottom', 'status_controls'=>'compact'",
+      "line": 225,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.editor_skin.title_enabled",
+      "kind": "leaf",
+      "value": "false, 'title_field'=>'', 'title_placeholder'=>''",
+      "line": 226,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.editor_skin.gutter_enabled",
+      "kind": "group",
+      "value": "array()",
+      "line": 227,
+      "depth": 2,
+      "inline": true
+    },
+    {
+      "path": "settings.editor_brand",
+      "kind": "group",
+      "value": null,
+      "line": 232,
+      "depth": 1,
+      "inline": false
+    },
+    {
+      "path": "settings.editor_brand.mode",
+      "kind": "leaf",
+      "value": "'product', 'name'=>'', 'link'=>''",
+      "line": 233,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.editor_brand.text_prefix",
+      "kind": "leaf",
+      "value": "'', 'text_suffix'=>'', 'text_fill'=>''",
+      "line": 234,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.editor_brand.image",
+      "kind": "leaf",
+      "value": "'', 'markup'=>''",
+      "line": 235,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.editor_snippets.enabled",
+      "kind": "leaf",
+      "value": "true",
+      "line": 240,
+      "depth": 2,
+      "inline": true
+    },
+    {
+      "path": "settings.editor_snippets.items",
+      "kind": "leaf",
+      "value": "array(",
+      "line": 240,
+      "depth": 2,
+      "inline": true
+    },
+    {
+      "path": "settings.editor_snippets",
+      "kind": "group",
+      "value": "array('enabled'=>true, 'items'=>array()",
+      "line": 240,
+      "depth": 1,
+      "inline": true
+    },
+    {
+      "path": "settings.modal_behavior.auto_close_seconds",
+      "kind": "leaf",
+      "value": "0",
+      "line": 241,
+      "depth": 2,
+      "inline": true
+    },
+    {
+      "path": "settings.modal_behavior.dismiss_ttl_days",
+      "kind": "leaf",
+      "value": "30",
+      "line": 241,
+      "depth": 2,
+      "inline": true
+    },
+    {
+      "path": "settings.modal_behavior",
+      "kind": "group",
+      "value": "array('auto_close_seconds'=>0, 'dismiss_ttl_days'=>30)",
+      "line": 241,
+      "depth": 1,
+      "inline": true
+    },
+    {
+      "path": "settings.translation.mode",
+      "kind": "leaf",
+      "value": "'auto'",
+      "line": 242,
+      "depth": 2,
+      "inline": true
+    },
+    {
+      "path": "settings.translation.default_lang",
+      "kind": "leaf",
+      "value": "'en'",
+      "line": 242,
+      "depth": 2,
+      "inline": true
+    },
+    {
+      "path": "settings.translation.fixed_lang",
+      "kind": "leaf",
+      "value": "'ko'",
+      "line": 242,
+      "depth": 2,
+      "inline": true
+    },
+    {
+      "path": "settings.translation",
+      "kind": "group",
+      "value": "array('mode'=>'auto', 'default_lang'=>'en', 'fixed_lang'=>'ko')",
+      "line": 242,
+      "depth": 1,
+      "inline": true
+    },
+    {
+      "path": "settings.apis",
+      "kind": "group",
+      "value": null,
+      "line": 243,
+      "depth": 1,
+      "inline": false
+    },
+    {
+      "path": "settings.apis.enabled",
+      "kind": "leaf",
+      "value": "true",
+      "line": 244,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.apis.permissions.content",
+      "kind": "leaf",
+      "value": "true",
+      "line": 245,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.apis.permissions.insertion",
+      "kind": "leaf",
+      "value": "true",
+      "line": 245,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.apis.permissions.collaboration",
+      "kind": "leaf",
+      "value": "true",
+      "line": 245,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.apis.permissions.editor_surface",
+      "kind": "leaf",
+      "value": "true",
+      "line": 245,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.apis.permissions.autosave",
+      "kind": "leaf",
+      "value": "true",
+      "line": 245,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.apis.permissions.upload",
+      "kind": "leaf",
+      "value": "true",
+      "line": 245,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.apis.permissions.nsfw",
+      "kind": "leaf",
+      "value": "true",
+      "line": 245,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.apis.permissions.ai",
+      "kind": "leaf",
+      "value": "true",
+      "line": 245,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.apis.permissions.remote",
+      "kind": "leaf",
+      "value": "true",
+      "line": 245,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.apis.permissions.toast",
+      "kind": "leaf",
+      "value": "true",
+      "line": 245,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.apis.permissions.environment",
+      "kind": "leaf",
+      "value": "true",
+      "line": 245,
+      "depth": 3,
+      "inline": true
+    },
+    {
+      "path": "settings.apis.permissions",
+      "kind": "group",
+      "value": "array('content'=>true,'insertion'=>true,'collaboration'=>true,'editor_surface'=>true,'autosave'=>true,'upload'=>true,'ns",
+      "line": 245,
+      "depth": 2,
+      "inline": true
+    },
+    {
+      "path": "settings.toast",
+      "kind": "group",
+      "value": null,
+      "line": 247,
+      "depth": 1,
+      "inline": false
+    },
+    {
+      "path": "settings.toast.enabled",
+      "kind": "leaf",
+      "value": "false",
+      "line": 248,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.toast.message",
+      "kind": "leaf",
+      "value": "''",
+      "line": 249,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.toast.type",
+      "kind": "leaf",
+      "value": "'info'",
+      "line": 250,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.toast.duration_seconds",
+      "kind": "leaf",
+      "value": "7",
+      "line": 251,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.toast.position",
+      "kind": "leaf",
+      "value": "'bottom-right'",
+      "line": 252,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.toast.dismissible",
+      "kind": "leaf",
+      "value": "true",
+      "line": 253,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.toast.progress_enabled",
+      "kind": "leaf",
+      "value": "true",
+      "line": 254,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.toast.progress_position",
+      "kind": "leaf",
+      "value": "'bottom'",
+      "line": 258,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.security",
+      "kind": "group",
+      "value": null,
+      "line": 260,
+      "depth": 1,
+      "inline": false
+    },
+    {
+      "path": "settings.security.enabled",
+      "kind": "leaf",
+      "value": "true",
+      "line": 262,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.security.features",
+      "kind": "group",
+      "value": null,
+      "line": 263,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.security.features.api",
+      "kind": "leaf",
+      "value": "true",
+      "line": 264,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.security.features.ai",
+      "kind": "leaf",
+      "value": "true",
+      "line": 265,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.security.features.upload",
+      "kind": "leaf",
+      "value": "true",
+      "line": 266,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.security.features.external",
+      "kind": "leaf",
+      "value": "true",
+      "line": 267,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.security.features.network",
+      "kind": "leaf",
+      "value": "true",
+      "line": 268,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.security.features.package_scan",
+      "kind": "leaf",
+      "value": "true",
+      "line": 269,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.security.allow_all_external",
+      "kind": "leaf",
+      "value": "false",
+      "line": 271,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.security.allowed_domains",
+      "kind": "group",
+      "value": null,
+      "line": 272,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.security.iframe_domains",
+      "kind": "leaf",
+      "value": "null",
+      "line": 277,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.security.custom_iframe_domains",
+      "kind": "group",
+      "value": "array()",
+      "line": 278,
+      "depth": 2,
+      "inline": true
+    },
+    {
+      "path": "settings.security.network_permissions",
+      "kind": "group",
+      "value": "array()",
+      "line": 279,
+      "depth": 2,
+      "inline": true
+    },
+    {
+      "path": "settings.security.network_layer",
+      "kind": "group",
+      "value": null,
+      "line": 282,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.security.network_layer.max_url_length",
+      "kind": "leaf",
+      "value": "4096",
+      "line": 283,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.security.network_layer.max_timeout_ms",
+      "kind": "leaf",
+      "value": "120000",
+      "line": 284,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.security.network_layer.default_timeout_ms",
+      "kind": "leaf",
+      "value": "30000",
+      "line": 285,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.security.network_layer.max_requests_per_minute",
+      "kind": "leaf",
+      "value": "240",
+      "line": 286,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.security.network_layer.max_concurrent_per_consumer",
+      "kind": "leaf",
+      "value": "12",
+      "line": 287,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.security.network_layer.max_beacon_bytes",
+      "kind": "leaf",
+      "value": "65536",
+      "line": 288,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.security.network_layer.max_body_bytes",
+      "kind": "leaf",
+      "value": "67108864",
+      "line": 289,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.security.network_layer.max_response_bytes",
+      "kind": "leaf",
+      "value": "67108864",
+      "line": 290,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.captcha",
+      "kind": "group",
+      "value": null,
+      "line": 299,
+      "depth": 1,
+      "inline": false
+    },
+    {
+      "path": "settings.captcha.enabled",
+      "kind": "leaf",
+      "value": "false",
+      "line": 300,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.captcha.actions",
+      "kind": "group",
+      "value": null,
+      "line": 302,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.captcha.actions.upload",
+      "kind": "leaf",
+      "value": "true",
+      "line": 303,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.captcha.actions.ai",
+      "kind": "leaf",
+      "value": "false",
+      "line": 304,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.captcha.actions.external",
+      "kind": "leaf",
+      "value": "false",
+      "line": 305,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.captcha.provider",
+      "kind": "leaf",
+      "value": "''",
+      "line": 308,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.captcha.site_key",
+      "kind": "leaf",
+      "value": "''",
+      "line": 309,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.captcha.keys",
+      "kind": "group",
+      "value": "array()",
+      "line": 315,
+      "depth": 2,
+      "inline": true
+    },
+    {
+      "path": "settings.captcha.score_threshold",
+      "kind": "leaf",
+      "value": "0.5",
+      "line": 317,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.captcha.t2captcha",
+      "kind": "group",
+      "value": null,
+      "line": 320,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.captcha.t2captcha.question_mode",
+      "kind": "leaf",
+      "value": "'random'",
+      "line": 322,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.captcha.t2captcha.language",
+      "kind": "leaf",
+      "value": "'auto'",
+      "line": 324,
+      "depth": 3,
+      "inline": false
+    },
+    {
+      "path": "settings.access",
+      "kind": "group",
+      "value": null,
+      "line": 327,
+      "depth": 1,
+      "inline": false
+    },
+    {
+      "path": "settings.access.editor_blocked_ips",
+      "kind": "group",
+      "value": "array()",
+      "line": 329,
+      "depth": 2,
+      "inline": true
+    },
+    {
+      "path": "settings.access.admin_allowed_ips",
+      "kind": "group",
+      "value": "array()",
+      "line": 330,
+      "depth": 2,
+      "inline": true
+    },
+    {
+      "path": "settings.permissions",
+      "kind": "group",
+      "value": null,
+      "line": 334,
+      "depth": 1,
+      "inline": false
+    },
+    {
+      "path": "settings.permissions.enabled",
+      "kind": "leaf",
+      "value": "false",
+      "line": 335,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.permissions.visibility",
+      "kind": "leaf",
+      "value": "'hide'",
+      "line": 337,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.permissions.features",
+      "kind": "group",
+      "value": "array()",
+      "line": 341,
+      "depth": 2,
+      "inline": true
+    },
+    {
+      "path": "settings.permissions.roles",
+      "kind": "group",
+      "value": "array()",
+      "line": 342,
+      "depth": 2,
+      "inline": true
+    },
+    {
+      "path": "settings.permissions.host_roles",
+      "kind": "group",
+      "value": "array()",
+      "line": 343,
+      "depth": 2,
+      "inline": true
+    },
+    {
+      "path": "settings.permissions.guest_role",
+      "kind": "leaf",
+      "value": "'guest'",
+      "line": 344,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.permissions.host_decides",
+      "kind": "leaf",
+      "value": "true",
+      "line": 346,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.permissions.host_ip_rules",
+      "kind": "leaf",
+      "value": "true",
+      "line": 348,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.word_filter",
+      "kind": "group",
+      "value": null,
+      "line": 352,
+      "depth": 1,
+      "inline": false
+    },
+    {
+      "path": "settings.word_filter.enabled",
+      "kind": "leaf",
+      "value": "false",
+      "line": 353,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.word_filter.terms",
+      "kind": "group",
+      "value": "array()",
+      "line": 356,
+      "depth": 2,
+      "inline": true
+    },
+    {
+      "path": "settings.word_filter.sources",
+      "kind": "group",
+      "value": "array()",
+      "line": 359,
+      "depth": 2,
+      "inline": true
+    },
+    {
+      "path": "settings.word_filter.whole_word",
+      "kind": "leaf",
+      "value": "false",
+      "line": 360,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.word_filter.block_on_submit",
+      "kind": "leaf",
+      "value": "false",
+      "line": 361,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.word_filter.show_info_icon",
+      "kind": "leaf",
+      "value": "true",
+      "line": 362,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.sanitize",
+      "kind": "group",
+      "value": null,
+      "line": 367,
+      "depth": 1,
+      "inline": false
+    },
+    {
+      "path": "settings.sanitize.enabled",
+      "kind": "leaf",
+      "value": "true",
+      "line": 368,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.sanitize.sources",
+      "kind": "group",
+      "value": "array()",
+      "line": 371,
+      "depth": 2,
+      "inline": true
+    },
+    {
+      "path": "settings.sanitize.allow_iframe",
+      "kind": "leaf",
+      "value": "true",
+      "line": 372,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.sanitize.iframe_domains",
+      "kind": "group",
+      "value": "array()",
+      "line": 375,
+      "depth": 2,
+      "inline": true
+    },
+    {
+      "path": "settings.sanitize.allow_style_attribute",
+      "kind": "leaf",
+      "value": "true",
+      "line": 376,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.sanitize.allow_data_uri_images",
+      "kind": "leaf",
+      "value": "true",
+      "line": 377,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.sanitize.strip_comments",
+      "kind": "leaf",
+      "value": "true",
+      "line": 378,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.sanitize.max_bytes",
+      "kind": "leaf",
+      "value": "2097152",
+      "line": 379,
+      "depth": 2,
+      "inline": false
+    },
+    {
+      "path": "settings.extend.enabled",
+      "kind": "leaf",
+      "value": "true",
+      "line": 381,
+      "depth": 2,
+      "inline": true
+    },
+    {
+      "path": "settings.extend.files",
+      "kind": "leaf",
+      "value": "array(",
+      "line": 381,
+      "depth": 2,
+      "inline": true
+    },
+    {
+      "path": "settings.extend",
+      "kind": "group",
+      "value": "array('enabled'=>true, 'files'=>array()",
+      "line": 381,
+      "depth": 1,
+      "inline": true
+    }
+  ],
+  "note": "키 경로는 점으로 이어 붙였다. 그룹은 값이 array( 인 항목이다."
+}

@@ -1,0 +1,43 @@
+{
+  "available": true,
+  "root": "tests/",
+  "total": 304,
+  "byArea": {
+    "README.md": {
+      "files": 1,
+      "bytes": 6175
+    },
+    "js": {
+      "files": 212,
+      "bytes": 1395226
+    },
+    "php": {
+      "files": 84,
+      "bytes": 547031
+    },
+    "run.mjs": {
+      "files": 1,
+      "bytes": 3629
+    },
+    "run.php": {
+      "files": 1,
+      "bytes": 4600
+    },
+    "visual": {
+      "files": 5,
+      "bytes": 42734
+    }
+  },
+  "runners": [
+    {
+      "file": "tests/run.mjs",
+      "lines": 85,
+      "families": []
+    },
+    {
+      "file": "tests/run.php",
+      "lines": 106,
+      "families": []
+    }
+  ]
+}

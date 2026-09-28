@@ -1,0 +1,323 @@
+path,kind,value,line,source
+profile,leaf,'max',17,T2Editor/config/t2_hard_config.php
+surface.format,leaf,1,36,T2Editor/config/t2_hard_config.php
+surface.enforce,leaf,true,36,T2Editor/config/t2_hard_config.php
+surface,group,"array('format' => 1, 'enforce' => true)",36,T2Editor/config/t2_hard_config.php
+admin_enabled,leaf,true,38,T2Editor/config/t2_hard_config.php
+cms_admin_api_enabled,leaf,true,39,T2Editor/config/t2_hard_config.php
+admin_ip_access_bypass,leaf,false,41,T2Editor/config/t2_hard_config.php
+trusted_proxy_ips,group,array(),43,T2Editor/config/t2_hard_config.php
+settings,group,,44,T2Editor/config/t2_hard_config.php
+settings.editor,group,,45,T2Editor/config/t2_hard_config.php
+settings.editor.css_min,leaf,true,46,T2Editor/config/t2_hard_config.php
+settings.editor.js_min,leaf,true,47,T2Editor/config/t2_hard_config.php
+settings.editor.asset_bundle,leaf,true,49,T2Editor/config/t2_hard_config.php
+settings.editor.html_cache_enabled,leaf,true,50,T2Editor/config/t2_hard_config.php
+settings.editor.content_style_delivery,leaf,'auto',53,T2Editor/config/t2_hard_config.php
+settings.editor.darkmode_button_enabled,leaf,true,54,T2Editor/config/t2_hard_config.php
+settings.editor.status_logo_enabled,leaf,true,55,T2Editor/config/t2_hard_config.php
+settings.editor.version_label_enabled,leaf,true,56,T2Editor/config/t2_hard_config.php
+settings.editor.admin_link_enabled,leaf,true,57,T2Editor/config/t2_hard_config.php
+settings.editor.debug_info_enabled,leaf,false,58,T2Editor/config/t2_hard_config.php
+settings.editor.debug_button_public,leaf,false,59,T2Editor/config/t2_hard_config.php
+settings.editor.darkmode_forced_theme,leaf,null,60,T2Editor/config/t2_hard_config.php
+settings.editor.migration_mode,leaf,false,61,T2Editor/config/t2_hard_config.php
+settings.editor.video_player_enabled,leaf,true,62,T2Editor/config/t2_hard_config.php
+settings.editor.content_height,leaf,350,63,T2Editor/config/t2_hard_config.php
+settings.editor.autosave_enabled,leaf,true,64,T2Editor/config/t2_hard_config.php
+settings.editor.autosave_submit_cleanup_enabled,leaf,true,65,T2Editor/config/t2_hard_config.php
+settings.editor.autosave_submit_cleanup_delay_seconds,leaf,90,66,T2Editor/config/t2_hard_config.php
+settings.editor.markdown_authoring_enabled,leaf,false,70,T2Editor/config/t2_hard_config.php
+settings.editor.char_count_enabled,leaf,false,73,T2Editor/config/t2_hard_config.php
+settings.editor.char_count_desktop,leaf,true,74,T2Editor/config/t2_hard_config.php
+settings.editor.char_count_tablet,leaf,true,75,T2Editor/config/t2_hard_config.php
+settings.editor.char_count_mobile,leaf,true,76,T2Editor/config/t2_hard_config.php
+settings.nsfw,group,,78,T2Editor/config/t2_hard_config.php
+settings.nsfw.enabled,leaf,false,79,T2Editor/config/t2_hard_config.php
+settings.nsfw.mode,leaf,'browser',80,T2Editor/config/t2_hard_config.php
+settings.nsfw.allow_suspicious,leaf,true,81,T2Editor/config/t2_hard_config.php
+settings.nsfw.browser_backend_priority,leaf,"'webgpu,webgl,wasm,cpu'",82,T2Editor/config/t2_hard_config.php
+settings.nsfw.plugin_permissions.image,leaf,true,83,T2Editor/config/t2_hard_config.php
+settings.nsfw.plugin_permissions.meme,leaf,true,83,T2Editor/config/t2_hard_config.php
+settings.nsfw.plugin_permissions,group,"array('image'=>true, 'meme'=>true)",83,T2Editor/config/t2_hard_config.php
+settings.ai,group,,85,T2Editor/config/t2_hard_config.php
+settings.ai.enabled,leaf,false,86,T2Editor/config/t2_hard_config.php
+settings.ai.provider,leaf,'openai',87,T2Editor/config/t2_hard_config.php
+settings.ai.max_input_chars,leaf,100000,88,T2Editor/config/t2_hard_config.php
+settings.ai.max_output_tokens,leaf,4096,89,T2Editor/config/t2_hard_config.php
+settings.ai.timeout_seconds,leaf,90,90,T2Editor/config/t2_hard_config.php
+settings.ai.providers,group,,91,T2Editor/config/t2_hard_config.php
+settings.ai.providers.openai,group,array('endpoint'=>'https:,92,T2Editor/config/t2_hard_config.php
+settings.ai.providers.anthropic,group,array('endpoint'=>'https:,93,T2Editor/config/t2_hard_config.php
+settings.ai.providers.gemini,group,array('endpoint'=>'https:,94,T2Editor/config/t2_hard_config.php
+settings.ai.providers.custom.endpoint,leaf,'',95,T2Editor/config/t2_hard_config.php
+settings.ai.providers.custom.model,leaf,'',95,T2Editor/config/t2_hard_config.php
+settings.ai.providers.custom.auth_header,leaf,'Authorization',95,T2Editor/config/t2_hard_config.php
+settings.ai.providers.custom.auth_prefix,leaf,'Bearer ',95,T2Editor/config/t2_hard_config.php
+settings.ai.providers.custom.response_path,leaf,'choices.0.message.content',95,T2Editor/config/t2_hard_config.php
+settings.ai.providers.custom.stream_delta_path,leaf,'choices.0.delta.content',95,T2Editor/config/t2_hard_config.php
+settings.ai.providers.custom.request_template,leaf,"'{""model"":{{model}}",95,T2Editor/config/t2_hard_config.php
+settings.ai.providers.custom,group,"array('endpoint'=>'','model'=>'','auth_header'=>'Authorization','auth_prefix'=>'Bearer ','response_path'=>'choices.0.mes",95,T2Editor/config/t2_hard_config.php
+settings.ai.runtime,group,,99,T2Editor/config/t2_hard_config.php
+settings.ai.runtime.core,leaf,"true, 'harness'=>true, 'tools'=>true, 'skills'=>true",100,T2Editor/config/t2_hard_config.php
+settings.ai.runtime.stream,leaf,"true, 'web_llm'=>false, 'web_llm_model'=>'auto', 'web_llm_engine_url'=>''",101,T2Editor/config/t2_hard_config.php
+settings.ai.runtime.tool_permissions,group,array(),102,T2Editor/config/t2_hard_config.php
+settings.ai.runtime.tool_access,leaf,'auto',103,T2Editor/config/t2_hard_config.php
+settings.ai.runtime.edit_policy,leaf,'direct',104,T2Editor/config/t2_hard_config.php
+settings.ai.runtime.cap_tiers.S,leaf,true,105,T2Editor/config/t2_hard_config.php
+settings.ai.runtime.cap_tiers.X,leaf,true,105,T2Editor/config/t2_hard_config.php
+settings.ai.runtime.cap_tiers.D,leaf,true,105,T2Editor/config/t2_hard_config.php
+settings.ai.runtime.cap_tiers,group,"array('S'=>true, 'X'=>true, 'D'=>true)",105,T2Editor/config/t2_hard_config.php
+settings.ai.runtime.cap_overrides,group,array(),106,T2Editor/config/t2_hard_config.php
+settings.ai.runtime.token_economy,group,,107,T2Editor/config/t2_hard_config.php
+settings.ai.runtime.token_economy.recentMessages,leaf,"8, 'maxHistoryChars'=>6200, 'maxMessageChars'=>1800",108,T2Editor/config/t2_hard_config.php
+settings.ai.runtime.token_economy.maxSummaryChars,leaf,"1100, 'maxDocumentChars'=>3600, 'maxTools'=>8",109,T2Editor/config/t2_hard_config.php
+settings.ai.runtime.token_economy.maxAutomaticTools,leaf,"8, 'maxToolResultChars'=>1400",110,T2Editor/config/t2_hard_config.php
+settings.ai.budget.enabled,leaf,false,113,T2Editor/config/t2_hard_config.php
+settings.ai.budget.unlimited,leaf,false,113,T2Editor/config/t2_hard_config.php
+settings.ai.budget.period,leaf,'none',113,T2Editor/config/t2_hard_config.php
+settings.ai.budget.token_limit,leaf,0,113,T2Editor/config/t2_hard_config.php
+settings.ai.budget.anchor_at,leaf,0,113,T2Editor/config/t2_hard_config.php
+settings.ai.budget.plugin_limits,leaf,array(,113,T2Editor/config/t2_hard_config.php
+settings.ai.budget,group,"array('enabled'=>false, 'unlimited'=>false, 'period'=>'none', 'token_limit'=>0, 'anchor_at'=>0, 'plugin_limits'=>array()",113,T2Editor/config/t2_hard_config.php
+settings.ai.moderation,group,"array('enabled'=>true, 'max_score'=>25, 'threshold'=>20, 'remote_check_url'=>'https:",114,T2Editor/config/t2_hard_config.php
+settings.ai.sub_agents,group,,115,T2Editor/config/t2_hard_config.php
+settings.ai.sub_agents.artifact.enabled,leaf,true,116,T2Editor/config/t2_hard_config.php
+settings.ai.sub_agents.artifact.provider,leaf,'',116,T2Editor/config/t2_hard_config.php
+settings.ai.sub_agents.artifact.model,leaf,'',116,T2Editor/config/t2_hard_config.php
+settings.ai.sub_agents.artifact.max_output_tokens,leaf,900,116,T2Editor/config/t2_hard_config.php
+settings.ai.sub_agents.artifact,group,"array('enabled'=>true, 'provider'=>'', 'model'=>'', 'max_output_tokens'=>900)",116,T2Editor/config/t2_hard_config.php
+settings.ai.sub_agents.guardian.enabled,leaf,true,117,T2Editor/config/t2_hard_config.php
+settings.ai.sub_agents.guardian.provider,leaf,'',117,T2Editor/config/t2_hard_config.php
+settings.ai.sub_agents.guardian.model,leaf,'',117,T2Editor/config/t2_hard_config.php
+settings.ai.sub_agents.guardian.max_output_tokens,leaf,320,117,T2Editor/config/t2_hard_config.php
+settings.ai.sub_agents.guardian.semantic_sample_interval,leaf,6,117,T2Editor/config/t2_hard_config.php
+settings.ai.sub_agents.guardian,group,"array('enabled'=>true, 'provider'=>'', 'model'=>'', 'max_output_tokens'=>320, 'semantic_sample_interval'=>6)",117,T2Editor/config/t2_hard_config.php
+settings.ai.plugin_permissions,group,array(),121,T2Editor/config/t2_hard_config.php
+settings.ai.consumer_permissions.admin_assistant,leaf,true,123,T2Editor/config/t2_hard_config.php
+settings.ai.consumer_permissions,group,array('admin_assistant'=>true),123,T2Editor/config/t2_hard_config.php
+settings.ai.plugin_routes,group,array(),124,T2Editor/config/t2_hard_config.php
+settings.ai_image,group,,126,T2Editor/config/t2_hard_config.php
+settings.ai_image.enabled,leaf,false,127,T2Editor/config/t2_hard_config.php
+settings.ai_image.provider,leaf,'openai',128,T2Editor/config/t2_hard_config.php
+settings.ai_image.timeout_seconds,leaf,120,129,T2Editor/config/t2_hard_config.php
+settings.ai_image.max_images_per_request,leaf,4,130,T2Editor/config/t2_hard_config.php
+settings.ai_image.providers,group,,131,T2Editor/config/t2_hard_config.php
+settings.ai_image.providers.openai,group,array('endpoint'=>'https:,132,T2Editor/config/t2_hard_config.php
+settings.ai_image.providers.google,group,array('endpoint'=>'https:,133,T2Editor/config/t2_hard_config.php
+settings.ai_image.providers.stability,group,array('endpoint'=>'https:,134,T2Editor/config/t2_hard_config.php
+settings.ai_image.providers.custom.endpoint,leaf,'',135,T2Editor/config/t2_hard_config.php
+settings.ai_image.providers.custom.model,leaf,'',135,T2Editor/config/t2_hard_config.php
+settings.ai_image.providers.custom.auth_header,leaf,'Authorization',135,T2Editor/config/t2_hard_config.php
+settings.ai_image.providers.custom.auth_prefix,leaf,'Bearer ',135,T2Editor/config/t2_hard_config.php
+settings.ai_image.providers.custom.images_path,leaf,'data',135,T2Editor/config/t2_hard_config.php
+settings.ai_image.providers.custom.image_item_path,leaf,'b64_json',135,T2Editor/config/t2_hard_config.php
+settings.ai_image.providers.custom.image_format,leaf,'base64',135,T2Editor/config/t2_hard_config.php
+settings.ai_image.providers.custom.request_template,leaf,"'{""model"":{{model}}",135,T2Editor/config/t2_hard_config.php
+settings.ai_image.providers.custom,group,"array('endpoint'=>'','model'=>'','auth_header'=>'Authorization','auth_prefix'=>'Bearer ','images_path'=>'data','image_it",135,T2Editor/config/t2_hard_config.php
+settings.privacy,group,,140,T2Editor/config/t2_hard_config.php
+settings.privacy.mode,leaf,'consent',141,T2Editor/config/t2_hard_config.php
+settings.privacy.notice_level,leaf,'standard',142,T2Editor/config/t2_hard_config.php
+settings.privacy.receipt_ttl_days,leaf,180,143,T2Editor/config/t2_hard_config.php
+settings.privacy.language_mode,leaf,'browser',144,T2Editor/config/t2_hard_config.php
+settings.privacy.default_language,leaf,'ko',145,T2Editor/config/t2_hard_config.php
+settings.privacy.fixed_language,leaf,'ko',146,T2Editor/config/t2_hard_config.php
+settings.privacy.secondary_language,leaf,'en',147,T2Editor/config/t2_hard_config.php
+settings.admin_assistant,group,,149,T2Editor/config/t2_hard_config.php
+settings.admin_assistant.enabled,leaf,true,150,T2Editor/config/t2_hard_config.php
+settings.admin_assistant.proficiency,leaf,'standard',151,T2Editor/config/t2_hard_config.php
+settings.admin_assistant.provider_mode,leaf,'auto',152,T2Editor/config/t2_hard_config.php
+settings.admin_assistant.override_enabled,leaf,false,153,T2Editor/config/t2_hard_config.php
+settings.admin_assistant.override_provider,leaf,'',154,T2Editor/config/t2_hard_config.php
+settings.admin_assistant.override_model,leaf,'',155,T2Editor/config/t2_hard_config.php
+settings.admin_assistant.default_workload,leaf,'high',156,T2Editor/config/t2_hard_config.php
+settings.admin_assistant.advanced_workload,leaf,false,157,T2Editor/config/t2_hard_config.php
+settings.admin_assistant.thinking,leaf,false,158,T2Editor/config/t2_hard_config.php
+settings.upload,group,,160,T2Editor/config/t2_hard_config.php
+settings.upload.max_size_mb,leaf,50,161,T2Editor/config/t2_hard_config.php
+settings.upload.max_batch_files,leaf,5,162,T2Editor/config/t2_hard_config.php
+settings.upload.max_batch_mb,leaf,200,163,T2Editor/config/t2_hard_config.php
+settings.upload.convert_images_to_webp,leaf,false,164,T2Editor/config/t2_hard_config.php
+settings.upload.strict_webp,leaf,true,165,T2Editor/config/t2_hard_config.php
+settings.upload.max_image_pixels,leaf,50000000,166,T2Editor/config/t2_hard_config.php
+settings.upload.ticket_ttl_seconds,leaf,180,167,T2Editor/config/t2_hard_config.php
+settings.upload.rate_window_seconds,leaf,60,168,T2Editor/config/t2_hard_config.php
+settings.upload.rate_max_attempts,leaf,12,169,T2Editor/config/t2_hard_config.php
+settings.upload.rate_block_seconds,leaf,120,170,T2Editor/config/t2_hard_config.php
+settings.upload.rate_jitter_enabled,leaf,true,171,T2Editor/config/t2_hard_config.php
+settings.upload.adaptive,group,,172,T2Editor/config/t2_hard_config.php
+settings.upload.adaptive.adaptive_enabled,leaf,"true, 'intensity_level'=>1, 'manual_enabled'=>false",173,T2Editor/config/t2_hard_config.php
+settings.upload.adaptive.parallel_enabled,leaf,"true, 'chunk_mode'=>'auto', 'auto_slowdown'=>true",174,T2Editor/config/t2_hard_config.php
+settings.upload.adaptive.max_batch_files,leaf,5,175,T2Editor/config/t2_hard_config.php
+settings.upload.adaptive.manual.concurrent_files,leaf,1,176,T2Editor/config/t2_hard_config.php
+settings.upload.adaptive.manual.chunks_per_file,leaf,1,176,T2Editor/config/t2_hard_config.php
+settings.upload.adaptive.manual.requests_per_second,leaf,1,176,T2Editor/config/t2_hard_config.php
+settings.upload.adaptive.manual.chunk_size_kb,leaf,512,176,T2Editor/config/t2_hard_config.php
+settings.upload.adaptive.manual.request_gap_ms,leaf,700,176,T2Editor/config/t2_hard_config.php
+settings.upload.adaptive.manual.retries,leaf,4,176,T2Editor/config/t2_hard_config.php
+settings.upload.adaptive.manual,group,"array('concurrent_files'=>1,'chunks_per_file'=>1,'requests_per_second'=>1,'chunk_size_kb'=>512,'request_gap_ms'=>700,'re",176,T2Editor/config/t2_hard_config.php
+settings.upload.adaptive.environment.source,leaf,'fallback',177,T2Editor/config/t2_hard_config.php
+settings.upload.adaptive.environment.measured_at,leaf,0,177,T2Editor/config/t2_hard_config.php
+settings.upload.adaptive.environment.network_mbps,leaf,0,177,T2Editor/config/t2_hard_config.php
+settings.upload.adaptive.environment.server_cores,leaf,0,177,T2Editor/config/t2_hard_config.php
+settings.upload.adaptive.environment.php_workers,leaf,0,177,T2Editor/config/t2_hard_config.php
+settings.upload.adaptive.environment.memory_mb,leaf,0,177,T2Editor/config/t2_hard_config.php
+settings.upload.adaptive.environment.storage,leaf,'shared',177,T2Editor/config/t2_hard_config.php
+settings.upload.adaptive.environment.recommended_level,leaf,1,177,T2Editor/config/t2_hard_config.php
+settings.upload.adaptive.environment.latency_ms,leaf,0,177,T2Editor/config/t2_hard_config.php
+settings.upload.adaptive.environment.server_write_mbps,leaf,0,177,T2Editor/config/t2_hard_config.php
+settings.upload.adaptive.environment,group,"array('source'=>'fallback','measured_at'=>0,'network_mbps'=>0,'server_cores'=>0,'php_workers'=>0,'memory_mb'=>0,'storage",177,T2Editor/config/t2_hard_config.php
+settings.upload.extensions,group,,179,T2Editor/config/t2_hard_config.php
+settings.upload.extensions.document,group,"array('pdf','txt','doc','docx','xls','xlsx','ppt','pptx','hwp','odt','ods','odp','rtf')",180,T2Editor/config/t2_hard_config.php
+settings.upload.extensions.image,group,"array('jpg','jpeg','png','gif','webp','bmp')",181,T2Editor/config/t2_hard_config.php
+settings.upload.extensions.video,group,"array('mp4','webm','ogg','mov','avi','mkv','wmv','flv','m4v')",182,T2Editor/config/t2_hard_config.php
+settings.upload.extensions.other,group,"array('zip','rar','7z','tar','gz','bz2','mp3','m4a','wav','flac','aac','wma','json','xml','csv')",183,T2Editor/config/t2_hard_config.php
+settings.storage,group,,190,T2Editor/config/t2_hard_config.php
+settings.storage.local_layout,leaf,'type',192,T2Editor/config/t2_hard_config.php
+settings.storage.external,group,,193,T2Editor/config/t2_hard_config.php
+settings.storage.external.enabled,leaf,false,194,T2Editor/config/t2_hard_config.php
+settings.storage.external.mode,leaf,'per_type',196,T2Editor/config/t2_hard_config.php
+settings.storage.external.targets.image,leaf,false,197,T2Editor/config/t2_hard_config.php
+settings.storage.external.targets.video,leaf,false,197,T2Editor/config/t2_hard_config.php
+settings.storage.external.targets.document,leaf,false,197,T2Editor/config/t2_hard_config.php
+settings.storage.external.targets.other,leaf,false,197,T2Editor/config/t2_hard_config.php
+settings.storage.external.targets,group,"array('image'=>false, 'video'=>false, 'document'=>false, 'other'=>false)",197,T2Editor/config/t2_hard_config.php
+settings.storage.external.endpoint_url,leaf,'',198,T2Editor/config/t2_hard_config.php
+settings.storage.external.base_url,leaf,'',199,T2Editor/config/t2_hard_config.php
+settings.storage.external.key_id,leaf,'',200,T2Editor/config/t2_hard_config.php
+settings.storage.external.timeout_seconds,leaf,20,201,T2Editor/config/t2_hard_config.php
+settings.storage.external.fallback_local,leaf,true,203,T2Editor/config/t2_hard_config.php
+settings.icons,group,array(),206,T2Editor/config/t2_hard_config.php
+settings.toolbar_groups,leaf,null,207,T2Editor/config/t2_hard_config.php
+settings.toolbar_layout.mode,leaf,'rail',208,T2Editor/config/t2_hard_config.php
+settings.toolbar_layout.min_button_size,leaf,30,208,T2Editor/config/t2_hard_config.php
+settings.toolbar_layout,group,"array('mode'=>'rail', 'min_button_size'=>30)",208,T2Editor/config/t2_hard_config.php
+settings.editor_design,group,,212,T2Editor/config/t2_hard_config.php
+settings.editor_design.tile_enabled,leaf,"true, 'gap_mode'=>'grid', 'gap_px'=>8",213,T2Editor/config/t2_hard_config.php
+settings.editor_design.light.chrome,leaf,'',214,T2Editor/config/t2_hard_config.php
+settings.editor_design.light.canvas,leaf,'',214,T2Editor/config/t2_hard_config.php
+settings.editor_design.light.tile,leaf,'#ECEEF1',214,T2Editor/config/t2_hard_config.php
+settings.editor_design.light.tile_hover,leaf,'',214,T2Editor/config/t2_hard_config.php
+settings.editor_design.light.ink,leaf,'',214,T2Editor/config/t2_hard_config.php
+settings.editor_design.light.toggle_on,leaf,'',214,T2Editor/config/t2_hard_config.php
+settings.editor_design.light.toggle_off,leaf,'',214,T2Editor/config/t2_hard_config.php
+settings.editor_design.light,group,"array('chrome'=>'', 'canvas'=>'', 'tile'=>'#ECEEF1', 'tile_hover'=>'', 'ink'=>'', 'toggle_on'=>'', 'toggle_off'=>'')",214,T2Editor/config/t2_hard_config.php
+settings.editor_design.dark.chrome,leaf,'',215,T2Editor/config/t2_hard_config.php
+settings.editor_design.dark.canvas,leaf,'',215,T2Editor/config/t2_hard_config.php
+settings.editor_design.dark.tile,leaf,'#2A2E33',215,T2Editor/config/t2_hard_config.php
+settings.editor_design.dark.tile_hover,leaf,'',215,T2Editor/config/t2_hard_config.php
+settings.editor_design.dark.ink,leaf,'',215,T2Editor/config/t2_hard_config.php
+settings.editor_design.dark.toggle_on,leaf,'',215,T2Editor/config/t2_hard_config.php
+settings.editor_design.dark.toggle_off,leaf,'',215,T2Editor/config/t2_hard_config.php
+settings.editor_design.dark,group,"array('chrome'=>'', 'canvas'=>'', 'tile'=>'#2A2E33', 'tile_hover'=>'', 'ink'=>'', 'toggle_on'=>'', 'toggle_off'=>'')",215,T2Editor/config/t2_hard_config.php
+settings.editor_skin,group,,221,T2Editor/config/t2_hard_config.php
+settings.editor_skin.preset,leaf,"'', 'frame'=>'card'",222,T2Editor/config/t2_hard_config.php
+settings.editor_skin.toolbar_placement,leaf,"'top', 'toolbar_align'=>'start', 'toolbar_button_shape'=>'soft'",223,T2Editor/config/t2_hard_config.php
+settings.editor_skin.canvas_column,leaf,"'full', 'canvas_measure'=>66, 'canvas_typeface'=>'ui', 'canvas_scale'=>100",224,T2Editor/config/t2_hard_config.php
+settings.editor_skin.status_placement,leaf,"'bottom', 'status_controls'=>'compact'",225,T2Editor/config/t2_hard_config.php
+settings.editor_skin.title_enabled,leaf,"false, 'title_field'=>'', 'title_placeholder'=>''",226,T2Editor/config/t2_hard_config.php
+settings.editor_skin.gutter_enabled,group,array(),227,T2Editor/config/t2_hard_config.php
+settings.editor_brand,group,,232,T2Editor/config/t2_hard_config.php
+settings.editor_brand.mode,leaf,"'product', 'name'=>'', 'link'=>''",233,T2Editor/config/t2_hard_config.php
+settings.editor_brand.text_prefix,leaf,"'', 'text_suffix'=>'', 'text_fill'=>''",234,T2Editor/config/t2_hard_config.php
+settings.editor_brand.image,leaf,"'', 'markup'=>''",235,T2Editor/config/t2_hard_config.php
+settings.editor_snippets.enabled,leaf,true,240,T2Editor/config/t2_hard_config.php
+settings.editor_snippets.items,leaf,array(,240,T2Editor/config/t2_hard_config.php
+settings.editor_snippets,group,"array('enabled'=>true, 'items'=>array()",240,T2Editor/config/t2_hard_config.php
+settings.modal_behavior.auto_close_seconds,leaf,0,241,T2Editor/config/t2_hard_config.php
+settings.modal_behavior.dismiss_ttl_days,leaf,30,241,T2Editor/config/t2_hard_config.php
+settings.modal_behavior,group,"array('auto_close_seconds'=>0, 'dismiss_ttl_days'=>30)",241,T2Editor/config/t2_hard_config.php
+settings.translation.mode,leaf,'auto',242,T2Editor/config/t2_hard_config.php
+settings.translation.default_lang,leaf,'en',242,T2Editor/config/t2_hard_config.php
+settings.translation.fixed_lang,leaf,'ko',242,T2Editor/config/t2_hard_config.php
+settings.translation,group,"array('mode'=>'auto', 'default_lang'=>'en', 'fixed_lang'=>'ko')",242,T2Editor/config/t2_hard_config.php
+settings.apis,group,,243,T2Editor/config/t2_hard_config.php
+settings.apis.enabled,leaf,true,244,T2Editor/config/t2_hard_config.php
+settings.apis.permissions.content,leaf,true,245,T2Editor/config/t2_hard_config.php
+settings.apis.permissions.insertion,leaf,true,245,T2Editor/config/t2_hard_config.php
+settings.apis.permissions.collaboration,leaf,true,245,T2Editor/config/t2_hard_config.php
+settings.apis.permissions.editor_surface,leaf,true,245,T2Editor/config/t2_hard_config.php
+settings.apis.permissions.autosave,leaf,true,245,T2Editor/config/t2_hard_config.php
+settings.apis.permissions.upload,leaf,true,245,T2Editor/config/t2_hard_config.php
+settings.apis.permissions.nsfw,leaf,true,245,T2Editor/config/t2_hard_config.php
+settings.apis.permissions.ai,leaf,true,245,T2Editor/config/t2_hard_config.php
+settings.apis.permissions.remote,leaf,true,245,T2Editor/config/t2_hard_config.php
+settings.apis.permissions.toast,leaf,true,245,T2Editor/config/t2_hard_config.php
+settings.apis.permissions.environment,leaf,true,245,T2Editor/config/t2_hard_config.php
+settings.apis.permissions,group,"array('content'=>true,'insertion'=>true,'collaboration'=>true,'editor_surface'=>true,'autosave'=>true,'upload'=>true,'ns",245,T2Editor/config/t2_hard_config.php
+settings.toast,group,,247,T2Editor/config/t2_hard_config.php
+settings.toast.enabled,leaf,false,248,T2Editor/config/t2_hard_config.php
+settings.toast.message,leaf,'',249,T2Editor/config/t2_hard_config.php
+settings.toast.type,leaf,'info',250,T2Editor/config/t2_hard_config.php
+settings.toast.duration_seconds,leaf,7,251,T2Editor/config/t2_hard_config.php
+settings.toast.position,leaf,'bottom-right',252,T2Editor/config/t2_hard_config.php
+settings.toast.dismissible,leaf,true,253,T2Editor/config/t2_hard_config.php
+settings.toast.progress_enabled,leaf,true,254,T2Editor/config/t2_hard_config.php
+settings.toast.progress_position,leaf,'bottom',258,T2Editor/config/t2_hard_config.php
+settings.security,group,,260,T2Editor/config/t2_hard_config.php
+settings.security.enabled,leaf,true,262,T2Editor/config/t2_hard_config.php
+settings.security.features,group,,263,T2Editor/config/t2_hard_config.php
+settings.security.features.api,leaf,true,264,T2Editor/config/t2_hard_config.php
+settings.security.features.ai,leaf,true,265,T2Editor/config/t2_hard_config.php
+settings.security.features.upload,leaf,true,266,T2Editor/config/t2_hard_config.php
+settings.security.features.external,leaf,true,267,T2Editor/config/t2_hard_config.php
+settings.security.features.network,leaf,true,268,T2Editor/config/t2_hard_config.php
+settings.security.features.package_scan,leaf,true,269,T2Editor/config/t2_hard_config.php
+settings.security.allow_all_external,leaf,false,271,T2Editor/config/t2_hard_config.php
+settings.security.allowed_domains,group,,272,T2Editor/config/t2_hard_config.php
+settings.security.iframe_domains,leaf,null,277,T2Editor/config/t2_hard_config.php
+settings.security.custom_iframe_domains,group,array(),278,T2Editor/config/t2_hard_config.php
+settings.security.network_permissions,group,array(),279,T2Editor/config/t2_hard_config.php
+settings.security.network_layer,group,,282,T2Editor/config/t2_hard_config.php
+settings.security.network_layer.max_url_length,leaf,4096,283,T2Editor/config/t2_hard_config.php
+settings.security.network_layer.max_timeout_ms,leaf,120000,284,T2Editor/config/t2_hard_config.php
+settings.security.network_layer.default_timeout_ms,leaf,30000,285,T2Editor/config/t2_hard_config.php
+settings.security.network_layer.max_requests_per_minute,leaf,240,286,T2Editor/config/t2_hard_config.php
+settings.security.network_layer.max_concurrent_per_consumer,leaf,12,287,T2Editor/config/t2_hard_config.php
+settings.security.network_layer.max_beacon_bytes,leaf,65536,288,T2Editor/config/t2_hard_config.php
+settings.security.network_layer.max_body_bytes,leaf,67108864,289,T2Editor/config/t2_hard_config.php
+settings.security.network_layer.max_response_bytes,leaf,67108864,290,T2Editor/config/t2_hard_config.php
+settings.captcha,group,,299,T2Editor/config/t2_hard_config.php
+settings.captcha.enabled,leaf,false,300,T2Editor/config/t2_hard_config.php
+settings.captcha.actions,group,,302,T2Editor/config/t2_hard_config.php
+settings.captcha.actions.upload,leaf,true,303,T2Editor/config/t2_hard_config.php
+settings.captcha.actions.ai,leaf,false,304,T2Editor/config/t2_hard_config.php
+settings.captcha.actions.external,leaf,false,305,T2Editor/config/t2_hard_config.php
+settings.captcha.provider,leaf,'',308,T2Editor/config/t2_hard_config.php
+settings.captcha.site_key,leaf,'',309,T2Editor/config/t2_hard_config.php
+settings.captcha.keys,group,array(),315,T2Editor/config/t2_hard_config.php
+settings.captcha.score_threshold,leaf,0.5,317,T2Editor/config/t2_hard_config.php
+settings.captcha.t2captcha,group,,320,T2Editor/config/t2_hard_config.php
+settings.captcha.t2captcha.question_mode,leaf,'random',322,T2Editor/config/t2_hard_config.php
+settings.captcha.t2captcha.language,leaf,'auto',324,T2Editor/config/t2_hard_config.php
+settings.access,group,,327,T2Editor/config/t2_hard_config.php
+settings.access.editor_blocked_ips,group,array(),329,T2Editor/config/t2_hard_config.php
+settings.access.admin_allowed_ips,group,array(),330,T2Editor/config/t2_hard_config.php
+settings.permissions,group,,334,T2Editor/config/t2_hard_config.php
+settings.permissions.enabled,leaf,false,335,T2Editor/config/t2_hard_config.php
+settings.permissions.visibility,leaf,'hide',337,T2Editor/config/t2_hard_config.php
+settings.permissions.features,group,array(),341,T2Editor/config/t2_hard_config.php
+settings.permissions.roles,group,array(),342,T2Editor/config/t2_hard_config.php
+settings.permissions.host_roles,group,array(),343,T2Editor/config/t2_hard_config.php
+settings.permissions.guest_role,leaf,'guest',344,T2Editor/config/t2_hard_config.php
+settings.permissions.host_decides,leaf,true,346,T2Editor/config/t2_hard_config.php
+settings.permissions.host_ip_rules,leaf,true,348,T2Editor/config/t2_hard_config.php
+settings.word_filter,group,,352,T2Editor/config/t2_hard_config.php
+settings.word_filter.enabled,leaf,false,353,T2Editor/config/t2_hard_config.php
+settings.word_filter.terms,group,array(),356,T2Editor/config/t2_hard_config.php
+settings.word_filter.sources,group,array(),359,T2Editor/config/t2_hard_config.php
+settings.word_filter.whole_word,leaf,false,360,T2Editor/config/t2_hard_config.php
+settings.word_filter.block_on_submit,leaf,false,361,T2Editor/config/t2_hard_config.php
+settings.word_filter.show_info_icon,leaf,true,362,T2Editor/config/t2_hard_config.php
+settings.sanitize,group,,367,T2Editor/config/t2_hard_config.php
+settings.sanitize.enabled,leaf,true,368,T2Editor/config/t2_hard_config.php
+settings.sanitize.sources,group,array(),371,T2Editor/config/t2_hard_config.php
+settings.sanitize.allow_iframe,leaf,true,372,T2Editor/config/t2_hard_config.php
+settings.sanitize.iframe_domains,group,array(),375,T2Editor/config/t2_hard_config.php
+settings.sanitize.allow_style_attribute,leaf,true,376,T2Editor/config/t2_hard_config.php
+settings.sanitize.allow_data_uri_images,leaf,true,377,T2Editor/config/t2_hard_config.php
+settings.sanitize.strip_comments,leaf,true,378,T2Editor/config/t2_hard_config.php
+settings.sanitize.max_bytes,leaf,2097152,379,T2Editor/config/t2_hard_config.php
+settings.extend.enabled,leaf,true,381,T2Editor/config/t2_hard_config.php
+settings.extend.files,leaf,array(,381,T2Editor/config/t2_hard_config.php
+settings.extend,group,"array('enabled'=>true, 'files'=>array()",381,T2Editor/config/t2_hard_config.php

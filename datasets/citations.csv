@@ -1,0 +1,21 @@
+citations,doc,path,spec,resolve_to,must_contain,why
+1,knowledge/v11-hotspots.md,T2Editor/vendor/pdfjs/pdf.min.js,110580,,isEvalSupported:e=!0,압축 파일 오프셋. 기본값이 참이어야 CVE-2024-4367 경로가 열린다
+2,knowledge/v11-hotspots.md,T2Editor/plugin/file/pdf_view.core.php,226-232,,getDocument,isEvalSupported 를 넘기지 않는 호출부 — 고치면 1줄
+3,knowledge/v11-hotspots.md,T2Editor/guide.txt,63,,chmod -R 775,가이드가 코어(707)와 어긋나는 지점
+4,knowledge/v11-hotspots.md,T2Editor/extend/admin/js/t2_first_run_guide.js,"31,34,47,51,81,82,482,570",,최소 권장 707,코어 UI 가 사용자에게 말하는 권한 수치
+5,knowledge/v11-hotspots.md,t2-visual-system.css,496-502,,t2-toolbar-reveal,AGENTS.md:45 가 인용한 구간
+6,knowledge/v11-hotspots.md,T2Editor/css/t2-foundation.css,"366,376,428,433",,--t2-u,정의 실제 위치 (AGENTS.md:299 는 다른 파일의 라인)
+7,knowledge/v11-hotspots.md,T2Editor/core/editor.core.php,138-160,,T2EDITOR_PLUGINS,기본 등록 배열 16개
+8,knowledge/v11-hotspots.md,T2Editor/extend/editor/php/t2paste_migrate_loader.php,2,,paste_migrate,등록 배열 밖에 있는 플러그인의 전용 로더
+9,knowledge/v11-structure.md,T2Editor/config/extend.php,2174,,t2_extend_plugin_index,자동 등록 인덱스 함수
+10,knowledge/v11-structure.md,extend.php,784-785,T2Editor/config/extend.php,invalid_bundled_api_declaration,API 선언 사본이 갈라지면 차단되는 지점
+11,knowledge/v11-security.md,host-bridge.php,87,T2Editor/integration/sanitize/providers/host-bridge.php,priority,basename 이 permission/sanitize/wordfilter 세 곳에 중복
+12,knowledge/v11-security.md,standalone.php,16,T2Editor/integration/sanitize/providers/standalone.php,priority,host-bridge 짝 — sanitize 공급자
+13,knowledge/v11-security.md,standalone.php,5-13,T2Editor/integration/cms/adapters/standalone.php,dir_permission,CMS 어댑터 — 0755 를 코드가 강행하는 지점
+14,knowledge/v11-security.md,openai.php,26,T2Editor/config/ai/image_providers/openai.php,data:image/png;base64,basename 이 image_providers/ 와 providers/ 에 중복
+15,knowledge/v11-security.md,custom.php,37,T2Editor/config/ai/image_providers/custom.php,data:image/,동일
+16,knowledge/v11-playbook.md,tools/t2-release-gate.sh,84-94,,step,게이트 10단계가 실제로 선언된 구간
+17,knowledge/v11-playbook.md,tools/t2-release-gate.sh,11,,--quick,--quick 이 주석에만 존재 — 문서 오류의 원천
+18,knowledge/v11-playbook.md,tools/t2-css-contract.mjs,711-719,,C22,폐기된 규칙의 제거 주석
+19,knowledge/v11-playbook.md,tools/t2-css-contract.mjs,77,,PUBLISHED_VOCAB,공개 어휘 목록 — 갱신 대상은 css/DESIGN-SYSTEM-VOCABULARY.md
+20,knowledge/v11-playbook.md,t2-css-contract.mjs,721-722,,추적 중인 부채,baseline 은 허용 목록이 아니라 추적 부채

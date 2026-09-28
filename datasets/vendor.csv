@@ -1,0 +1,13 @@
+package,files,bytes,detected_versions,largest_files
+formatjs,1,16651,vendor/formatjs/t2i18n-polyfill.js=10.2.1,"vendor/formatjs/t2i18n-polyfill.js:16,651"
+hlsjs,2,544705,,"vendor/hlsjs/hls.min.js:543,206 vendor/hlsjs/LICENSE:1,499"
+jsqr,2,141952,,"vendor/jsqr/jsQR.min.js:130,594 vendor/jsqr/LICENSE:11,358"
+jszip,2,131644,vendor/jszip/jszip.min.js=3.10.1,"vendor/jszip/jszip.min.js:97,837 vendor/jszip/LICENSE.markdown:33,807"
+nsfwjs,4,7135609,,"vendor/nsfwjs/models/mobilenet_v2_mid/group1-shard1of2.bin:4,194,304 vendor/nsfwjs/nsfwjs.min.js:2,693,126 vendor/nsfwjs/models/mobilenet_v2_mid/model.json:141,708 vendor/nsfwjs/models/mobilenet_v2_mid/group1-shard2of2.bin:106,471"
+p2p-media-loader,2,120285,,"vendor/p2p-media-loader/p2p-media-loader-hlsjs.iife.min.js:108,766 vendor/p2p-media-loader/LICENSE:11,519"
+pdfjs,3,1418991,vendor/pdfjs/pdf.min.js=3.11.174,"vendor/pdfjs/pdf.worker.min.js:1,087,424 vendor/pdfjs/pdf.min.js:320,209 vendor/pdfjs/LICENSE:11,358"
+peerjs,2,93973,vendor/peerjs/peerjs.min.js=1.5.4,"vendor/peerjs/peerjs.min.js:92,865 vendor/peerjs/LICENSE:1,108"
+tfjs,1,1470045,vendor/tfjs/tf.min.js=3.29.1,"vendor/tfjs/tf.min.js:1,470,045"
+tfjs-backend-wasm,4,1321449,,"vendor/tfjs-backend-wasm/tfjs-backend-wasm-threaded-simd.wasm:435,643 vendor/tfjs-backend-wasm/tfjs-backend-wasm-simd.wasm:424,594 vendor/tfjs-backend-wasm/tfjs-backend-wasm.wasm:311,123 vendor/tfjs-backend-wasm/tf-backend-wasm.min.js:150,089"
+tfjs-backend-webgl,1,399648,,"vendor/tfjs-backend-webgl/tf-backend-webgl.min.js:399,648"
+tfjs-backend-webgpu,1,325767,,"vendor/tfjs-backend-webgpu/tf-backend-webgpu.min.js:325,767"

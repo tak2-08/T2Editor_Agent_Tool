@@ -1,0 +1,64 @@
+name: staleness
+
+on:
+  schedule:
+    # 매주 월요일 04:17 UTC. 정본이 움직이면 이 자산이 낡는다 — 조용히 두지 않는다.
+    - cron: '17 4 * * 1'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'knowledge/**'
+      - 'skills/**'
+      - 'data/**'
+      - 'datasets/**'
+      - 'tools/**'
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 정본 준비
+        # 정본이 private 이므로 토큰이 필요하다. 없으면 이 단계가 실패한다.
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          git clone --depth 50 https://github.com/${{ secrets.T2_V11_OWNER }}/T2Editor-v11.git "$RUNNER_TEMP/T2Editor-v11" || {
+            echo "::error::정본 체크아웃 실패 — secrets.T2_V11_OWNER 와 secrets.GH_TOKEN 을 확인하라"
+            exit 2
+          }
+          echo "T2EDITOR_V11_ROOT=$RUNNER_TEMP/T2Editor-v11" >> "$GITHUB_ENV"
+
+      - name: 자산 신선도 확인
+        run: node tools/t2at.mjs status
+
+      - name: 인용 전수 검증 (내용 변경까지)
+        run: node tools/t2at.mjs verify --json
+
+      - name: 종합 진단
+        run: node tools/t2at.mjs doctor
+
+      - name: 카탈로그가 정본을 따라가지 못한 경우 알림
+        run: |
+          if ! git diff --quiet -- data/catalog datasets; then
+            echo "::warning::data/ 또는 datasets/ 가 커밋된 내용과 정본의 현재 상태가 다르다. 로컬에서 'node tools/t2at.mjs refresh --write' 후 차분을 확인하라"
+          fi
+
+      - name: 리포트 아티팩트
+        if: always()
+        run: |
+          mkdir -p artifacts
+          cp -f datasets/citation-report.json artifacts/ 2>/dev/null || true
+          node tools/t2at.mjs status > artifacts/status.txt 2>&1 || true
+          node tools/t2at.mjs verify  > artifacts/verify.txt  2>&1 || true
+          node tools/t2at.mjs doctor  > artifacts/doctor.txt  2>&1 || true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: t2at-diagnosis
+          path: artifacts/

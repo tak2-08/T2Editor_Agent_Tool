@@ -1,0 +1,78 @@
+{
+  "available": true,
+  "source": "tools/t2-release-gate.sh",
+  "lines": 110,
+  "stepCount": 10,
+  "steps": [
+    {
+      "n": 1,
+      "name": "PHP 구문 검사",
+      "command": "php_syntax",
+      "line": 84
+    },
+    {
+      "n": 2,
+      "name": "JS 구문 검사",
+      "command": "js_syntax",
+      "line": 85
+    },
+    {
+      "n": 3,
+      "name": "JSON 구문 검사",
+      "command": "json_syntax",
+      "line": 86
+    },
+    {
+      "n": 4,
+      "name": "매니페스트 스키마",
+      "command": "manifest_schema",
+      "line": 87
+    },
+    {
+      "n": 5,
+      "name": "정적 검사",
+      "command": "node tools/t2-static-check.mjs",
+      "line": 89
+    },
+    {
+      "n": 6,
+      "name": "CSS 계약 검사",
+      "command": "node tools/t2-css-contract.mjs",
+      "line": 90
+    },
+    {
+      "n": 7,
+      "name": "발행 본문 시트 일치",
+      "command": "node tools/t2-content-css-build.mjs",
+      "line": 91
+    },
+    {
+      "n": 8,
+      "name": "회귀 시험 (JS)",
+      "command": "node tests/run.mjs",
+      "line": 92
+    },
+    {
+      "n": 9,
+      "name": "회귀 시험 (PHP)",
+      "command": "php tests/run.php",
+      "line": 93
+    },
+    {
+      "n": 10,
+      "name": "런타임 산출물 미커밋",
+      "command": "runtime_artifacts",
+      "line": 94
+    }
+  ],
+  "hasArgParsing": false,
+  "supportsQuickFlag": false,
+  "quickMentionLines": [
+    11
+  ],
+  "note": "인자 파싱 없음 (플래그 전부 무시된다)",
+  "baselines": [
+    "t2-css-contract.baseline.json",
+    "t2-static-check.baseline.json"
+  ]
+}

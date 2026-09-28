@@ -1,0 +1,825 @@
+{
+  "registrationSource": "T2Editor/core/editor.core.php",
+  "registrationLine": 138,
+  "registeredCount": 16,
+  "directoryCount": 17,
+  "registered": [
+    "link",
+    "image",
+    "video",
+    "file",
+    "table",
+    "code",
+    "linkcard",
+    "export",
+    "search",
+    "t2search",
+    "draw",
+    "collab",
+    "ai_complex",
+    "clipurl",
+    "meme",
+    "t2captcha"
+  ],
+  "notInDefaultRegistration": [
+    "paste_migrate"
+  ],
+  "autoRegistrar": {
+    "file": "T2Editor/extend/editor/php/t2z_plugin_autoregister.php",
+    "note": "extend 매니페스트에서 autoload 플래그가 켜진 것만 자동 등록 배열에 보탠다",
+    "indexFn": "t2_extend_plugin_index() @ T2Editor/config/extend.php:2174"
+  },
+  "plugins": [
+    {
+      "id": "ai_complex",
+      "role": "AI (T2LLM) — ai + ai_rearrange 통폐합",
+      "inDefaultRegistration": true,
+      "registration": "$T2EDITOR_PLUGINS 배열 (core/editor.core.php:138)",
+      "files": 23,
+      "bytes": 1107945,
+      "hooksFiles": [
+        "plugin/ai_complex/hooks.js"
+      ],
+      "button": {
+        "file": "plugin/ai_complex/button.json",
+        "keys": [
+          "version",
+          "buttons"
+        ],
+        "count": 1
+      },
+      "manifest": {
+        "file": "plugin/ai_complex/plugin.json",
+        "keys": [
+          "id",
+          "name",
+          "description",
+          "developer",
+          "version",
+          "developed_at",
+          "admin",
+          "execution_mode",
+          "command_effects",
+          "platform",
+          "modules",
+          "consumes_apis",
+          "ai",
+          "privacy"
+        ]
+      },
+      "topFiles": [
+        "plugin/ai_complex/ai_complex.css",
+        "plugin/ai_complex/ai_complex.js",
+        "plugin/ai_complex/api.core.php",
+        "plugin/ai_complex/api.php",
+        "plugin/ai_complex/artifact_panel.js",
+        "plugin/ai_complex/button.json",
+        "plugin/ai_complex/hooks.js",
+        "plugin/ai_complex/plugin.json"
+      ]
+    },
+    {
+      "id": "clipurl",
+      "role": "URL 클리핑/붙여넣기 가져오기",
+      "inDefaultRegistration": true,
+      "registration": "$T2EDITOR_PLUGINS 배열 (core/editor.core.php:138)",
+      "files": 9,
+      "bytes": 66102,
+      "hooksFiles": [
+        "plugin/clipurl/hooks.js"
+      ],
+      "button": {
+        "file": "plugin/clipurl/button.json",
+        "keys": [
+          "version",
+          "buttons"
+        ],
+        "count": 1
+      },
+      "manifest": {
+        "file": "plugin/clipurl/plugin.json",
+        "keys": [
+          "id",
+          "name",
+          "description",
+          "developer",
+          "version",
+          "developed_at",
+          "admin",
+          "execution_mode",
+          "command_effects",
+          "platform",
+          "consumes_apis",
+          "ai_launcher",
+          "ai_surface",
+          "privacy"
+        ]
+      },
+      "topFiles": [
+        "plugin/clipurl/button.json",
+        "plugin/clipurl/clipurl.css",
+        "plugin/clipurl/clipurl.js",
+        "plugin/clipurl/hooks.js",
+        "plugin/clipurl/plugin.json"
+      ]
+    },
+    {
+      "id": "code",
+      "role": "코드 블록 강조//language 지정",
+      "inDefaultRegistration": true,
+      "registration": "$T2EDITOR_PLUGINS 배열 (core/editor.core.php:138)",
+      "files": 10,
+      "bytes": 44361,
+      "hooksFiles": [
+        "plugin/code/hooks.js"
+      ],
+      "button": {
+        "file": "plugin/code/button.json",
+        "keys": [
+          "version",
+          "buttons"
+        ],
+        "count": 1
+      },
+      "manifest": {
+        "file": "plugin/code/plugin.json",
+        "keys": [
+          "id",
+          "name",
+          "description",
+          "developer",
+          "version",
+          "developed_at",
+          "admin",
+          "execution_mode",
+          "command_effects",
+          "platform",
+          "consumes_apis",
+          "ai_surface",
+          "provides_api",
+          "markdown",
+          "privacy"
+        ]
+      },
+      "topFiles": [
+        "plugin/code/button.json",
+        "plugin/code/code.content.css",
+        "plugin/code/code.css",
+        "plugin/code/code.js",
+        "plugin/code/hooks.js",
+        "plugin/code/plugin.json"
+      ]
+    },
+    {
+      "id": "collab",
+      "role": "실시간 협업(peerjs/p2p-media-loader)",
+      "inDefaultRegistration": true,
+      "registration": "$T2EDITOR_PLUGINS 배열 (core/editor.core.php:138)",
+      "files": 30,
+      "bytes": 833787,
+      "hooksFiles": [
+        "plugin/collab/hooks.js"
+      ],
+      "button": {
+        "file": "plugin/collab/button.json",
+        "keys": [
+          "version",
+          "buttons"
+        ],
+        "count": 1
+      },
+      "manifest": {
+        "file": "plugin/collab/plugin.json",
+        "keys": [
+          "id",
+          "name",
+          "description",
+          "developer",
+          "version",
+          "developed_at",
+          "admin",
+          "execution_mode",
+          "command_effects",
+          "platform",
+          "modules",
+          "consumes_apis",
+          "ai_launcher",
+          "privacy"
+        ]
+      },
+      "topFiles": [
+        "plugin/collab/button.json",
+        "plugin/collab/collab.css",
+        "plugin/collab/collab.js",
+        "plugin/collab/collab_number.core.php",
+        "plugin/collab/collab_number.php",
+        "plugin/collab/collab_number_delete.core.php",
+        "plugin/collab/collab_number_delete.php",
+        "plugin/collab/collab_store.core.php",
+        "plugin/collab/collab_verification.core.php",
+        "plugin/collab/collab_verification.php",
+        "plugin/collab/hooks.js",
+        "plugin/collab/plugin.json",
+        "plugin/collab/room.core.php",
+        "plugin/collab/room.css",
+        "plugin/collab/room.php"
+      ]
+    },
+    {
+      "id": "draw",
+      "role": "그림 그리기",
+      "inDefaultRegistration": true,
+      "registration": "$T2EDITOR_PLUGINS 배열 (core/editor.core.php:138)",
+      "files": 10,
+      "bytes": 79606,
+      "hooksFiles": [
+        "plugin/draw/hooks.js"
+      ],
+      "button": {
+        "file": "plugin/draw/button.json",
+        "keys": [
+          "version",
+          "buttons"
+        ],
+        "count": 1
+      },
+      "manifest": {
+        "file": "plugin/draw/plugin.json",
+        "keys": [
+          "id",
+          "name",
+          "description",
+          "developer",
+          "version",
+          "developed_at",
+          "admin",
+          "execution_mode",
+          "command_effects",
+          "platform",
+          "consumes_apis",
+          "ai_launcher",
+          "ai_surface",
+          "markdown",
+          "privacy"
+        ]
+      },
+      "topFiles": [
+        "plugin/draw/button.json",
+        "plugin/draw/draw.content.css",
+        "plugin/draw/draw.css",
+        "plugin/draw/draw.js",
+        "plugin/draw/hooks.js",
+        "plugin/draw/plugin.json"
+      ]
+    },
+    {
+      "id": "export",
+      "role": "본문 내보내기",
+      "inDefaultRegistration": true,
+      "registration": "$T2EDITOR_PLUGINS 배열 (core/editor.core.php:138)",
+      "files": 9,
+      "bytes": 57957,
+      "hooksFiles": [
+        "plugin/export/hooks.js"
+      ],
+      "button": {
+        "file": "plugin/export/button.json",
+        "keys": [
+          "version",
+          "buttons"
+        ],
+        "count": 1
+      },
+      "manifest": {
+        "file": "plugin/export/plugin.json",
+        "keys": [
+          "id",
+          "name",
+          "description",
+          "developer",
+          "version",
+          "developed_at",
+          "admin",
+          "execution_mode",
+          "command_effects",
+          "platform",
+          "consumes_apis",
+          "ai_launcher",
+          "privacy"
+        ]
+      },
+      "topFiles": [
+        "plugin/export/button.json",
+        "plugin/export/export.js",
+        "plugin/export/export_html_skin.html",
+        "plugin/export/hooks.js",
+        "plugin/export/plugin.json"
+      ]
+    },
+    {
+      "id": "file",
+      "role": "파일 첨부·다운로드·PDF 뷰어",
+      "inDefaultRegistration": true,
+      "registration": "$T2EDITOR_PLUGINS 배열 (core/editor.core.php:138)",
+      "files": 17,
+      "bytes": 152550,
+      "hooksFiles": [
+        "plugin/file/hooks.js"
+      ],
+      "button": {
+        "file": "plugin/file/button.json",
+        "keys": [
+          "version",
+          "buttons"
+        ],
+        "count": 1
+      },
+      "manifest": {
+        "file": "plugin/file/plugin.json",
+        "keys": [
+          "id",
+          "name",
+          "description",
+          "developer",
+          "version",
+          "developed_at",
+          "admin",
+          "execution_mode",
+          "command_effects",
+          "platform",
+          "consumes_apis",
+          "ai_launcher",
+          "ai_surface",
+          "markdown",
+          "privacy"
+        ]
+      },
+      "topFiles": [
+        "plugin/file/audio_player.core.php",
+        "plugin/file/audio_player.js",
+        "plugin/file/audio_player.php",
+        "plugin/file/button.json",
+        "plugin/file/file.content.css",
+        "plugin/file/file.css",
+        "plugin/file/file.js",
+        "plugin/file/file_upload.core.php",
+        "plugin/file/file_upload.php",
+        "plugin/file/hooks.js",
+        "plugin/file/pdf_view.core.php",
+        "plugin/file/pdf_view.php",
+        "plugin/file/plugin.json"
+      ]
+    },
+    {
+      "id": "image",
+      "role": "이미지 업로드·삽입·리사이즈",
+      "inDefaultRegistration": true,
+      "registration": "$T2EDITOR_PLUGINS 배열 (core/editor.core.php:138)",
+      "files": 12,
+      "bytes": 290117,
+      "hooksFiles": [
+        "plugin/image/hooks.js"
+      ],
+      "button": {
+        "file": "plugin/image/button.json",
+        "keys": [
+          "version",
+          "buttons"
+        ],
+        "count": 1
+      },
+      "manifest": {
+        "file": "plugin/image/plugin.json",
+        "keys": [
+          "id",
+          "name",
+          "description",
+          "developer",
+          "version",
+          "developed_at",
+          "admin",
+          "execution_mode",
+          "command_effects",
+          "platform",
+          "consumes_apis",
+          "ai_launcher",
+          "ai_surface",
+          "markdown",
+          "privacy"
+        ]
+      },
+      "topFiles": [
+        "plugin/image/button.json",
+        "plugin/image/hooks.js",
+        "plugin/image/image.content.css",
+        "plugin/image/image.css",
+        "plugin/image/image.js",
+        "plugin/image/image_upload.core.php",
+        "plugin/image/image_upload.php",
+        "plugin/image/plugin.json"
+      ]
+    },
+    {
+      "id": "link",
+      "role": "본문 링크 삽입/편집",
+      "inDefaultRegistration": true,
+      "registration": "$T2EDITOR_PLUGINS 배열 (core/editor.core.php:138)",
+      "files": 9,
+      "bytes": 56318,
+      "hooksFiles": [
+        "plugin/link/hooks.js"
+      ],
+      "button": {
+        "file": "plugin/link/button.json",
+        "keys": [
+          "version",
+          "buttons"
+        ],
+        "count": 1
+      },
+      "manifest": {
+        "file": "plugin/link/plugin.json",
+        "keys": [
+          "id",
+          "name",
+          "description",
+          "developer",
+          "version",
+          "developed_at",
+          "admin",
+          "execution_mode",
+          "command_effects",
+          "platform",
+          "consumes_apis",
+          "ai_launcher",
+          "ai_surface",
+          "markdown",
+          "privacy"
+        ]
+      },
+      "topFiles": [
+        "plugin/link/button.json",
+        "plugin/link/hooks.js",
+        "plugin/link/link.css",
+        "plugin/link/link.js",
+        "plugin/link/plugin.json"
+      ]
+    },
+    {
+      "id": "linkcard",
+      "role": "URL 미리보기 카드(fetch+DOMDocument)",
+      "inDefaultRegistration": true,
+      "registration": "$T2EDITOR_PLUGINS 배열 (core/editor.core.php:138)",
+      "files": 12,
+      "bytes": 83918,
+      "hooksFiles": [
+        "plugin/linkcard/hooks.js"
+      ],
+      "button": {
+        "file": "plugin/linkcard/button.json",
+        "keys": [
+          "version",
+          "buttons"
+        ],
+        "count": 1
+      },
+      "manifest": {
+        "file": "plugin/linkcard/plugin.json",
+        "keys": [
+          "id",
+          "name",
+          "description",
+          "developer",
+          "version",
+          "developed_at",
+          "admin",
+          "execution_mode",
+          "command_effects",
+          "platform",
+          "consumes_apis",
+          "markdown",
+          "privacy"
+        ]
+      },
+      "topFiles": [
+        "plugin/linkcard/button.json",
+        "plugin/linkcard/hooks.js",
+        "plugin/linkcard/linkcard.content.css",
+        "plugin/linkcard/linkcard.css",
+        "plugin/linkcard/linkcard.js",
+        "plugin/linkcard/linkcard_fetch.core.php",
+        "plugin/linkcard/linkcard_fetch.php",
+        "plugin/linkcard/plugin.json"
+      ]
+    },
+    {
+      "id": "meme",
+      "role": "밈 생성",
+      "inDefaultRegistration": true,
+      "registration": "$T2EDITOR_PLUGINS 배열 (core/editor.core.php:138)",
+      "files": 13,
+      "bytes": 81643,
+      "hooksFiles": [
+        "plugin/meme/hooks.js"
+      ],
+      "button": {
+        "file": "plugin/meme/button.json",
+        "keys": [
+          "version",
+          "buttons"
+        ],
+        "count": 1
+      },
+      "manifest": {
+        "file": "plugin/meme/plugin.json",
+        "keys": [
+          "id",
+          "name",
+          "description",
+          "developer",
+          "version",
+          "developed_at",
+          "admin",
+          "execution_mode",
+          "command_effects",
+          "platform",
+          "consumes_apis",
+          "ai_launcher",
+          "privacy",
+          "ai_surface"
+        ]
+      },
+      "topFiles": [
+        "plugin/meme/button.json",
+        "plugin/meme/hooks.js",
+        "plugin/meme/meme.css",
+        "plugin/meme/meme.js",
+        "plugin/meme/meme_api_proxy.core.php",
+        "plugin/meme/meme_api_proxy.php",
+        "plugin/meme/meme_proxy.core.php",
+        "plugin/meme/meme_proxy.php",
+        "plugin/meme/plugin.json"
+      ]
+    },
+    {
+      "id": "paste_migrate",
+      "role": "미분류(등록 배열 대응 없음)",
+      "inDefaultRegistration": false,
+      "registration": "전용 로더 (T2Editor/extend/editor/php/t2paste_migrate_loader.php:2) — 등록 배열에 없음",
+      "files": 7,
+      "bytes": 39820,
+      "hooksFiles": [],
+      "button": null,
+      "manifest": {
+        "file": "plugin/paste_migrate/plugin.json",
+        "keys": [
+          "id",
+          "name",
+          "description",
+          "developer",
+          "version",
+          "developed_at",
+          "admin",
+          "execution_mode",
+          "platform",
+          "consumes_apis",
+          "autoload",
+          "privacy"
+        ]
+      },
+      "topFiles": [
+        "plugin/paste_migrate/paste_migrate.css",
+        "plugin/paste_migrate/paste_migrate.js",
+        "plugin/paste_migrate/plugin.json"
+      ]
+    },
+    {
+      "id": "search",
+      "role": "본문 검색",
+      "inDefaultRegistration": true,
+      "registration": "$T2EDITOR_PLUGINS 배열 (core/editor.core.php:138)",
+      "files": 9,
+      "bytes": 111952,
+      "hooksFiles": [],
+      "button": {
+        "file": "plugin/search/button.json",
+        "keys": [
+          "version",
+          "buttons"
+        ],
+        "count": 1
+      },
+      "manifest": {
+        "file": "plugin/search/plugin.json",
+        "keys": [
+          "id",
+          "name",
+          "description",
+          "developer",
+          "version",
+          "developed_at",
+          "admin",
+          "execution_mode",
+          "command_effects",
+          "platform",
+          "consumes_apis",
+          "ai_launcher",
+          "privacy",
+          "ai_surface"
+        ]
+      },
+      "topFiles": [
+        "plugin/search/button.json",
+        "plugin/search/plugin.json",
+        "plugin/search/search.content.css",
+        "plugin/search/search.css",
+        "plugin/search/search.js"
+      ]
+    },
+    {
+      "id": "t2captcha",
+      "role": "번들 봇 방지 공급자(툴바 단추 없음 — 서비스 플러그인)",
+      "inDefaultRegistration": true,
+      "registration": "$T2EDITOR_PLUGINS 배열 (core/editor.core.php:138)",
+      "files": 23,
+      "bytes": 582577,
+      "hooksFiles": [],
+      "button": null,
+      "manifest": {
+        "file": "plugin/t2captcha/plugin.json",
+        "keys": [
+          "id",
+          "name",
+          "description",
+          "developer",
+          "version",
+          "developed_at",
+          "admin",
+          "execution_mode",
+          "platform",
+          "consumes_apis",
+          "privacy"
+        ]
+      },
+      "topFiles": [
+        "plugin/t2captcha/PORTING.md",
+        "plugin/t2captcha/captcha.lib.php",
+        "plugin/t2captcha/entry_generate.php",
+        "plugin/t2captcha/entry_shared.php",
+        "plugin/t2captcha/entry_verify.php",
+        "plugin/t2captcha/package.json",
+        "plugin/t2captcha/plugin.json",
+        "plugin/t2captcha/t2captcha.class.php",
+        "plugin/t2captcha/t2captcha.core.php",
+        "plugin/t2captcha/t2captcha.css",
+        "plugin/t2captcha/t2captcha.host.php",
+        "plugin/t2captcha/t2captcha.js",
+        "plugin/t2captcha/t2captcha.provider.js",
+        "plugin/t2captcha/t2captcha.t2editor.php",
+        "plugin/t2captcha/t2captcha.user.lib.php",
+        "plugin/t2captcha/t2captcha_generate.php",
+        "plugin/t2captcha/t2captcha_render.php",
+        "plugin/t2captcha/t2captcha_verify.php",
+        "plugin/t2captcha/tailwindcss3.4.16.js"
+      ]
+    },
+    {
+      "id": "t2search",
+      "role": "T2 통합 검색",
+      "inDefaultRegistration": true,
+      "registration": "$T2EDITOR_PLUGINS 배열 (core/editor.core.php:138)",
+      "files": 8,
+      "bytes": 20027,
+      "hooksFiles": [],
+      "button": null,
+      "manifest": {
+        "file": "plugin/t2search/plugin.json",
+        "keys": [
+          "id",
+          "name",
+          "description",
+          "developer",
+          "version",
+          "developed_at",
+          "admin",
+          "execution_mode",
+          "platform",
+          "consumes_apis",
+          "privacy"
+        ]
+      },
+      "topFiles": [
+        "plugin/t2search/plugin.json",
+        "plugin/t2search/search_proxy.core.php",
+        "plugin/t2search/search_proxy.php",
+        "plugin/t2search/t2search.js"
+      ]
+    },
+    {
+      "id": "table",
+      "role": "표 편집(행/열/병합/정렬)",
+      "inDefaultRegistration": true,
+      "registration": "$T2EDITOR_PLUGINS 배열 (core/editor.core.php:138)",
+      "files": 10,
+      "bytes": 128274,
+      "hooksFiles": [
+        "plugin/table/hooks.js"
+      ],
+      "button": {
+        "file": "plugin/table/button.json",
+        "keys": [
+          "version",
+          "buttons"
+        ],
+        "count": 1
+      },
+      "manifest": {
+        "file": "plugin/table/plugin.json",
+        "keys": [
+          "id",
+          "name",
+          "description",
+          "developer",
+          "version",
+          "developed_at",
+          "admin",
+          "execution_mode",
+          "command_effects",
+          "platform",
+          "consumes_apis",
+          "ai_launcher",
+          "ai_surface",
+          "provides_api",
+          "markdown",
+          "content_block_ui",
+          "privacy"
+        ]
+      },
+      "topFiles": [
+        "plugin/table/button.json",
+        "plugin/table/hooks.js",
+        "plugin/table/plugin.json",
+        "plugin/table/table.content.css",
+        "plugin/table/table.css",
+        "plugin/table/table.js"
+      ]
+    },
+    {
+      "id": "video",
+      "role": "비디오/임베드 삽입",
+      "inDefaultRegistration": true,
+      "registration": "$T2EDITOR_PLUGINS 배열 (core/editor.core.php:138)",
+      "files": 20,
+      "bytes": 377217,
+      "hooksFiles": [
+        "plugin/video/hooks.js"
+      ],
+      "button": {
+        "file": "plugin/video/button.json",
+        "keys": [
+          "version",
+          "buttons"
+        ],
+        "count": 1
+      },
+      "manifest": {
+        "file": "plugin/video/plugin.json",
+        "keys": [
+          "id",
+          "name",
+          "description",
+          "developer",
+          "version",
+          "developed_at",
+          "admin",
+          "execution_mode",
+          "command_effects",
+          "platform",
+          "consumes_apis",
+          "ai_launcher",
+          "ai_surface",
+          "markdown",
+          "privacy"
+        ]
+      },
+      "topFiles": [
+        "plugin/video/button.json",
+        "plugin/video/hooks.js",
+        "plugin/video/plugin.json",
+        "plugin/video/video.content.css",
+        "plugin/video/video.css",
+        "plugin/video/video.js",
+        "plugin/video/video_chat.css",
+        "plugin/video/video_chat.js",
+        "plugin/video/video_p2p.js",
+        "plugin/video/video_player.core.php",
+        "plugin/video/video_player.css",
+        "plugin/video/video_player.js",
+        "plugin/video/video_player.php",
+        "plugin/video/video_public_render.js",
+        "plugin/video/video_view.core.php",
+        "plugin/video/video_view.php"
+      ]
+    }
+  ]
+}

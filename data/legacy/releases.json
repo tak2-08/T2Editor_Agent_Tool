@@ -1,0 +1,1900 @@
+{
+  "schema": "t2at/legacy-bodies@1",
+  "note": "본문 전문. 질의는 t2at.mjs query 로 본다.",
+  "releases": [
+    {
+      "id": "v1-1.6.3",
+      "family": "v1",
+      "edition": "1.6.3",
+      "tag": "v1.6.3",
+      "releaseName": "T2Editor 1.6.3 [EOL]",
+      "realDate": "2025-05-01",
+      "archivePublishedAt": "2026-09-27T14:22:03Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0 (판본 안 License_ko.txt)",
+      "zip": "1.6.3.zip (1.10 MB)",
+      "sha256": "fc8a8e301642d8ea319fbebfe76bf7ad71b958c9bf17af3f41593bb677ed2079",
+      "lede": "외부 라이브러리를 자체 호스팅하도록 수정, T2Editor ver2.0.0B(Branch)을 위한 일부 수정",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "42984c71cd3a0f63"
+    },
+    {
+      "id": "v1-1.6.2",
+      "family": "v1",
+      "edition": "1.6.2",
+      "tag": "v1.6.2",
+      "releaseName": "T2Editor 1.6.2 [EOL]",
+      "realDate": "2025-04-18",
+      "archivePublishedAt": "2026-09-27T14:21:59Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0 (판본 안 License_ko.txt)",
+      "zip": "1.6.2.zip (0.82 MB)",
+      "sha256": "4520bca50c0ce22f166c8d659e1604701c589d27288ac9b19177d3fc74c6f993",
+      "lede": "(푸른 산타님의 제보) 게시글 내용 없이 게시 가능한 문제 수정",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "0eec38db0669cf75"
+    },
+    {
+      "id": "v1-1.6.1",
+      "family": "v1",
+      "edition": "1.6.1",
+      "tag": "v1.6.1",
+      "releaseName": "T2Editor 1.6.1 [EOL]",
+      "realDate": "2025-03-30",
+      "archivePublishedAt": "2026-09-27T14:21:57Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0 (판본 안 License_ko.txt)",
+      "zip": "1.6.1.zip (0.82 MB)",
+      "sha256": "2f6217b2ac1e525db0a43323d55be10ef3de822aae654d0a8ef06e1ff138c71b",
+      "lede": "editor.lib.php에서 다크모드 버튼 사용 여부 선택 및 강제 다크모드/라이트모드 적용 기능을 추가하였습니다. (주석의 지시를 따르면 됩니다.)",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "a91618bf18760281"
+    },
+    {
+      "id": "v1-1.6.0",
+      "family": "v1",
+      "edition": "1.6.0",
+      "tag": "v1.6.0",
+      "releaseName": "T2Editor 1.6.0 [EOL]",
+      "realDate": "2025-03-26",
+      "archivePublishedAt": "2026-09-27T14:21:54Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0 (판본 안 License_ko.txt)",
+      "zip": "1.6.0.zip (0.82 MB)",
+      "sha256": "3d1114bc89385a83cad26190699bf8d8dc4b48d7a19d174ce9900231b829ea99",
+      "lede": "자동 다크모드(버튼을 통해 on/off 가능)를 추가하였습니다. (로컬 스토리지를 활용하여 다크모드 설정값이 유지됨)",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "044905db77941429"
+    },
+    {
+      "id": "v1-1.5.4_B",
+      "family": "v1",
+      "edition": "1.5.4_B",
+      "tag": "v1.5.4_B",
+      "releaseName": "T2Editor 1.5.4_B [EOL]",
+      "realDate": "2025-03-25",
+      "archivePublishedAt": "2026-09-27T14:21:51Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0 (판본 안 License_ko.txt)",
+      "zip": "1.5.4b.zip (0.81 MB)",
+      "sha256": "8b2937b867c095e43521a7a74c5c328bcaab4321023b25716d12e62023320451",
+      "lede": "T2Editor B(Branch)는 그누보드5 외의 사용자를 위해  만들어진 커스텀 버전으로, 기본 T2Editor과 달리 꾸준한 업데이트를 보장하지 않습니다만, dsclub2023@gmail.com으로 요청 시 업데이트해드립니다. (연락 이메일당 1회) *1.5.4 기반으로 제작됨",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "02f3ca074e0fe6d9"
+    },
+    {
+      "id": "v1-1.5.4",
+      "family": "v1",
+      "edition": "1.5.4",
+      "tag": "v1.5.4",
+      "releaseName": "T2Editor 1.5.4 [EOL]",
+      "realDate": "2025-03-25",
+      "archivePublishedAt": "2026-09-27T14:21:43Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0 (판본 안 License_ko.txt)",
+      "zip": "1.5.4.zip (0.80 MB)",
+      "sha256": "c307ad582771b0a1f23235b7b1a1166f7ad76d68572e3bbc600ef49ee6f99923",
+      "lede": "수정사항: 권한 문제로 이미지 업로드 오류가 발생 하는 환경이 있는 것으로 파악되어 image_upload.php에 755 권한을 부여하는 기능을 추가하였습니다.",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "1fca532d0795ba83"
+    },
+    {
+      "id": "v1-1.5.3",
+      "family": "v1",
+      "edition": "1.5.3",
+      "tag": "v1.5.3",
+      "releaseName": "T2Editor 1.5.3 [EOL]",
+      "realDate": "2025-03-23",
+      "archivePublishedAt": "2026-09-27T14:21:40Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0 (판본 안 License_ko.txt)",
+      "zip": "1.5.3.zip (0.80 MB)",
+      "sha256": "7cd8a1d07aceb6775cc4927e2fddf98d09e2573001e592069c29ec7105e19bbf",
+      "lede": "현재 작성중인 텍스트/선택한 텍스트의 글자 크기를 감지하여 글자 크기 리스트의 해당 값을 호버 처리하도록 기능 추가",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "c0427e36077b836c"
+    },
+    {
+      "id": "v1-1.5.2",
+      "family": "v1",
+      "edition": "1.5.2",
+      "tag": "v1.5.2",
+      "releaseName": "T2Editor 1.5.2 [EOL]",
+      "realDate": "2025-03-16",
+      "archivePublishedAt": "2026-09-27T14:21:38Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0 (판본 안 License_ko.txt)",
+      "zip": "1.5.2.zip (0.80 MB)",
+      "sha256": "f350be4f3c4f9f7ed600ed2b1f87ae919cbcb768acb48b329b9b89420e5ae1c0",
+      "lede": "푸른산타(https://sir.kr/bbs/profile.php?mb_id=bodr)님의 게시판 관리자모드 에러 수정 버전을 적용",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "f5b045ffb4cedef9"
+    },
+    {
+      "id": "v1-1.5.1",
+      "family": "v1",
+      "edition": "1.5.1",
+      "tag": "v1.5.1",
+      "releaseName": "T2Editor 1.5.1 [EOL]",
+      "realDate": "2025-03-16",
+      "archivePublishedAt": "2026-09-27T14:21:34Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0 (판본 안 License_ko.txt)",
+      "zip": "1.5.1.zip (0.80 MB)",
+      "sha256": "20453ef46b6e1d0399c4abcc49a1dce88dbe5559f00b4f9f0e8f0286cc50b1a7",
+      "lede": "업로드한 이미지가 webp로 압축되지 않던 문제 해결",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "ec9392a1035d14a7"
+    },
+    {
+      "id": "v1-1.5.0",
+      "family": "v1",
+      "edition": "1.5.0",
+      "tag": "v1.5.0",
+      "releaseName": "T2Editor 1.5.0 [EOL]",
+      "realDate": "2025-03-15",
+      "archivePublishedAt": "2026-09-27T14:21:31Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0 (판본 안 License_ko.txt)",
+      "zip": "1.5.0.zip (0.80 MB)",
+      "sha256": "fa94d8340c6e7cb0701a20ccc4342e6e8197e32db7a831588ffc9d82dd39faae",
+      "lede": "에디터로 작성한 내용 html로 내보내기 기능 추가",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "73ffe803fc691e3d"
+    },
+    {
+      "id": "v1-1.4.2",
+      "family": "v1",
+      "edition": "1.4.2",
+      "tag": "v1.4.2",
+      "releaseName": "T2Editor 1.4.2 [EOL]",
+      "realDate": "2025-03-15",
+      "archivePublishedAt": "2026-09-27T14:21:28Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0 (판본 안 License_ko.txt)",
+      "zip": "1.4.2.zip (0.80 MB)",
+      "sha256": "e436315528ea7492f56971692b97bf762bc026ae4ab8cc16fac585c92a1c8d0f",
+      "lede": "파일 첨부 기능을 통한 파일 아이콘 삽입 후 작성 완료된 게시글을 수정할 때 파일 아이콘의 구조가 비정상적으로 되는 문제 수정",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "5293efc63f75fa0c"
+    },
+    {
+      "id": "v1-1.4.1",
+      "family": "v1",
+      "edition": "1.4.1",
+      "tag": "v1.4.1",
+      "releaseName": "T2Editor 1.4.1 [EOL]",
+      "realDate": "2025-03-09",
+      "archivePublishedAt": "2026-09-27T14:21:26Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0 (판본 안 License_ko.txt)",
+      "zip": "1.4.1.zip (0.80 MB)",
+      "sha256": "51781869d5d268be97f5dba348a50f8c7f648001f1f0c234485c5a8661215670",
+      "lede": "툴바 사용성 향상 및 게시글 수정 시 미디어 블록 위 아래로 줄바꿈 추가되던 문제 수정",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "6d22d02d568c3ccb"
+    },
+    {
+      "id": "v1-1.4.0",
+      "family": "v1",
+      "edition": "1.4.0",
+      "tag": "v1.4.0",
+      "releaseName": "T2Editor 1.4.0 [EOL]",
+      "realDate": "2025-03-02",
+      "archivePublishedAt": "2026-09-27T14:21:23Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0 (판본 안 License_ko.txt)",
+      "zip": "1.4.0.zip (0.80 MB)",
+      "sha256": "fa09e8c00a39bc7f4978a93401791a4d2db035d054e49bd7cd92f96ca7497f60",
+      "lede": "작성한 테이블 cvs 공유 기능 추가",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "307e7ac1d581a9b3"
+    },
+    {
+      "id": "v1-1.3.1",
+      "family": "v1",
+      "edition": "1.3.1",
+      "tag": "v1.3.1",
+      "releaseName": "T2Editor 1.3.1 [EOL]",
+      "realDate": "2025-02-27",
+      "archivePublishedAt": "2026-09-27T14:21:20Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0 (판본 안 License_ko.txt)",
+      "zip": "1.3.1.zip (0.80 MB)",
+      "sha256": "abcc9406c48a6302be8fc96d3a54e8c379b6c0b8513f50a1db3017a72576cfb9",
+      "lede": "테이블 수정 메뉴 및 테이블 너비 오류 수정",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "7e12c83a58d21204"
+    },
+    {
+      "id": "v1-1.3.0",
+      "family": "v1",
+      "edition": "1.3.0",
+      "tag": "v1.3.0",
+      "releaseName": "T2Editor 1.3.0 [EOL]",
+      "realDate": "2025-02-25",
+      "archivePublishedAt": "2026-09-27T14:21:17Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0 (판본 안 License_ko.txt)",
+      "zip": "1.3.0.zip (0.80 MB)",
+      "sha256": "b4a39554be46eb7bc5ecc9f12a28b96274b9cfe0bfa3f44ae5947f5132610b33",
+      "lede": "간편 테이블 추가/수정 기능 추가",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "0e173b4fa37ca465"
+    },
+    {
+      "id": "v1-1.2.0",
+      "family": "v1",
+      "edition": "1.2.0",
+      "tag": "v1.2.0",
+      "releaseName": "T2Editor 1.2.0 [EOL]",
+      "realDate": "2025-02-24",
+      "archivePublishedAt": "2026-09-27T14:21:15Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0 (판본 안 License_ko.txt)",
+      "zip": "1.2.0.zip (0.64 MB)",
+      "sha256": "ddf1e5b5caab4f4a036ec581ab037ddcf0bd4209bfaac6519b3b83f72304d7ef",
+      "lede": "폰트 색상 직접 입력, 이미지 복사/붙여넣기 기능 추가 텍스트 링크 걸기, 텍스트 붙여넣기 오류 수정",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "7466c419fe68e3d3"
+    },
+    {
+      "id": "v1-1.1.0",
+      "family": "v1",
+      "edition": "1.1.0",
+      "tag": "v1.1.0",
+      "releaseName": "T2Editor 1.1.0 [EOL]",
+      "realDate": "2025-02-20",
+      "archivePublishedAt": "2026-09-27T14:21:12Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0 (판본 안 License_ko.txt)",
+      "zip": "1.1.0.zip (0.64 MB)",
+      "sha256": "fc62ddc51cc90c3f427085d5e32b1adbdf47eef57e770173def02cdfe94ba2c2",
+      "lede": "파일 첨부 기능 추가, pdf 뷰어 추가, 자동 저장기능 on/off 기능 추가",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "926d7bf57a3622c3"
+    },
+    {
+      "id": "v1-1.0.0",
+      "family": "v1",
+      "edition": "1.0.0",
+      "tag": "v1.0.0",
+      "releaseName": "T2Editor 1.0.0 [EOL]",
+      "realDate": "2025-02-15",
+      "archivePublishedAt": "2026-09-27T14:21:08Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0 (판본 안 License_ko.txt)",
+      "zip": "1.0.0.zip (0.02 MB)",
+      "sha256": "6aefb8a960932482394a6489549fa60e6b5e2a4da9d8bb92a1881616f0b650c5",
+      "lede": "최초 릴리즈 버전",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "0706a0eeb3e776cc"
+    },
+    {
+      "id": "v1-1.0.0-beta",
+      "family": "v1",
+      "edition": "1.0.0-beta",
+      "tag": "v1.0.0-beta",
+      "releaseName": "T2Editor 1.0.0-beta [EOL]",
+      "realDate": "2025-01-31",
+      "archivePublishedAt": "2026-09-27T14:21:06Z",
+      "state": "EOL",
+      "licenseAtRelease": "none",
+      "zip": "1.0.0-beta.zip (0.01 MB)",
+      "sha256": "fa5e8ad2f4ab7c0fe096123fa68849488c1878d85a0d063ed71ab4ee122b14bd",
+      "lede": null,
+      "sections": [
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "972bb02e1e7716c8"
+    },
+    {
+      "id": "v2-2.0.0_B",
+      "family": "v2",
+      "edition": "2.0.0_B",
+      "tag": "v2.0.0_B",
+      "releaseName": "T2Editor 2.0.0_B [EOL]",
+      "realDate": "2025-05-01",
+      "archivePublishedAt": "2026-09-27T14:23:15Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0 (판본 안 License_ko.txt)",
+      "zip": "2.0.0b.zip (1.09 MB)",
+      "sha256": "54934f7875597e05fde72fc9c1c629807d84f1e63be88a86ff9824424ed0017e",
+      "lede": "1.5.3_B에 1.6.3 기반 다크모드 및 모드 지정 기능을 추가하였습니다. 일부 기존 그누보드5의 코드가 포함되어있던 것을 에디터 자체 경로를 사용하도록 수정하였습니다. *2.0.0버전과 2.0.0B는 동일한 기능의 버전이 아닙니다. 2.0.0_B는 1.5.4_B에 1.6.3에 대한 기능 추가 및 기존 1.5.4_B와의 호환이 불가능한 구조 변경 및 패치를 진행한 버전입니다.",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "9800019f152a41dd"
+    },
+    {
+      "id": "v2-2.0.0C-1.0.0",
+      "family": "v2",
+      "edition": "2.0.0C-1.0.0",
+      "tag": "v2.0.0C-1.0.0",
+      "releaseName": "T2Editor 2.0.0C-1.0.0 [EOL]",
+      "realDate": "2025-06-02",
+      "archivePublishedAt": "2026-09-27T14:23:10Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0 (판본 안 License_ko.txt)",
+      "zip": "2.0.0c-1-0-0.zip (1.13 MB)",
+      "sha256": "511e14f118fb34844ccddc1a612011befdba9bbd5683ffe5f0a5215bc6909138",
+      "lede": null,
+      "sections": [
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "b85cad5518c4abe7"
+    },
+    {
+      "id": "v2-2.0.0",
+      "family": "v2",
+      "edition": "2.0.0",
+      "tag": "v2.0.0",
+      "releaseName": "T2Editor 2.0.0 [EOL]",
+      "realDate": "2025-06-03",
+      "archivePublishedAt": "2026-09-27T14:23:13Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0 (판본 안 License_ko.txt)",
+      "zip": "2.0.0.zip (1.11 MB)",
+      "sha256": "04a94ad0a3572369ee78497f47094e0844c72e802e3a8d1c888c0400f00b0239",
+      "lede": "v2 정식 출시: REST API + HTMX/Alpine 프론트엔드 + SQLite.",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "20215e49bba08b6b"
+    },
+    {
+      "id": "v3-3.0.9",
+      "family": "v3",
+      "edition": "3.0.9",
+      "tag": "v3.0.9",
+      "releaseName": "T2Editor 3.0.9 [EOL]",
+      "realDate": "2025-10-06",
+      "archivePublishedAt": "2026-09-27T14:24:01Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0 (판본 안 License_ko.txt)",
+      "zip": "3.0.9.zip (1.13 MB)",
+      "sha256": "62cba826236a1fc5f55b64c228f9ea366fe36284f02051b76ae2c9e11485ae2c",
+      "lede": "에디터에서 텍스트를 붙여넣을 경우, 커서가 붙여넣은 텍스트의 끝으로 이동하지 않고 기존 선택 위치에 머무르는 현상을 수정하였습니다. (core.js: handlePaste수정, setCaretToEnd추가)",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "e139576ac3251280"
+    },
+    {
+      "id": "v3-3.0.8",
+      "family": "v3",
+      "edition": "3.0.8",
+      "tag": "v3.0.8",
+      "releaseName": "T2Editor 3.0.8 [EOL]",
+      "realDate": "2025-10-03",
+      "archivePublishedAt": "2026-09-27T14:23:57Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0 (판본 안 License_ko.txt)",
+      "zip": "3.0.8.zip (1.13 MB)",
+      "sha256": "2880c5d4358686146d27def52390c2c1b087c1e9eba46b66cb3de5fd8edb6cea",
+      "lede": "수정사항: 1. 링크 클릭 팝업 메뉴 (plugin/link.js, css/dark.css, css/core.css) - 링크 클릭 시 팝업 메뉴가 뜨는 기능이 게시글을 게시할 때가 아닌 수정할 때만 작동하는 문제 및 스타일 적용 안됨을 해결하였습니다.",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "5ed9ed060dcbd824"
+    },
+    {
+      "id": "v3-3.0.7",
+      "family": "v3",
+      "edition": "3.0.7",
+      "tag": "v3.0.7",
+      "releaseName": "T2Editor 3.0.7 [EOL]",
+      "realDate": "2025-10-03",
+      "archivePublishedAt": "2026-09-27T14:23:54Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0 (판본 안 License_ko.txt)",
+      "zip": "3.0.7.zip (1.13 MB)",
+      "sha256": "a77241a5cbafad4c745f5f56e453d763878ec24ca02e90288bc9d8035306939a",
+      "lede": "수정사항: 코드블럭에 HTML 코드를 입력하고 게시하면, 텍스트로 표시되어야 할 HTML이 실제로 실행되는 XSS 취약점이 발견되어 editor.lib.php의 get_editor_js() 함수에서 저장 전 코드블럭 내용을 이스케이프 처리하도록 수정하였습니다.",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "47ecf91d914beb2b"
+    },
+    {
+      "id": "v3-3.0.6",
+      "family": "v3",
+      "edition": "3.0.6",
+      "tag": "v3.0.6",
+      "releaseName": "T2Editor 3.0.6 [EOL]",
+      "realDate": "2025-08-31",
+      "archivePublishedAt": "2026-09-27T14:23:51Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0 (판본 안 License_ko.txt)",
+      "zip": "3.0.6.zip (1.13 MB)",
+      "sha256": "d06c6cde7239dbf5416865cfa75fb57a847d1fb5fb4a860f8f04d337ea9f1d18",
+      "lede": "이미지 블록, 파일 블록, 비디오 블록의 공백 줄바꿈의 개수가 늘어나는 오류 해결. (js/core.js, plugin/image/image.js, plugin/file/file.js, plugin/video/video.js 수정됨) 기존 비디오블록의 처리 태그를 video에서 iframe으로 변경, 비디오 처리 전용 파일 plugin/video/video_view.php 추가",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "7a4b92a0344632e6"
+    },
+    {
+      "id": "v3-3.0.5",
+      "family": "v3",
+      "edition": "3.0.5",
+      "tag": "v3.0.5",
+      "releaseName": "T2Editor 3.0.5 [EOL]",
+      "realDate": "2025-08-30",
+      "archivePublishedAt": "2026-09-27T14:23:48Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0 (판본 안 License_ko.txt)",
+      "zip": "3.0.5.zip (1.13 MB)",
+      "sha256": "c259def27c41267bea15c5ec820df2b3efe49f7b301bab1e7b24fa7d1b409ead",
+      "lede": "코드블럭이 두 개 이상일 경우 공백 줄바꿈의 개수가 늘어나는 오류 해결. (js/core.js, plugin/code/code.js 수정됨)",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "f3b9e390ca506f4a"
+    },
+    {
+      "id": "v3-3.0.4",
+      "family": "v3",
+      "edition": "3.0.4",
+      "tag": "v3.0.4",
+      "releaseName": "T2Editor 3.0.4 [EOL]",
+      "realDate": "2025-08-29",
+      "archivePublishedAt": "2026-09-27T14:23:43Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0 (판본 안 License_ko.txt)",
+      "zip": "3.0.4.zip (1.13 MB)",
+      "sha256": "9f2cd3fdd705372d4dd3be185a500ece5b5ddb30e4835f7f322d64396865b33b",
+      "lede": "스타일 관련 오류 수정",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "e239ab870b3816c5"
+    },
+    {
+      "id": "v3-3.0.3",
+      "family": "v3",
+      "edition": "3.0.3",
+      "tag": "v3.0.3",
+      "releaseName": "T2Editor 3.0.3 [EOL]",
+      "realDate": "2025-08-24",
+      "archivePublishedAt": "2026-09-27T14:23:41Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0 (판본 안 License_ko.txt)",
+      "zip": "3.0.3.zip (1.13 MB)",
+      "sha256": "ac0c8332a36b67433f6278c007d391a56dc9f0a5d2540e0c89864c25fe103b26",
+      "lede": "Ver 3.0.3 수정사항: - 이미지 블록의 공백 줄바꿈이 중복 추가되거나 사라지는 등의 이미지 블록 간격 처리 문제 수정 - 코드 블록의 공백 줄바꿈이 중복 추가되거나 사라지는 등의 코드 블록 간격 처리 문제 수정",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "5e606550b41142ee"
+    },
+    {
+      "id": "v3-3.0.2",
+      "family": "v3",
+      "edition": "3.0.2",
+      "tag": "v3.0.2",
+      "releaseName": "T2Editor 3.0.2 [EOL]",
+      "realDate": "2025-06-21",
+      "archivePublishedAt": "2026-09-27T14:23:38Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0 (판본 안 License_ko.txt)",
+      "zip": "3.0.2.zip (1.12 MB)",
+      "sha256": "ae7993be073afd200cd6e7cd199f8e234c5aa2ca30bd7058944fe9c853a89af3",
+      "lede": "코드블럭이 추가되지 않는 문제를 재수정함.",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "c6bc311317dde995"
+    },
+    {
+      "id": "v3-3.0.1",
+      "family": "v3",
+      "edition": "3.0.1",
+      "tag": "v3.0.1",
+      "releaseName": "T2Editor 3.0.1 [EOL]",
+      "realDate": "2025-06-08",
+      "archivePublishedAt": "2026-09-27T14:23:35Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0 (판본 안 License_ko.txt)",
+      "zip": "3.0.1.zip (1.12 MB)",
+      "sha256": "020d2d193038a02b03544f4d14c55a47ddca0576a471c7c0eba79d5aa314dbec",
+      "lede": "코드 블럭에 아이콘 삽입되며 코드의 일부가 회손되는 문제 수정",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "7d1c94db74ed7411"
+    },
+    {
+      "id": "v3-3.0.0",
+      "family": "v3",
+      "edition": "3.0.0",
+      "tag": "v3.0.0",
+      "releaseName": "T2Editor 3.0.0 [EOL]",
+      "realDate": "2025-06-07",
+      "archivePublishedAt": "2026-09-27T14:23:33Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0 (판본 안 License_ko.txt)",
+      "zip": "3.0.0.zip (1.12 MB)",
+      "sha256": "4837c3ad009863ac2247cf01d12eca7f248f49d40f131ed46dd08a57f94af85d",
+      "lede": "1. T2Editor 2.0.0에서의 플러그인 및 관리 파일의 비일관적인 구조 개선 (기존) 플러그인들이 Path: T2Editor/js/plugin 및 T2Editor/plugin 로 나누어져 있던 것을 Path: /T2Editor/plugin 로 통합함. 기존 Path: T2Editor/t2_config.php 파일을 Path: T2Editor/config/t2_config.php 로 이동함.",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "87bbf5cdcf295563"
+    },
+    {
+      "id": "v4-4.0.2",
+      "family": "v4",
+      "edition": "4.0.2",
+      "tag": "v4.0.2",
+      "releaseName": "T2Editor 4.0.2 [EOL]",
+      "realDate": "2025-10-08",
+      "archivePublishedAt": "2026-09-27T14:24:26Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0.1 (판본 안 readme.txt)",
+      "zip": "4.0.2.zip (1.14 MB)",
+      "sha256": "00c24278f6a3d8139faac5799395a43f5005cb9f8be07d76a3eea717f950af0a",
+      "lede": "이미지 업로드 시간 및 지연에 따른 이미지 블록 추가 대기시간 단축 (/plugin/image/image.js) ​*이미지 업로드 완료 후 이미지 블록을 추가하는 것에서 이미지 추가 즉시 이미지를 base64로 변환하여 이미지 블록 url로 사용, 이후 이미지 업로드 완료 시 서버에 업로드된 이미지url로 교체되도록 구현",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "168a3e356b3d72ff"
+    },
+    {
+      "id": "v4-4.0.1",
+      "family": "v4",
+      "edition": "4.0.1",
+      "tag": "v4.0.1",
+      "releaseName": "T2Editor 4.0.1 [EOL]",
+      "realDate": "2025-10-08",
+      "archivePublishedAt": "2026-09-27T14:24:24Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0.1 (판본 안 readme.txt)",
+      "zip": "4.0.1.zip (1.14 MB)",
+      "sha256": "0f3c0cf55269abf441133d80690a241e307ba68810751b80a89ea860c28e6c76",
+      "lede": "editor.lib.php의 reademe.txt 라이선스 검증 코드 강화 (무료 공개 배포 정신을 유지하기 위한 선택)",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "42a46042e2cca634"
+    },
+    {
+      "id": "v4-4.0.0",
+      "family": "v4",
+      "edition": "4.0.0",
+      "tag": "v4.0.0",
+      "releaseName": "T2Editor 4.0.0 [EOL]",
+      "realDate": "2025-10-07",
+      "archivePublishedAt": "2026-09-27T14:24:21Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0.1 (판본 안 readme.txt)",
+      "zip": "4.0.0.zip (1.13 MB)",
+      "sha256": "611629a86c2b31fe6d2946d59fdeb5c1872c5754a66e5b4c6cfea931259b3757",
+      "lede": "1. 에디터 콘텐츠 html로 내보내기 스킨 호환성 향상 (plugin/export/export_html_skin.html) 2. 라이센스 검증 방식 및 라이센스 파일 변경 (editor.lib.php, reademe.txt, License_ko.txt&License_en.txt -> Old로 이동) *라이센스 검증을 에디터 실행 구조에 통합하여 검증 실패 시 에디터 자체가 초기화되지 않도록 변경",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "eb18967b60111025"
+    },
+    {
+      "id": "v5-5.10.0",
+      "family": "v5",
+      "edition": "5.10.0",
+      "tag": "v5.10.0",
+      "releaseName": "T2Editor 5.10.0 [EOL]",
+      "realDate": "2025-12-08",
+      "archivePublishedAt": "2026-09-27T14:26:45Z",
+      "state": "EOL",
+      "licenseAtRelease": "2.0.0 (판본 안 readme.txt)",
+      "zip": "5.10.0.zip (1.20 MB)",
+      "sha256": "4a5f36966d53c04d49265f678703b45a63bbfbf7c33fa54caf6e6a60a0d69e27",
+      "lede": "1. 블록 이동 버튼 기능 안정화 (t2editor/js/core.js, t2editor/plugin/image/image.js, t2editor/plugin/video/video.js, t2editor/plugin/code/code.js, t2editor/plugin/table/table.js, t2editor/plugin/draw/draw.js)(게시글 편집 시 삭제/편집/리사이즈/이동 버튼 안뜨는 오류 해결) 2. 파일 블록에도 이동 버튼 기능 추가 (t2editor/plugin/file/file.js) 3. 플러그인 순차 로딩 기능 추가 (t2editor/editor.lib.php)editor.lib.php의 $plugin_priority에서 순서 설정 가능.0 = 즉시, 1,2,",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": {
+        "suspected": true,
+        "keyword": "삭제",
+        "excerpt": "in/draw/draw.js)(게시글 편집 시 삭제/편집/리사이즈/이동 버튼 안뜨는 오류 해결) 2."
+      },
+      "bodySha": "02dab9ffe43943a9"
+    },
+    {
+      "id": "v5-5.9.0",
+      "family": "v5",
+      "edition": "5.9.0",
+      "tag": "v5.9.0",
+      "releaseName": "T2Editor 5.9.0 [EOL]",
+      "realDate": "2025-12-07",
+      "archivePublishedAt": "2026-09-27T14:26:41Z",
+      "state": "EOL",
+      "licenseAtRelease": "2.0.0 (판본 안 readme.txt)",
+      "zip": "5.9.0.zip (1.20 MB)",
+      "sha256": "bc302d95daedf8b0c66bc8e1e3fb31aa3ef4c902998f15564a7df09e5ccee3ec",
+      "lede": "각 블록(이미지 블록, 동영상 블록, 코드 블록, 테이블 블록, 그림 블록)들을 위, 아래로 이동할 수 있는 알약형 이동 바를 블록 하단에 추가하도록 구현하였습니다. (파일 블록 제외)​",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "bab272553950b8ef"
+    },
+    {
+      "id": "v5-5.8.4",
+      "family": "v5",
+      "edition": "5.8.4",
+      "tag": "v5.8.4",
+      "releaseName": "T2Editor 5.8.4 [EOL]",
+      "realDate": "2025-12-07",
+      "archivePublishedAt": "2026-09-27T14:26:38Z",
+      "state": "EOL",
+      "licenseAtRelease": "2.0.0 (판본 안 readme.txt)",
+      "zip": "5.8.4.zip (1.20 MB)",
+      "sha256": "a5820513a68c623d001c879d2cec2a486611110fb0bb6fd2a267f77d773d6772",
+      "lede": "이미지 추가 불가 오류를 해결하였습니다 (/t2editor/plugin/image/image.js)​",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "fc404981e8a82003"
+    },
+    {
+      "id": "v5-5.8.3",
+      "family": "v5",
+      "edition": "5.8.3",
+      "tag": "v5.8.3",
+      "releaseName": "T2Editor 5.8.3 [EOL]",
+      "realDate": "2025-12-06",
+      "archivePublishedAt": "2026-09-27T14:26:34Z",
+      "state": "EOL",
+      "licenseAtRelease": "2.0.0 (판본 안 readme.txt)",
+      "zip": "5.8.3.zip (1.20 MB)",
+      "sha256": "eccd40608d7e3afeee357d7256e606fff7e6e8ce01eca6d452df66be7428dda1",
+      "lede": "기존의 editor.lib.php에 위치한 서브툴바 기능 함수명 수정 (t2editor/js/toolbar.js)---반응형 서브 툴바 사용 안내:에디터의 가로 사이즈에 따른 반응형 툴바 기능을 추가했습니다.반응형 툴바 - 그룹 버튼이란 에디터 너비에 따라 버튼을 자동 그룹화하여 서브 툴바로 대체하는 기능입니다.모바일, 테블릿 환경에서 툴바의 버튼 수가 과다하게 많아져 사용 경험과 심미성이 저하되는 문제를 해결합니다.반응형 툴바 - 그룹 버튼 설정 안내:t2editor/js/toolbar.js의 getT2DefaultConfig 안에 원하는 범위의 그룹을 설정합니다. ( 5.",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "9a151bc6da093144"
+    },
+    {
+      "id": "v5-5.8.2",
+      "family": "v5",
+      "edition": "5.8.2",
+      "tag": "v5.8.2",
+      "releaseName": "T2Editor 5.8.2 [EOL]",
+      "realDate": "2025-12-05",
+      "archivePublishedAt": "2026-09-27T14:26:31Z",
+      "state": "EOL",
+      "licenseAtRelease": "2.0.0 (판본 안 readme.txt)",
+      "zip": "5.8.2.zip (1.20 MB)",
+      "sha256": "6a4082f5e9ea79e38d2daacfa04e15e0276f757d97c779d82c52feb325572df5",
+      "lede": "기존의 editor.lib.php에 위치한 서브툴바 기능이 안드로이드, 윈도우, 리눅스 기기에서 작동하지 않는 문제를 해결하였습니다. (경로 변경: editor.lib.php -&gt; t2editor/js/toolbar.js)---반응형 서브 툴바 사용 안내:에디터의 가로 사이즈에 따른 반응형 툴바 기능을 추가했습니다.반응형 툴바 - 그룹 버튼이란 에디터 너비에 따라 버튼을 자동 그룹화하여 서브 툴바로 대체하는 기능입니다.모바일, 테블릿 환경에서 툴바의 버튼 수가 과다하게 많아져 사용 경험과 심미성이 저하되는 문제를 해결합니다.반응형 툴바 - 그룹 버튼 설정 안내:t2editor/js/toolbar.js의 getDefaultConfig 안에 원하는 범위의 그룹을 설정합니다. (",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "ef53eea522137fc7"
+    },
+    {
+      "id": "v5-5.8.1",
+      "family": "v5",
+      "edition": "5.8.1",
+      "tag": "v5.8.1",
+      "releaseName": "T2Editor 5.8.1 [EOL]",
+      "realDate": "2025-12-01",
+      "archivePublishedAt": "2026-09-27T14:26:28Z",
+      "state": "EOL",
+      "licenseAtRelease": "2.0.0 (판본 안 readme.txt)",
+      "zip": "5.8.1.zip (1.19 MB)",
+      "sha256": "49c785a80b38fc5dcba07e0389aad54a3fd89d2b758149c757c55789198b0c67",
+      "lede": "파일 플러그인의 코드가 그림 그리기 플러그인의 코드로 대체되어있는 것을 발견하여 5. 4. 0으로 롤백 (t2editor/plugin/file/file.js)​",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": {
+        "suspected": true,
+        "keyword": "롤백",
+        "excerpt": "대체되어있는 것을 발견하여 5. 4. 0으로 롤백 (t2editor/plugin/file/file."
+      },
+      "bodySha": "aa732a5d43807a63"
+    },
+    {
+      "id": "v5-5.8.0",
+      "family": "v5",
+      "edition": "5.8.0",
+      "tag": "v5.8.0",
+      "releaseName": "T2Editor 5.8.0 [EOL]",
+      "realDate": "2025-11-29",
+      "archivePublishedAt": "2026-09-27T14:26:24Z",
+      "state": "EOL",
+      "licenseAtRelease": "2.0.0 (판본 안 readme.txt)",
+      "zip": "5.8.0.zip (1.19 MB)",
+      "sha256": "a216c62fa1e053b52013ec2c2efb6b654831bef9c5921d740f29e9a796344d6e",
+      "lede": "에디터의 가로 사이즈에 따른 반응형 툴바 기능을 추가했습니다.반응형 툴바 - 그룹 버튼이란 에디터 너비에 따라 버튼을 자동 그룹화하여 서브 툴바로 대체하는 기능입니다.모바일, 테블릿 환경에서 툴바의 버튼 수가 과다하게 많아져 사용 경험과 심미성이 저하되는 문제를 해결합니다.반응형 툴바 - 그룹 버튼 설정 안내:T2_TOOLBAR_GROUPS 안에 원하는 범위의 그룹을 설정합니다.- 키: ‘WidthA-WidthB’ (에디터 너비 범위, px 단위) - 값: 배열로 그룹 목록. 각 객체는: - 'groupIcon' : 그룹 버튼 아이콘 (Material Icons 이름). - 'groupLabel' : 그룹 설명 (툴팁).",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "af128912f8933ca4"
+    },
+    {
+      "id": "v5-5.7.2",
+      "family": "v5",
+      "edition": "5.7.2",
+      "tag": "v5.7.2",
+      "releaseName": "T2Editor 5.7.2 [EOL]",
+      "realDate": "2025-11-26",
+      "archivePublishedAt": "2026-09-27T14:26:22Z",
+      "state": "EOL",
+      "licenseAtRelease": "2.0.0 (판본 안 readme.txt)",
+      "zip": "5.7.2.zip (1.18 MB)",
+      "sha256": "71245084729f75d9fc419e5121833dee3ad09426733ebc61c144273a24c5d87f",
+      "lede": "라이선스 수정 (t2editor/editor.lib.php, t2editor/reademe.txt)수정된 라이선스:*요약: T2Editor 외의 자체 개발 플러그인 및 관련 서비스의 유료 판매 및 제공 허용-___- T2Editor License_Ko Version: 2. 0. 0 Initial development period:",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "6f24e8dd54e0066f"
+    },
+    {
+      "id": "v5-5.7.1",
+      "family": "v5",
+      "edition": "5.7.1",
+      "tag": "v5.7.1",
+      "releaseName": "T2Editor 5.7.1 [EOL]",
+      "realDate": "2025-11-23",
+      "archivePublishedAt": "2026-09-27T14:26:18Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0.1 (판본 안 readme.txt)",
+      "zip": "5.7.1.zip (1.18 MB)",
+      "sha256": "5e938db25eba127faeff9b106b0a471ea2fab4de3412421a971082ca5dd82bb7",
+      "lede": "캐시 도입을 통한 검색 속도 개선 (t2editor/plugin/search/search.js)- T2Search API 캐시 도입- 검색 결과 없음 안내 표시 추가- API 응답 불가 안내 표시 추가",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "031ec841348cede7"
+    },
+    {
+      "id": "v5-5.7.0",
+      "family": "v5",
+      "edition": "5.7.0",
+      "tag": "v5.7.0",
+      "releaseName": "T2Editor 5.7.0 [EOL]",
+      "realDate": "2025-11-22",
+      "archivePublishedAt": "2026-09-27T14:26:15Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0.1 (판본 안 readme.txt)",
+      "zip": "5.7.0.zip (1.18 MB)",
+      "sha256": "0e5b674fc81fcfdb78da1b2907637dccdfeadbb22a444c6c200109b80a3d6999",
+      "lede": "그림 그리기 플러그인 롤백 5. 6. 2 -&gt;",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": {
+        "suspected": true,
+        "keyword": "롤백",
+        "excerpt": "그림 그리기 플러그인 롤백 5. 6. 2 -&gt;"
+      },
+      "bodySha": "ccaf0734cc4ef60e"
+    },
+    {
+      "id": "v5-5.6.2",
+      "family": "v5",
+      "edition": "5.6.2",
+      "tag": "v5.6.2",
+      "releaseName": "T2Editor 5.6.2 [EOL]",
+      "realDate": "2025-11-18",
+      "archivePublishedAt": "2026-09-27T14:26:11Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0.1 (판본 안 readme.txt)",
+      "zip": "5.6.2.zip (1.17 MB)",
+      "sha256": "75bd8b4ff8eebda91b270a16d3214b16f4d0130a170073df5e6781657e1cf86f",
+      "lede": "이미지 붙여넣기 시 이미지블록으로 추가 기능 추가(t2editor/plugin/imeage/imeage.js)",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "ca580d331f2dd62d"
+    },
+    {
+      "id": "v5-5.6.1",
+      "family": "v5",
+      "edition": "5.6.1",
+      "tag": "v5.6.1",
+      "releaseName": "T2Editor 5.6.1 [EOL]",
+      "realDate": "2025-11-17",
+      "archivePublishedAt": "2026-09-27T14:26:08Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0.1 (판본 안 readme.txt)",
+      "zip": "5.6.1.zip (1.18 MB)",
+      "sha256": "c0aa6591f268bbb13385046b93cf35c0517756495fc2221d932fc63511f362d0",
+      "lede": "T2Editor Ai interaction 안정화 업데이트&스타일 수정 (코드블럭, 테이블 블럭 등의 콘텐츠 블록 전달 오류 수정) (t2editor/plugin/ai/ai.js)AI 콘텐츠 재배치 플러그인 스타일 및 사용성 향상 (t2editor/plugin/ai_rearrange/ai_rearrange.js)*선택 편집하기 기능을 소개합니다.AI 콘텐트 재배치 플러그인의 선택 편집하기를 누르면 에디터 안의 콘텐트들을 선택하고 AI에게 해당 부분만 세부 편집을 할 수 있는 기능입니다.단일 또는 여러개의 텍스트, 콘텐트 블록들을 클릭하여 AI에게 수정 요청을 할 수 있습니다.",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "bf05aacb1fa4c001"
+    },
+    {
+      "id": "v5-5.6.0",
+      "family": "v5",
+      "edition": "5.6.0",
+      "tag": "v5.6.0",
+      "releaseName": "T2Editor 5.6.0 [EOL]",
+      "realDate": "2025-11-16",
+      "archivePublishedAt": "2026-09-27T14:26:05Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0.1 (판본 안 readme.txt)",
+      "zip": "5.6.0.zip (1.18 MB)",
+      "sha256": "b1e61613d6514ca7f94206a9824a252bbf9de9da1d167a8bbcd2270749a5fd4c",
+      "lede": "T2Editor Ai interaction-content v 3. 0. 0으로 안정화 업데이트 (코드블럭, 테이블 블럭 등의 콘텐츠 블록 전달 오류 수정)AI 콘텐트 재배치 플러그인의 블록 추가 오류 문제 해결 및 선택 편집하기 기능 추가(t2editor/plugin/ai_rearrange/ai_rearrange.js)*선택 편집하기 기능을 소개합니다.AI 콘텐트 재배치 플러그인의 선택 편집하기를 누르면 에디터 안의 콘텐트들을 선택하고 AI에게 해당 부분만 세부 편집을 할 수 있는 기능입니다.단일 또는 여러개의 텍스트, 콘텐트 블록들을 클릭하여 AI에게 수정 요청을 할 수 있습니다.",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "ccdafa06187de1b0"
+    },
+    {
+      "id": "v5-5.5.1",
+      "family": "v5",
+      "edition": "5.5.1",
+      "tag": "v5.5.1",
+      "releaseName": "T2Editor 5.5.1 [EOL]",
+      "realDate": "2025-11-15",
+      "archivePublishedAt": "2026-09-27T14:26:02Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0.1 (판본 안 readme.txt)",
+      "zip": "5.5.1.zip (1.17 MB)",
+      "sha256": "6f00c3343e28ef4c8c7b43993e1e242fca158395cd5647ef8f7d9d63d923c284",
+      "lede": "안드로이드 환경에서 Ai플러그인이 에디터에 콘텐츠를 추가하지 못하는 문제 해결 (t2editor/plugin/ai/ai.js)",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "49fddf46271bc0ac"
+    },
+    {
+      "id": "v5-5.5.0",
+      "family": "v5",
+      "edition": "5.5.0",
+      "tag": "v5.5.0",
+      "releaseName": "T2Editor 5.5.0 [EOL]",
+      "realDate": "2025-11-14",
+      "archivePublishedAt": "2026-09-27T14:25:58Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0.1 (판본 안 readme.txt)",
+      "zip": "5.5.0.zip (1.17 MB)",
+      "sha256": "d1f90b6959cd2aefd0a637a69bb043b5a67903542521942eb136f7f191176c9c",
+      "lede": "T2Editor Ai가 에디터 내의 콘텐츠와 상호작용하며 콘텐츠를 재배치 및 수정할 수 있는 기능 추가 (t2editor/plugin/ai_rearrange/ai_rearrange.js) - dsclub/api/ai/t2editor/groq/interaction_content v 1. 0. 0",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "51f8abdb1c94941d"
+    },
+    {
+      "id": "v5-5.4.5",
+      "family": "v5",
+      "edition": "5.4.5",
+      "tag": "v5.4.5",
+      "releaseName": "T2Editor 5.4.5 [EOL]",
+      "realDate": "2025-11-13",
+      "archivePublishedAt": "2026-09-27T14:25:56Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0.1 (판본 안 readme.txt)",
+      "zip": "5.4.5.zip (1.16 MB)",
+      "sha256": "a7534355ac01bf1b7340e3960871a6ce3ce973340333d0a8df45fea3db685cef",
+      "lede": "에디터에서 텍스트 붙여넣기 동작이 안되는 문제를 해결하였습니다. (t2editor/js/core.js)",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "41d3dd959506d36f"
+    },
+    {
+      "id": "v5-5.4.4",
+      "family": "v5",
+      "edition": "5.4.4",
+      "tag": "v5.4.4",
+      "releaseName": "T2Editor 5.4.4 [EOL]",
+      "realDate": "2025-11-13",
+      "archivePublishedAt": "2026-09-27T14:25:53Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0.1 (판본 안 readme.txt)",
+      "zip": "5.4.4.zip (1.16 MB)",
+      "sha256": "6a9d8b9c574b7f6468ad168c7cc702269ad029db651930f38c2ef2f4dfec6431",
+      "lede": "미디어 블록 추가 시 자동으로 삽입되는 줄바꿈 영역에서, 사용자가 자동 줄바꿈 영역의 맨 처음에 텍스트를 입력하지 않을 경우 추가적인 줄바꿈이 정상적으로 동작하지 않는 문제가 확인되었습니다. 자동 줄바꿈이 삽입되는 위치의 첫 번째 줄에 가로폭이 없는 공백(U+200B) 문자를 자동 추가하여 미디어 블록 이후의 줄바꿈 동작이 정상적으로 작동할 수 있도록 수정하였습니다. 수정 파일: - /t2editor/plugin/video/video.js - /t2editor/plugin/tabl/table.js - /t2editor/plugin/image/image.js - /t2editor/plugin/file/file.js - /t2editor/plugin/draw/draw.js - /t2editor/plugin/code/code.js",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "ba3eb3acb536b68e"
+    },
+    {
+      "id": "v5-5.4.3",
+      "family": "v5",
+      "edition": "5.4.3",
+      "tag": "v5.4.3",
+      "releaseName": "T2Editor 5.4.3 [EOL]",
+      "realDate": "2025-11-10",
+      "archivePublishedAt": "2026-09-27T14:25:50Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0.1 (판본 안 readme.txt)",
+      "zip": "5.4.3.zip (1.16 MB)",
+      "sha256": "9f22613ff6cdb6d549ae96f653ee67b863cccc2b16063970735dee9454d6a55b",
+      "lede": "1. api 사용 제한 데이터 정보 가져오지 못하는 오류에 대한 ai플러그인 수정 (/t2editor/plugin/ai/ai.js) 2. 그림 그리기 플러그인 좀 더 고해상도 + 그리는 선 부드럽게 처리 (/t2editor/plugin/draw/draw.js)",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "dd48e163726f63ed"
+    },
+    {
+      "id": "v5-5.4.2",
+      "family": "v5",
+      "edition": "5.4.2",
+      "tag": "v5.4.2",
+      "releaseName": "T2Editor 5.4.2 [EOL]",
+      "realDate": "2025-11-10",
+      "archivePublishedAt": "2026-09-27T14:25:46Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0.1 (판본 안 readme.txt)",
+      "zip": "5.4.2.zip (1.16 MB)",
+      "sha256": "94f6df188098bc5e95b7b811a2b2accf9184d4246692e3d83f4ee863e85632a4",
+      "lede": "1. 새로 업데이트 된 T2Editor Ai API 1. 7. 0의 보안 라이선스 요구를 충족하도록 ai플러그인 수정 (/t2editor/plugin/ai/ai.js) (",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "579278e4edd9277a"
+    },
+    {
+      "id": "v5-5.4.1",
+      "family": "v5",
+      "edition": "5.4.1",
+      "tag": "v5.4.1",
+      "releaseName": "T2Editor 5.4.1 [EOL]",
+      "realDate": "2025-11-09",
+      "archivePublishedAt": "2026-09-27T14:25:43Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0.1 (판본 안 readme.txt)",
+      "zip": "5.4.1.zip (1.16 MB)",
+      "sha256": "999a4b42d592b70d421219dc3d5605480cba58376b83c552f7a6ea151991dd0c",
+      "lede": "1. 새로 업데이트된 T2Editor interaction AI V1.4.0 API의 유저 및 도메인 사용량 제한을 표시하도록 수정 (1.4.0은 기존 1.0.0 대비 콘텐츠 추가 오류 현상과 부적절한 발언을 대폭 줄인 버전입니다.) 2. 모바일 디자인 개선 3. powered by Ai의 모델 리스트 출력을 하드 코딩 방식에서 dsclub의 model_list.json에서 가져오도록 개선",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "4eba3ead93060fb3"
+    },
+    {
+      "id": "v5-5.4.0",
+      "family": "v5",
+      "edition": "5.4.0",
+      "tag": "v5.4.0",
+      "releaseName": "T2Editor 5.4.0 [EOL]",
+      "realDate": "2025-11-08",
+      "archivePublishedAt": "2026-09-27T14:25:40Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0.1 (판본 안 readme.txt)",
+      "zip": "5.4.0.zip (1.16 MB)",
+      "sha256": "bc4c295e223479667ce6a6cf06cb49cef722ad90519c4ce95d907f6726e30fa4",
+      "lede": "Ai기능 도입: dsclub.kr에서 groq의 여러 ai모델을 사용하여 사용자의 요청에 따른 가장 적합한 ai모델을 선택, dsclub이 자체 재가공한 답변을 제공하는 기능입니다. 기존 텍스트 응답만 가능했던 T2Editor text AI에서 사용성을 향상시킨 T2Editor interaction AI는 에디터와 상호작용하며 니미지블록, 코드블록, 링크, 각종 서식(볼드, 기울임, 밑줄, 취소선), 테이블(표)를 최적의 위치에 삽입합니다.",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": {
+        "suspected": true,
+        "keyword": "취소",
+        "excerpt": "록, 링크, 각종 서식(볼드, 기울임, 밑줄, 취소선), 테이블(표)를 최적의 위치에 삽입합니다."
+      },
+      "bodySha": "03d87401834bc937"
+    },
+    {
+      "id": "v5-5.3.0",
+      "family": "v5",
+      "edition": "5.3.0",
+      "tag": "v5.3.0",
+      "releaseName": "T2Editor 5.3.0 [EOL]",
+      "realDate": "2025-11-07",
+      "archivePublishedAt": "2026-09-27T14:25:37Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0.1 (판본 안 readme.txt)",
+      "zip": "5.3.0.zip (1.15 MB)",
+      "sha256": "865d3d19cd7e3653d2f9b84dcaac71a037277e22f78918ff3877a215a036f3f1",
+      "lede": "Ai기능 도입: dsclub.kr에서 groq의 여러 ai모델을 사용하여 사용자의 요청에 따른 가장 적합한 ai모델을 선택, dsclub이 자체 재가공한 답변을 제공하는 기능입니다. (텍스트 답변만 가능) Ai 버튼 추가 (/t2editor/editor.lib.php)",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "80f65bba744ba170"
+    },
+    {
+      "id": "v5-5.2.2",
+      "family": "v5",
+      "edition": "5.2.2",
+      "tag": "v5.2.2",
+      "releaseName": "T2Editor 5.2.2 [EOL]",
+      "realDate": "2025-11-06",
+      "archivePublishedAt": "2026-09-27T14:25:34Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0.1 (판본 안 readme.txt)",
+      "zip": "5.2.2.zip (1.15 MB)",
+      "sha256": "fadf8506106cd2f6b5211974a7333299d122decd0ddf04cd6a7b35636c5701de",
+      "lede": "텍스트 색상 및 텍스트 배경색 적용 색상 팔레트의 스타일 및 사용성 향상 (/t2editor/js/core.js, /t2editor/css/core.css) : 타일 형 고정된 색상 목록의 색상 팔레트 -> 고정 색상 + 색상 선택기 추가.",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "35ca8ac9c7a2c017"
+    },
+    {
+      "id": "v5-5.2.1",
+      "family": "v5",
+      "edition": "5.2.1",
+      "tag": "v5.2.1",
+      "releaseName": "T2Editor 5.2.1 [EOL]",
+      "realDate": "2025-11-05",
+      "archivePublishedAt": "2026-09-27T14:25:32Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0.1 (판본 안 readme.txt)",
+      "zip": "5.2.1.zip (1.14 MB)",
+      "sha256": "98ec2f00b661e4b878abfa7355161b663e2ed59dcc86aeefd30983a0206a226e",
+      "lede": "그림 플러그인 스타일 향상 (/t2editor/plugin/draw.js, /t2editor/css/core.css, /t2editor/css/dark.css) 이미지 플러그인의 이미지 링크를 통한 이미지 업로드 기능 제거 (수요 적음으로 판단) (/t2editor/plugin/image/image.js)",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": {
+        "suspected": true,
+        "keyword": "제거",
+        "excerpt": "그인의 이미지 링크를 통한 이미지 업로드 기능 제거 (수요 적음으로 판단) (/t2editor/plu"
+      },
+      "bodySha": "2fd4ad475dc5d319"
+    },
+    {
+      "id": "v5-5.2.0",
+      "family": "v5",
+      "edition": "5.2.0",
+      "tag": "v5.2.0",
+      "releaseName": "T2Editor 5.2.0 [EOL]",
+      "realDate": "2025-11-04",
+      "archivePublishedAt": "2026-09-27T14:25:29Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0.1 (판본 안 readme.txt)",
+      "zip": "5.2.0.zip (1.15 MB)",
+      "sha256": "44ce4e270b81b39898e2bb552a33ce50cac3879d0463fc3ec9a029ea83c18269",
+      "lede": "그림 플러그인과의 호환성 수정 (/t2editor/editor.lib.php) 그림 그리기 플러그인 추가 (/t2editor/plugin/draw/draw.js, /t2editor/css/core.css, /t2editor/css/dark.css, /t2editor/js/core.js)",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "71483aee26df6700"
+    },
+    {
+      "id": "v5-5.1.3",
+      "family": "v5",
+      "edition": "5.1.3",
+      "tag": "v5.1.3",
+      "releaseName": "T2Editor 5.1.3 [EOL]",
+      "realDate": "2025-11-03",
+      "archivePublishedAt": "2026-09-27T14:25:26Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0.1 (판본 안 readme.txt)",
+      "zip": "5.1.3.zip (1.14 MB)",
+      "sha256": "ef21615f1090c64c3b7e35d93f646949c2f13cb7ed57419bcbb3539637a6ffc6",
+      "lede": "링크 플러그인 작동 불가 오류 해결 (/t2editor/plugin/link/link.js)",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "f91afcde8fcc12ec"
+    },
+    {
+      "id": "v5-5.1.2",
+      "family": "v5",
+      "edition": "5.1.2",
+      "tag": "v5.1.2",
+      "releaseName": "T2Editor 5.1.2 [EOL]",
+      "realDate": "2025-11-03",
+      "archivePublishedAt": "2026-09-27T14:25:24Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0.1 (판본 안 readme.txt)",
+      "zip": "5.1.2.zip (1.14 MB)",
+      "sha256": "4f35243ee2e8a73b5b7f552979e313c1d5afa394b439776254b116d7fc595f55",
+      "lede": "1. 협업 플러그인 권한 부여 관련 수정 - collab_number.php의 /collab 권한 부여 코드 삭제 (/t2editor/plugin/collab/collab_number.php) - collab_verification.php가 협업 플러그인 실행 전 /collab 의 권한 확인 후 진행하도록 수정 (collab_verification.php는 권한 부여를 하지 못하고 오로지 검증만 가능, 권한 부여는 파일질라 또는 터미널을 통해 수동으로 707 권한을 부여해야 함) (/t2editor/plugin/collab/collab_verification.php)",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": {
+        "suspected": true,
+        "keyword": "삭제",
+        "excerpt": "ber.php의 /collab 권한 부여 코드 삭제 (/t2editor/plugin/collab/co"
+      },
+      "bodySha": "173c7768a4731ff6"
+    },
+    {
+      "id": "v5-5.1.1",
+      "family": "v5",
+      "edition": "5.1.1",
+      "tag": "v5.1.1",
+      "releaseName": "T2Editor 5.1.1 [EOL]",
+      "realDate": "2025-10-21",
+      "archivePublishedAt": "2026-09-27T14:25:22Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0.1 (판본 안 readme.txt)",
+      "zip": "5.1.1.zip (1.15 MB)",
+      "sha256": "85919922152422535836ac1f1b712f987e60580218a8ba49c2822d63f722854b",
+      "lede": "협업 플러그인의 방 생성 파일 collab_number.php의 권한 부여 실패로 인한 방 생성 오류 문제 해결 (/plugin/collab/collab_number.php)",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "8575a06be65e9655"
+    },
+    {
+      "id": "v5-5.1.0",
+      "family": "v5",
+      "edition": "5.1.0",
+      "tag": "v5.1.0",
+      "releaseName": "T2Editor 5.1.0 [EOL]",
+      "realDate": "2025-10-21",
+      "archivePublishedAt": "2026-09-27T14:25:18Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0.1 (판본 안 readme.txt)",
+      "zip": "5.1.0.zip (1.15 MB)",
+      "sha256": "79375e91402a22982aa4676483488bd1a29fbaf4779e80a5945fab6aa08e3610",
+      "lede": "수정사항: [협업 기능 추가] - /plugin/collab/collab.js, /collab 추가 /css/core.css, /css/dark.css, /js/utils.js 수정",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "912338b9fadad783"
+    },
+    {
+      "id": "v5-5.1.0-beta1.0.2",
+      "family": "v5",
+      "edition": "5.1.0-beta1.0.2",
+      "tag": "v5.1.0-beta1.0.2",
+      "releaseName": "T2Editor 5.1.0-beta1.0.2 [EOL]",
+      "realDate": "2025-10-11",
+      "archivePublishedAt": "2026-09-27T14:25:11Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0.1 (판본 안 readme.txt)",
+      "zip": "5.1.0beta1-0-2.zip (1.15 MB)",
+      "sha256": "598c8d08b012ffb59797c031bd0a032a41d9e0c0280dce3a5755e31f614e3cd5",
+      "lede": "[협업 기능 추가] - /plugin/collab/collab.js, /collab /css/core.css, /css/dark.css, /js/utils.js 수정됨 *협업 방 생성 실패 메시지가 뜰 경우 sudo chmod 755 /path/t2editor/collab 으로 해결. /path는 사용자 환경에 맞게 변경",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "89b028fd33095b93"
+    },
+    {
+      "id": "v5-5.0.1",
+      "family": "v5",
+      "edition": "5.0.1",
+      "tag": "v5.0.1",
+      "releaseName": "T2Editor 5.0.1 [EOL]",
+      "realDate": "2025-10-19",
+      "archivePublishedAt": "2026-09-27T14:25:15Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0.1 (판본 안 readme.txt)",
+      "zip": "5.0.1.zip (1.14 MB)",
+      "sha256": "4bb2df42be965a45a37aa79699f3027a6d7a2dd26aee7f45a3ef56af6efce932",
+      "lede": "라이센스 검증 오작동 및 에디터 경로 오류 수정 (/config/t2_config.php) 툴바 사용성 개선 (/js/core.js)",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "13c46ed1f6d24523"
+    },
+    {
+      "id": "v5-5.0.0",
+      "family": "v5",
+      "edition": "5.0.0",
+      "tag": "v5.0.0",
+      "releaseName": "T2Editor 5.0.0 [EOL]",
+      "realDate": "2025-10-08",
+      "archivePublishedAt": "2026-09-27T14:25:13Z",
+      "state": "EOL",
+      "licenseAtRelease": "1.0.1 (판본 안 readme.txt)",
+      "zip": "5.0.0.zip (1.14 MB)",
+      "sha256": "dd7903093fc2c03607c0396c158250b081072d1fd811117755afad9ca5bfd384",
+      "lede": "그누보드5 환경뿐만아니라 다른 apache/nginx & php7.5+ 환경에서 호환 가능하도록 기존 호환 코드를 강화. (editor.lib.php, config/t2_config.php) *그누보드5가 아닌 타 환경에서는 기존 그누보드5의 폼 제출 코드가 작동하지 않도록 수정 *그누보드5가 아닌 타 환경은 직접 폼 제출 부분을 구현하셔야 합니다.",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "0fe8259016312f66"
+    },
+    {
+      "id": "v6-6.0.0",
+      "family": "v6",
+      "edition": "6.0.0",
+      "tag": "v6.0.0",
+      "releaseName": "T2Editor 6.0.0 [EOL]",
+      "realDate": "2025-12-09",
+      "archivePublishedAt": "2026-09-27T14:27:24Z",
+      "state": "EOL",
+      "licenseAtRelease": "2.0.0 (판본 안 readme.txt)",
+      "zip": "6.0.0.zip (1.20 MB)",
+      "sha256": "39123516e8bb25f6b36c2ed597be68767ce00200f578af0b48293dad3ad8b81a",
+      "lede": "1. 플러그인 등록 간소화 및 핵심 파일 구조 일부 변경 (t2editor/editor.lib.php, t2editor/js/core.js) 2. 파일 플러그인 로딩 안되는 오류 수정 (t2editor/plugin/file/file.js) 3. 링크 단축+qr코드 생성 T2ClipURL 플러그인 추가​",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "2e411914264213ae"
+    },
+    {
+      "id": "v7-7.0.2",
+      "family": "v7",
+      "edition": "7.0.2",
+      "tag": "v7.0.2",
+      "releaseName": "T2Editor 7.0.2 [EOL]",
+      "realDate": "2025-12-19",
+      "archivePublishedAt": "2026-09-27T14:27:48Z",
+      "state": "EOL",
+      "licenseAtRelease": "2.0.0 (판본 안 readme.txt)",
+      "zip": "7.0.2.zip (1.20 MB)",
+      "sha256": "71f0a14bc13d1d220631a805db7341e07fae4f3ceeb11d26d75732e1656b22b5",
+      "lede": "순차 css로드 기능에 오류가 발생하여 ios환경을 제외한 안드로이드 및 윈도우, 리눅스 브라우저에서 스타일이 적용되지 않던 문제를 해결하였습니다. (t2editor/editor.lib.php) ​",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "9ea5a3b2d1d2407c"
+    },
+    {
+      "id": "v7-7.0.1",
+      "family": "v7",
+      "edition": "7.0.1",
+      "tag": "v7.0.1",
+      "releaseName": "T2Editor 7.0.1 [EOL]",
+      "realDate": "2025-12-16",
+      "archivePublishedAt": "2026-09-27T14:27:44Z",
+      "state": "EOL",
+      "licenseAtRelease": "2.0.0 (판본 안 readme.txt)",
+      "zip": "7.0.1.zip (1.21 MB)",
+      "sha256": "2dbe12705f58465005a675895da8a2b0857b02207596c75f82ed5a36cca59464",
+      "lede": "업데이트 중 제거된 텍스트&amp;텍스트 배경 색상 선택기 복구​",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": {
+        "suspected": true,
+        "keyword": "제거",
+        "excerpt": "업데이트 중 제거된 텍스트&amp;텍스트 배경 색상 선택기 복구​"
+      },
+      "bodySha": "a293ae9eade1da08"
+    },
+    {
+      "id": "v7-7.0.0",
+      "family": "v7",
+      "edition": "7.0.0",
+      "tag": "v7.0.0",
+      "releaseName": "T2Editor 7.0.0 [EOL]",
+      "realDate": "2025-12-14",
+      "archivePublishedAt": "2026-09-27T14:27:41Z",
+      "state": "EOL",
+      "licenseAtRelease": "2.0.0 (판본 안 readme.txt)",
+      "zip": "7.0.0.zip (1.21 MB)",
+      "sha256": "8b472e189af6b387c543b1ebfcde7c6ab5ccd357cc7abd369af6226ed31df206",
+      "lede": "1. 플러그인 별 독립 css 파일 사용 기능 추가- 기존 core.css, dark.css, 플러그인 js파일에 삽입되어있던 스타일들을 각 플러그인이름.css로 변경하여 유지보수성 향상 (t2editor/editor.lib.php, t2editor/css/core.css, t2editor/css/dark.css, t2editor/plugin/대부분 플러그인)- 플러그인 스타일 작성 시 T2Editor/plugin/plugin_name/plugin_name.css에 추가해두면 자동으로 editor.lib.php에 추가​ 2. 이미지 플러그인 사용성 개선 - 디자인 개선",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "f56c42acc2d3cb3e"
+    },
+    {
+      "id": "v8-8.2.0",
+      "family": "v8",
+      "edition": "8.2.0",
+      "tag": "v8.2.0",
+      "releaseName": "T2Editor 8.2.0 [EOL]",
+      "realDate": "2026-03-26",
+      "archivePublishedAt": "2026-09-27T14:28:19Z",
+      "state": "EOL",
+      "licenseAtRelease": "2.0.0 (판본 안 readme.txt)",
+      "zip": "8.2.0.zip (1.21 MB)",
+      "sha256": "47f4748278c53ab31eb1584382f8a76b5514cf3bcde1f73ea3783f87710854b5",
+      "lede": "1. T2Editor 외의 에디터로 작성한 콘텐츠에 대한 마이그레이션 지원editor.lib.php의 ‘마이그레이션 옵션’에서 아래와 같이 선택가능. 'auto' : 묻지 않고 즉시 T2Editor 형식으로 자동 변환 'prompt' : 타 에디터 콘텐츠 감지 시 변환 여부 팝업 표시​false : 감지/변환 비활성화 (기본값) 2. T2Editor 로고 디자인 수정- 'T2'에 볼드 효과 추가.",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "0339f7822f00062c"
+    },
+    {
+      "id": "v8-8.1.2",
+      "family": "v8",
+      "edition": "8.1.2",
+      "tag": "v8.1.2",
+      "releaseName": "T2Editor 8.1.2 [EOL]",
+      "realDate": "2026-03-26",
+      "archivePublishedAt": "2026-09-27T14:28:16Z",
+      "state": "EOL",
+      "licenseAtRelease": "2.0.0 (판본 안 readme.txt)",
+      "zip": "8.1.2.zip (1.21 MB)",
+      "sha256": "dafd47b0fc21be05d6136f334b0584f69d90c3dab39e532620d51cb256546bfe",
+      "lede": "ai 플러그인 작동 불가 해결 (dsclub.kr과의 연결 문제)(t2editor/plugin/ai/ai.js, t2editor/plugin/ai_rerrange/ai_rerrange.js, dsclub.kr서버)작성중이던 게시글 자동 저장 불가 오류 해결​",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "f1abcd5125944f77"
+    },
+    {
+      "id": "v8-8.1.1",
+      "family": "v8",
+      "edition": "8.1.1",
+      "tag": "v8.1.1",
+      "releaseName": "T2Editor 8.1.1 [EOL]",
+      "realDate": "2026-01-05",
+      "archivePublishedAt": "2026-09-27T14:28:13Z",
+      "state": "EOL",
+      "licenseAtRelease": "2.0.0 (판본 안 readme.txt)",
+      "zip": "8.1.1.zip (1.21 MB)",
+      "sha256": "23630cd3d073b9b81526d031cf22830e3bdef956800d8eb1d6ecd37ec613abfa",
+      "lede": "ai 플러그인 작동 불가 해결 (dsclub.kr과의 연결 문제)(t2editor/plugin/ai/ai.js, t2editor/plugin/ai_rerrange/ai_rerrange.js)​",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "034af962a9c6a11c"
+    },
+    {
+      "id": "v8-8.1.0",
+      "family": "v8",
+      "edition": "8.1.0",
+      "tag": "v8.1.0",
+      "releaseName": "T2Editor 8.1.0 [EOL]",
+      "realDate": "2026-01-05",
+      "archivePublishedAt": "2026-09-27T14:28:11Z",
+      "state": "EOL",
+      "licenseAtRelease": "2.0.0 (판본 안 readme.txt)",
+      "zip": "8.1.0.zip (1.21 MB)",
+      "sha256": "1f570e04f8744f48608e5bee6a8f5105f8527a484e01cf673dc777f03d9be2be",
+      "lede": "검색 플러그인 개선 (t2editor/plugin/search/search.js)- 기존 검색 옵션 토글 기능 변경(에디터 내 콘텐츠 검색 on/off -&gt; T2Search 검색 on/off)(T2Search가 켜져있으면 검색창 아래에 powered by T2Search 로 출력되며, off 시 powered by T2Editor로 변경됩니다, 설정값은 브라우저에 자동 저장)- 검색한 콘텐츠 일괄 다른 텍스트로 변경 기능 추가에디터 하단 버전 텍스트 색상 더 밝게 (눈에 덜 띄게 수정, #666 -&gt; #7a7a7a) (t2editor/editor.lib.php)​",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "b10b31389c0c84aa"
+    },
+    {
+      "id": "v8-8.0.1",
+      "family": "v8",
+      "edition": "8.0.1",
+      "tag": "v8.0.1",
+      "releaseName": "T2Editor 8.0.1 [EOL]",
+      "realDate": "2026-01-04",
+      "archivePublishedAt": "2026-09-27T14:28:08Z",
+      "state": "EOL",
+      "licenseAtRelease": "2.0.0 (판본 안 readme.txt)",
+      "zip": "8.0.1.zip (1.21 MB)",
+      "sha256": "971d2a72dd6284e92d702b244b3e60b625a0c27cc2fc5dd925795cfa4be231db",
+      "lede": "T2Editor 로고 수정(개선) 테이블(블록) 플러그인이 작동하지 읺는 문제를 패치함 (t2editor/plugin/table/table.js) - 툴 바에서 테이블 블록 생성 버튼 클릭 후 뜨는 모달에서 삽입 버튼을 눌러도 추가되지 않는 문제를 해결하였습니다.",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "3b77cc8ace89537c"
+    },
+    {
+      "id": "v8-8.0.0",
+      "family": "v8",
+      "edition": "8.0.0",
+      "tag": "v8.0.0",
+      "releaseName": "T2Editor 8.0.0 [EOL]",
+      "realDate": "2025-12-30",
+      "archivePublishedAt": "2026-09-27T14:28:03Z",
+      "state": "EOL",
+      "licenseAtRelease": "2.0.0 (판본 안 readme.txt)",
+      "zip": "8.0.0.zip (1.21 MB)",
+      "sha256": "2327d23b95b68f6d48a7b0459575b3311dd1cefa598cdd43a5941476e7b2ad8a",
+      "lede": "- t2_css_min.php와 t2_js_min.js를 통해 core.css, dark.css를 비롯한 플러그인들의 css파일들, core.js, utils.js, toolbar.js, 플러그인 js파일들을 min.css, min.js처럼 압축로딩할 수 있는 기능을 추가하였습니다.사용법:true/false를 통해 css압축 옵션과 js압축 옵션을 킬 수 있음 (기본값은 false)사용 대상(권장): 서버 컴퓨터의 성능이 CPU n100 이상이면서 메모리가 4~8GB 이상인 시스템 google PageSpeed Insights 결과(모바일 기준):압축 적용 전 성능: 60~65적용 후 성능: 70~75- 접근성 향상기존: 70~개선:90~- 권장사항:기존: 7~80개선: 90~​",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "6b3fbe7f38008551"
+    },
+    {
+      "id": "v9-9.3.0",
+      "family": "v9",
+      "edition": "9.3.0",
+      "tag": "v9.3.0",
+      "releaseName": "T2Editor 9.3.0 [EOL]",
+      "realDate": "2026-05-29",
+      "archivePublishedAt": "2026-09-27T14:29:05Z",
+      "state": "EOL",
+      "licenseAtRelease": "2.0.0 (판본 안 readme.txt)",
+      "zip": "9.3.0.zip (2.38 MB)",
+      "sha256": "2a648683ec067e996032aa40da9f1775bbd0eaaa2a95d513a27f30646e051b9f",
+      "lede": "기능 추가사항: 1. 이미지 플러그인 - 사진 간편 편집 기능 추가​ ​ ​ ​ ​​패치 사항: 1. ios/safari 엔터키 및 공백 추가 버그 해결​개선:",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "5c7d2135abfc4ebf"
+    },
+    {
+      "id": "v9-9.2.0",
+      "family": "v9",
+      "edition": "9.2.0",
+      "tag": "v9.2.0",
+      "releaseName": "T2Editor 9.2.0 [EOL]",
+      "realDate": "2026-04-30",
+      "archivePublishedAt": "2026-09-27T14:29:02Z",
+      "state": "EOL",
+      "licenseAtRelease": "2.0.0 (판본 안 readme.txt)",
+      "zip": "9.2.0.zip (5.86 MB)",
+      "sha256": "a5e8b614bb4976db24319cb47afd1d86382ae0db834435e7e218f8b299c5a5d2",
+      "lede": "1. 일부 플러그인들 오작동 패치 2. 일부 필수 플러그인들 보안 패치 완료 3. 일부 플러그인들의 스타일 작동 미흡 패치",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "2e0b3713d82d22dd"
+    },
+    {
+      "id": "v9-9.1.3",
+      "family": "v9",
+      "edition": "9.1.3",
+      "tag": "v9.1.3",
+      "releaseName": "T2Editor 9.1.3 [EOL]",
+      "realDate": "2026-04-27",
+      "archivePublishedAt": "2026-09-27T14:28:58Z",
+      "state": "EOL",
+      "licenseAtRelease": "2.0.0 (판본 안 readme.txt)",
+      "zip": "9.1.3.zip (5.83 MB)",
+      "sha256": "be02214d430a05b2097c8c7bc4395f5ad733b6ba06cc4802c4d478f4c0f1359c",
+      "lede": "*세부 업데이트 및 패치 감사 보고서: https://dsclub.kr/service/editor/document/?action=view&slug=t2editor- 9. 1. 2-",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "c4af91cc3050f142"
+    },
+    {
+      "id": "v9-9.1.2",
+      "family": "v9",
+      "edition": "9.1.2",
+      "tag": "v9.1.2",
+      "releaseName": "T2Editor 9.1.2 [EOL]",
+      "realDate": "2026-04-23",
+      "archivePublishedAt": "2026-09-27T14:28:54Z",
+      "state": "EOL",
+      "licenseAtRelease": "2.0.0 (판본 안 readme.txt)",
+      "zip": "9.1.2.zip (5.78 MB)",
+      "sha256": "1dff68a52fa93174d510d8b16b68798851a1ecc7ed77c3bb17f74156ffe02540",
+      "lede": "xss 취약점 패치 등 대규모 보안 패치를 진행하였습니다.본 버전은 T2Editor 9. 1. 2-alpha",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "248a4b9c1f2b9bce"
+    },
+    {
+      "id": "v9-9.1.1",
+      "family": "v9",
+      "edition": "9.1.1",
+      "tag": "v9.1.1",
+      "releaseName": "T2Editor 9.1.1 [EOL]",
+      "realDate": "2026-04-20",
+      "archivePublishedAt": "2026-09-27T14:28:50Z",
+      "state": "EOL",
+      "licenseAtRelease": "2.0.0 (판본 안 readme.txt)",
+      "zip": "9.1.1.zip (5.74 MB)",
+      "sha256": "e4b3dbbe81954a2bdf797e461e66e3dbd6aba801f7e1b0579d761b5669c91c22",
+      "lede": "그누보드5 환경에서 자동 저장 기능이 활성화된 상태로 관리자 페이지 게시판 관리를 사용할 경우, 이전에 저장된 에디터 내용이 의도치 않게 복원되어 게시판 설정 폼이 오염되거나 잘못된 스타일이 적용되는 문제가 있었습니다.이번 패치는 editor_lib.php 단독 수정으로, 그누보드5 관리자 페이지(/adm/) 진입 시 자동으로 다음 두 가지를 처리합니다. 자동 저장된 내용을 에디터에 복원하지 않음 자동 저장 토글을 비활성화 상태로 표시하여 현재 기능이 제한됨을 시각적으로 안내일반 사용자 페이지에서의 자동 저장 동작은 기존과 동일합니다.",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "77ecb49d927186f7"
+    },
+    {
+      "id": "v9-9.1.0",
+      "family": "v9",
+      "edition": "9.1.0",
+      "tag": "v9.1.0",
+      "releaseName": "T2Editor 9.1.0 [EOL]",
+      "realDate": "2026-04-19",
+      "archivePublishedAt": "2026-09-27T14:28:46Z",
+      "state": "EOL",
+      "licenseAtRelease": "2.0.0 (판본 안 readme.txt)",
+      "zip": "9.1.0.zip (5.73 MB)",
+      "sha256": "5e061355645101cbbb5c7b13d7376cea6c2a1f1c81a8a8a2dcfd96453831c12f",
+      "lede": "1. T2Editor SafeAI업그레이드 및 패치- NSFWJS의 v2-mid모델을 사용하여 (기대)정확도 향상(93%)- 경고 및 차단 관련 모달 디자인 개선&T2Editor SafeAI관련 안내 추가- 서버버전 nsfw모드 지원중단",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": {
+        "suspected": true,
+        "keyword": "중단",
+        "excerpt": "AI관련 안내 추가- 서버버전 nsfw모드 지원중단"
+      },
+      "bodySha": "b28c4218026bb00a"
+    },
+    {
+      "id": "v9-9.0.0",
+      "family": "v9",
+      "edition": "9.0.0",
+      "tag": "v9.0.0",
+      "releaseName": "T2Editor 9.0.0 [EOL]",
+      "realDate": "2026-04-07",
+      "archivePublishedAt": "2026-09-27T14:28:43Z",
+      "state": "EOL",
+      "licenseAtRelease": "2.0.0 (판본 안 readme.txt)",
+      "zip": "9.0.0.zip (1.80 MB)",
+      "sha256": "06604ece24a70ce1388fd5bbba036f03a7fddf8c59ba688c2f41e6a2d20c8050",
+      "lede": "1. T2Editor SafeAI추가- 자체 개발 nsfw필터로 유저가 악의적인 19금 이미지를 게시할 때 필터링 가능 (editor.lib.php에서 원하는 옵션으로 수정, 서버에서의 실행&브라우저에서의 실행 전부 지원)- 아직까지는 정확도가 매우 높은편은 아닌 베타버전으로, 문서와 19금 웹툰, 여성의 가슴 이미지 정도를 구분하며 필터링 가능 2. T2Meme 플러그인 추가",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "77939062007429d4"
+    },
+    {
+      "id": "v10-10.5.1",
+      "family": "v10",
+      "edition": "10.5.1",
+      "tag": "v10.5.1",
+      "releaseName": "T2Editor 10.5.1",
+      "realDate": "2026-07-27",
+      "archivePublishedAt": "2026-09-27T14:29:57Z",
+      "state": "현행 공개 판본",
+      "licenseAtRelease": "3.0.0 (판본 안 readme.txt)",
+      "zip": "10.5.1.zip (6.55 MB)",
+      "sha256": "9ded2e84dee85ee79650e428fdad42be53bd62520b841d6e2593bf9d277c3196",
+      "lede": "업데이트사항: cms(그누보드5, 라이믹스)에서 로그인 시 cms 자동 로그인 뿐만아니라 T2Editor 자체적인 로그인이 가능하도록 기능 추가 패치사항:",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "090a7ed56c188bab"
+    },
+    {
+      "id": "v10-10.5.0",
+      "family": "v10",
+      "edition": "10.5.0",
+      "tag": "v10.5.0",
+      "releaseName": "T2Editor 10.5.0",
+      "realDate": "2026-07-22",
+      "archivePublishedAt": "2026-09-27T14:29:54Z",
+      "state": "현행 공개 판본",
+      "licenseAtRelease": "3.0.0 (판본 안 readme.txt)",
+      "zip": "10.5.0.zip (6.54 MB)",
+      "sha256": "f4855419fd0b573f011812670be41166d09b5b8ff4c61ef19e5300ffa48efbfd",
+      "lede": "업데이트사항: CMS 관리자 권한 연동 - 그누보드5와 라이믹스에서는 T2Editor 전용 관리자 비밀번호를 별도로 입력하는 대신, 현재 CMS의 관리자 로그인 상태를 이용해 T2Editor 관리자 권한을 확인하도록 변경했습니다. 업데이트, 서드파티 설치 등 관리자 승인이 필요한 기능도 CMS 관리자 세션을 기준으로 처리합니다.",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "879174d284d33028"
+    },
+    {
+      "id": "v10-10.4.0",
+      "family": "v10",
+      "edition": "10.4.0",
+      "tag": "v10.4.0",
+      "releaseName": "T2Editor 10.4.0",
+      "realDate": "2026-07-20",
+      "archivePublishedAt": "2026-09-27T14:29:49Z",
+      "state": "현행 공개 판본",
+      "licenseAtRelease": "3.0.0 (판본 안 readme.txt)",
+      "zip": "10.4.0.zip (6.50 MB)",
+      "sha256": "93fc5900c437cd33b9ed89548aab332baceecefc402adc2e93074e9ccc9cbfed",
+      "lede": "T2Editor 10.4.0은 크게 두 가지 방향으로 개선됐습니다. 하나는 사이트 운영자가 에디터를 설치하고 관리하기 편하게 만든 부분이고, 다른 하나는 실제로 글을 쓸 때 느껴지는 기능 개선입니다. 관리자 입장에서는 설치할 때 뭘 놓쳤는지 알려주는 안내, 모든 설정을 한곳에서 관리하는 화면, 클릭 몇 번으로 업데이트하고 문제 생기면 되돌리는 기능, 필요한 확장 기능을 검색해서 설치하는 마켓이 새로 생겼습니다. 글 쓰는 사람 입장에서는 파일을 끌어다 놓으면 바로 업로드되는 기능, 표에서 셀을 합치고 나누는 기능, 편집창 크기를 원하는 만큼 늘리는 기능이 추가됐습니다. 그 외에도 이미지 업로드가 더 안정적으로 되고, 여러 언어 지원이 매끄러워지고, 다크 모드가 제대로 작동하도록 다듬어졌습니다. 이번 업데이트의 핵심 변경 사항은 다음과 같습니다. 처음 설치할 때 놓친 설정을 자동으로 확인해주는 안내 화면",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": {
+        "suspected": true,
+        "keyword": "되돌",
+        "excerpt": "면, 클릭 몇 번으로 업데이트하고 문제 생기면 되돌리는 기능, 필요한 확장 기능을 검색해서 설치하는"
+      },
+      "bodySha": "3b895fbf8d94428d"
+    },
+    {
+      "id": "v10-10.3.1",
+      "family": "v10",
+      "edition": "10.3.1",
+      "tag": "v10.3.1",
+      "releaseName": "T2Editor 10.3.1",
+      "realDate": "2026-07-20",
+      "archivePublishedAt": "2026-09-27T14:29:44Z",
+      "state": "현행 공개 판본",
+      "licenseAtRelease": "3.0.0 (판본 안 readme.txt)",
+      "zip": "10.3.1.zip (3.12 MB)",
+      "sha256": "4921b73ea601d531f3a4a3183a80954b4de14eb3b19aacf9a5344913443608b5",
+      "lede": "패치 내역: 개발자 도구 팝업 기능으로 인한 모바일 툴바 안보임 이슈 해결 - 라이믹스 / extend/t2ext_toolbar_toggle.js - 기여&저작권. DIGWB(https://rhymix.org/member/member_info?member_srl=1911515) Meme(T2Meme)플러그인과 Search(T2Search)플러그인의 dsclub.kr에 대한 크로스 이슈 해결 - 라이믹스 / 기여자: DIGWB(https://rhymix.org/member/member_info?member_srl=1911515)",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "3f64e63753bc2795"
+    },
+    {
+      "id": "v10-10.3.0",
+      "family": "v10",
+      "edition": "10.3.0",
+      "tag": "v10.3.0",
+      "releaseName": "T2Editor 10.3.0",
+      "realDate": "2026-07-16",
+      "archivePublishedAt": "2026-09-27T14:29:42Z",
+      "state": "현행 공개 판본",
+      "licenseAtRelease": "3.0.0 (판본 안 readme.txt)",
+      "zip": "10.3.0.zip (3.10 MB)",
+      "sha256": "14ea813a28b00425b7addc2a13534911fef98c1f556870bf99379ea20b0d047a",
+      "lede": "핵심 업데이트 사항 다국어 인터페이스 지원 (한국어, 영어, 일본어, 중국어 간체) 붙여넣기 기능 개선 (서식 보존, 구조 정리, 줄바꿈 문제 수정)",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "438ac953ce602ad9"
+    },
+    {
+      "id": "v10-10.2.0",
+      "family": "v10",
+      "edition": "10.2.0",
+      "tag": "v10.2.0",
+      "releaseName": "T2Editor 10.2.0",
+      "realDate": "2026-07-05",
+      "archivePublishedAt": "2026-09-27T14:29:39Z",
+      "state": "현행 공개 판본",
+      "licenseAtRelease": "3.0.0 (판본 안 readme.txt)",
+      "zip": "10.2.0.zip (2.66 MB)",
+      "sha256": "14d74e34326f7227841bef2845ad8ace7b11f995e8710eca011dc437a004ef73",
+      "lede": "​ ​업데이트: ​자신있는 T2Editor complex AI...!",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "5247e94738f31215"
+    },
+    {
+      "id": "v10-10.1.0",
+      "family": "v10",
+      "edition": "10.1.0",
+      "tag": "v10.1.0",
+      "releaseName": "T2Editor 10.1.0",
+      "realDate": "2026-06-29",
+      "archivePublishedAt": "2026-09-27T14:29:35Z",
+      "state": "현행 공개 판본",
+      "licenseAtRelease": "3.0.0 (판본 안 readme.txt)",
+      "zip": "10.1.0.zip (2.50 MB)",
+      "sha256": "429c8214ad691acf67e1f2401b60011a159fb996593b85c0854e7677faee0847",
+      "lede": "**php7.4 호환 추가!** 업데이트: /extend 기능 도입:",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "3c1c6044a96a8de2"
+    },
+    {
+      "id": "v10-10.0.1",
+      "family": "v10",
+      "edition": "10.0.1",
+      "tag": "v10.0.1",
+      "releaseName": "T2Editor 10.0.1",
+      "realDate": "2026-06-27",
+      "archivePublishedAt": "2026-09-27T14:29:33Z",
+      "state": "현행 공개 판본",
+      "licenseAtRelease": "3.0.0 (판본 안 readme.txt)",
+      "zip": "10.0.1.zip (2.49 MB)",
+      "sha256": "d1606a6cc4df187c48f56fb681915b8730de68735d34b68b9b77ea54d70d7498",
+      "lede": "​**php권장 사양이 기존 7.4에서 8.0 이상으로 변경되었습니다.** 업데이트: search, link, ai_rerrange, collab, meme, ai, clipurl, export 플러그인에 hook 적용​",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "8dc46b337e6b4401"
+    },
+    {
+      "id": "v10-10.0.0",
+      "family": "v10",
+      "edition": "10.0.0",
+      "tag": "v10.0.0",
+      "releaseName": "T2Editor 10.0.0",
+      "realDate": "2026-06-24",
+      "archivePublishedAt": "2026-09-27T14:29:29Z",
+      "state": "현행 공개 판본",
+      "licenseAtRelease": "3.0.0 (판본 안 readme.txt)",
+      "zip": "10.0.0.zip (2.49 MB)",
+      "sha256": "12ab7ff8dd3e298a291472b775c42bd8ac19d5e65864c5bfe53e9177dfc35f91",
+      "lede": "​**php권장 사양이 기존 7.4에서 8.0 이상으로 변경되었습니다.** 업데이트 내역: 아키텍쳐 대개편",
+      "sections": [
+        "배포 설명",
+        "저작권 안내"
+      ],
+      "regressionSignal": null,
+      "bodySha": "73f3df9fda2d1e49"
+    }
+  ]
+}

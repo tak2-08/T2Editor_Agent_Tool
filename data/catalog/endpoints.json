@@ -1,0 +1,105 @@
+{
+  "endpoints": [
+    {
+      "file": "T2Editor/endpoints/install-check.core.php",
+      "pair": "install-check.php",
+      "bytes": 9669,
+      "lines": 125,
+      "functions": [
+        "t2ic_check_path"
+      ],
+      "hasAbortGuard": false
+    },
+    {
+      "file": "T2Editor/endpoints/install-check.php",
+      "pair": "install-check.core.php",
+      "bytes": 453,
+      "lines": 9,
+      "functions": [],
+      "hasAbortGuard": false
+    },
+    {
+      "file": "T2Editor/endpoints/plugin-sandbox-worker.core.php",
+      "pair": "plugin-sandbox-worker.php",
+      "bytes": 10075,
+      "lines": 158,
+      "functions": [
+        "t2e_worker_headers",
+        "t2e_worker_token",
+        "t2e_worker_fail"
+      ],
+      "hasAbortGuard": true
+    },
+    {
+      "file": "T2Editor/endpoints/plugin-sandbox-worker.php",
+      "pair": "plugin-sandbox-worker.core.php",
+      "bytes": 370,
+      "lines": 8,
+      "functions": [],
+      "hasAbortGuard": false
+    },
+    {
+      "file": "T2Editor/endpoints/run.core.php",
+      "pair": "run.php",
+      "bytes": 2929,
+      "lines": 44,
+      "functions": [],
+      "hasAbortGuard": false
+    },
+    {
+      "file": "T2Editor/endpoints/run.php",
+      "pair": "run.core.php",
+      "bytes": 472,
+      "lines": 9,
+      "functions": [],
+      "hasAbortGuard": false
+    },
+    {
+      "file": "T2Editor/endpoints/t2_content_style.core.php",
+      "pair": "t2_content_style.php",
+      "bytes": 8469,
+      "lines": 142,
+      "functions": [],
+      "hasAbortGuard": false
+    },
+    {
+      "file": "T2Editor/endpoints/t2_css_min.core.php",
+      "pair": "t2_css_min.php",
+      "bytes": 10137,
+      "lines": 206,
+      "functions": [
+        "is_safe_path",
+        "t2_css_group_files",
+        "t2_css_resolve"
+      ],
+      "hasAbortGuard": false
+    },
+    {
+      "file": "T2Editor/endpoints/t2_css_min.php",
+      "pair": "t2_css_min.core.php",
+      "bytes": 436,
+      "lines": 9,
+      "functions": [],
+      "hasAbortGuard": false
+    },
+    {
+      "file": "T2Editor/endpoints/t2_js_min.core.php",
+      "pair": "t2_js_min.php",
+      "bytes": 8538,
+      "lines": 168,
+      "functions": [
+        "t2_js_group_files",
+        "t2_js_resolve"
+      ],
+      "hasAbortGuard": false
+    },
+    {
+      "file": "T2Editor/endpoints/t2_js_min.php",
+      "pair": "t2_js_min.core.php",
+      "bytes": 442,
+      "lines": 9,
+      "functions": [],
+      "hasAbortGuard": false
+    }
+  ]
+}

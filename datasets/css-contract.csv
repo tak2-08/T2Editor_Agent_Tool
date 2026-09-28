@@ -1,0 +1,18 @@
+code,title,kind,line,source
+C1,중괄호 무결성,enforced,103,tools/t2-css-contract.mjs
+C2,레이어 이탈,section,120,tools/t2-css-contract.mjs
+C5,유령 선택자,enforced,169,tools/t2-css-contract.mjs
+C6,미정의 커스텀 속성(폴백 없음),section,198,tools/t2-css-contract.mjs
+C12,자기 자신으로 돌아오는 무효 폴백,section,213,tools/t2-css-contract.mjs
+C13,공통 플러그인 토큰의 다중 소유자,section,225,tools/t2-css-contract.mjs
+C14,CSS 상대 자산 경로,section,238,tools/t2-css-contract.mjs
+C15,범용 overflow 안전망의 modal 기하 침범,enforced,253,tools/t2-css-contract.mjs
+C4,금지된 세로 semantic rail,section,349,tools/t2-css-contract.mjs
+C11,다크 테마 토큰 역할 역전,enforced,373,tools/t2-css-contract.mjs
+C9,여백 사다리 이탈,section,557,tools/t2-css-contract.mjs
+C10,터치 타깃 회귀,section,595,tools/t2-css-contract.mjs
+C18,transition: all 금지,section,632,tools/t2-css-contract.mjs
+C19,투명 action 토큰의 상태 표시 재사용 금지,section,646,tools/t2-css-contract.mjs
+C20,제품 radius 사다리 이탈,section,658,tools/t2-css-contract.mjs
+C21,overshoot easing 은 토큰 하나로만,section,693,tools/t2-css-contract.mjs
+C22,C22 는 없어졌다 ────────────────────────────────────────────────────,RETIRED,,tools/t2-css-contract.mjs

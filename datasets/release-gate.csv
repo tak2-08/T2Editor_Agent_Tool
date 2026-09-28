@@ -1,0 +1,11 @@
+n,name,command,line
+1,PHP 구문 검사,php_syntax,84
+2,JS 구문 검사,js_syntax,85
+3,JSON 구문 검사,json_syntax,86
+4,매니페스트 스키마,manifest_schema,87
+5,정적 검사,node tools/t2-static-check.mjs,89
+6,CSS 계약 검사,node tools/t2-css-contract.mjs,90
+7,발행 본문 시트 일치,node tools/t2-content-css-build.mjs,91
+8,회귀 시험 (JS),node tests/run.mjs,92
+9,회귀 시험 (PHP),php tests/run.php,93
+10,런타임 산출물 미커밋,runtime_artifacts,94

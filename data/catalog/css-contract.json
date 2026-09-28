@@ -1,0 +1,115 @@
+{
+  "available": true,
+  "source": "tools/t2-css-contract.mjs",
+  "rules": [
+    {
+      "code": "C1",
+      "title": "중괄호 무결성",
+      "line": 103
+    },
+    {
+      "code": "C2",
+      "title": "레이어 이탈",
+      "line": 120
+    },
+    {
+      "code": "C5",
+      "title": "유령 선택자",
+      "line": 169
+    },
+    {
+      "code": "C6",
+      "title": "미정의 커스텀 속성(폴백 없음)",
+      "line": 198
+    },
+    {
+      "code": "C12",
+      "title": "자기 자신으로 돌아오는 무효 폴백",
+      "line": 213
+    },
+    {
+      "code": "C13",
+      "title": "공통 플러그인 토큰의 다중 소유자",
+      "line": 225
+    },
+    {
+      "code": "C14",
+      "title": "CSS 상대 자산 경로",
+      "line": 238
+    },
+    {
+      "code": "C15",
+      "title": "범용 overflow 안전망의 modal 기하 침범",
+      "line": 253
+    },
+    {
+      "code": "C4",
+      "title": "금지된 세로 semantic rail",
+      "line": 349
+    },
+    {
+      "code": "C11",
+      "title": "다크 테마 토큰 역할 역전",
+      "line": 373
+    },
+    {
+      "code": "C9",
+      "title": "여백 사다리 이탈",
+      "line": 557
+    },
+    {
+      "code": "C10",
+      "title": "터치 타깃 회귀",
+      "line": 595
+    },
+    {
+      "code": "C18",
+      "title": "transition: all 금지",
+      "line": 632
+    },
+    {
+      "code": "C19",
+      "title": "투명 action 토큰의 상태 표시 재사용 금지",
+      "line": 646
+    },
+    {
+      "code": "C20",
+      "title": "제품 radius 사다리 이탈",
+      "line": 658
+    },
+    {
+      "code": "C21",
+      "title": "overshoot easing 은 토큰 하나로만",
+      "line": 693
+    }
+  ],
+  "labels": {
+    "C1": {
+      "title": "중괄호 무결성",
+      "line": 744
+    },
+    "C5": {
+      "title": "유령 선택자",
+      "line": 745
+    },
+    "C11": {
+      "title": "다크 토큰 역할 역전",
+      "line": 747
+    },
+    "C15": {
+      "title": "범용 안전망의 modal 기하 침범",
+      "line": 748
+    }
+  },
+  "retired": [
+    {
+      "code": "C22",
+      "note": "C22 는 없어졌다 ────────────────────────────────────────────────────"
+    }
+  ],
+  "publishedVocab": [
+    "css/t2-foundation.css",
+    "css/t2-visual-system.css"
+  ],
+  "hardFail": "hardFail = violations.filter((v) => v.code === 'C1' || v.code === 'C2');"
+}

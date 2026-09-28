@@ -1,0 +1,174 @@
+{
+  "integration/cms/adapters": [
+    {
+      "file": "T2Editor/integration/cms/adapters/gnuboard5.php",
+      "bytes": 30944,
+      "lines": 596,
+      "functions": [
+        "t2editor_g5_config_literal",
+        "t2editor_g5_editor_root",
+        "t2editor_g5_install_ready",
+        "t2editor_g5_common_path",
+        "t2editor_g5_signature_valid",
+        "t2editor_g5_root_matches",
+        "t2editor_g5_runtime_matches",
+        "t2editor_g5_root_url",
+        "t2editor_g5_expected_session_name",
+        "t2editor_g5_bootstrap",
+        "t2editor_g5_is_admin",
+        "t2editor_g5_is_admin_page",
+        "t2editor_g5_editor_html",
+        "t2editor_g5_permission_loaded",
+        "t2editor_g5_permission_subject",
+        "t2editor_g5_permission_roles",
+        "t2editor_g5_ip_pattern",
+        "t2editor_g5_ip_matches",
+        "t2editor_g5_wordfilter_terms",
+        "t2editor_g5_ip_decide",
+        "t2editor_g5_sanitize_html",
+        "t2editor_g5_csrf_token",
+        "t2editor_g5_csrf_verify",
+        "t2editor_g5_origin_ok",
+        "t2editor_g5_safe_filename",
+        "t2editor_g5_upload_content_safe"
+      ],
+      "registerCalls": []
+    },
+    {
+      "file": "T2Editor/integration/cms/adapters/rhymix.php",
+      "bytes": 43811,
+      "lines": 831,
+      "functions": [
+        "t2editor_rx_signature_valid",
+        "t2editor_rx_root_matches",
+        "t2editor_rx_runtime_matches",
+        "t2editor_rx_normalize_base_url",
+        "t2editor_rx_context_base_url",
+        "t2editor_rx_config_base_url",
+        "t2editor_rx_request_origin",
+        "t2editor_rx_root_url",
+        "t2editor_rx_expected_session_name",
+        "t2editor_rx_bootstrap",
+        "t2editor_rx_session_active",
+        "t2editor_rx_session_unlock",
+        "t2editor_rx_is_admin",
+        "t2editor_rx_editor_html",
+        "t2editor_rx_base_url",
+        "t2editor_rx_url_identity",
+        "t2editor_rx_trusted_urls",
+        "t2editor_rx_origin_from_url",
+        "t2editor_rx_upload_target",
+        "t2editor_rx_upload_info",
+        "t2editor_rx_session_cookie",
+        "t2editor_rx_proxy_upload",
+        "t2editor_rx_upload",
+        "t2editor_rx_attach_content_style",
+        "t2editor_rx_content_style_attached",
+        "t2editor_rx_permission_loaded",
+        "t2editor_rx_logged_info",
+        "t2editor_rx_permission_subject",
+        "t2editor_rx_permission_roles",
+        "t2editor_rx_ip_in_ranges",
+        "t2editor_rx_denied_ip_ranges",
+        "t2editor_rx_ip_decide",
+        "t2editor_rx_wordfilter_terms",
+        "t2editor_rx_framework_ready",
+        "t2editor_rx_sanitize_html",
+        "t2editor_rx_iframe_domains",
+        "t2editor_rx_csrf_token",
+        "t2editor_rx_csrf_verify",
+        "t2editor_rx_origin_ok",
+        "t2editor_rx_safe_filename",
+        "t2editor_rx_upload_content_safe"
+      ],
+      "registerCalls": []
+    },
+    {
+      "file": "T2Editor/integration/cms/adapters/standalone.php",
+      "bytes": 882,
+      "lines": 16,
+      "functions": [],
+      "registerCalls": []
+    }
+  ],
+  "integration/sanitize/providers": [
+    {
+      "file": "T2Editor/integration/sanitize/providers/host-bridge.php",
+      "bytes": 5034,
+      "lines": 102,
+      "functions": [
+        "T2Esanhostcontext",
+        "T2Esanhostadapter",
+        "T2Esanhostcapable",
+        "T2Esanhostlabel",
+        "T2Esanhostiframedomains"
+      ],
+      "registerCalls": [
+        "T2Esanregisterprovider("
+      ]
+    },
+    {
+      "file": "T2Editor/integration/sanitize/providers/standalone.php",
+      "bytes": 1355,
+      "lines": 25,
+      "functions": [],
+      "registerCalls": [
+        "T2Esanregisterprovider("
+      ]
+    }
+  ],
+  "integration/permission/providers": [
+    {
+      "file": "T2Editor/integration/permission/providers/host-bridge.php",
+      "bytes": 4522,
+      "lines": 102,
+      "functions": [
+        "T2Epermhostcontext",
+        "T2Epermhostadapter",
+        "T2Epermhostcapable",
+        "T2Epermhostbridgecall"
+      ],
+      "registerCalls": [
+        "T2Epermregisterprovider("
+      ]
+    },
+    {
+      "file": "T2Editor/integration/permission/providers/standalone.php",
+      "bytes": 3808,
+      "lines": 85,
+      "functions": [
+        "T2Epermstandalonevalue",
+        "T2Epermstandalonesubject",
+        "T2Epermstandaloneiprules"
+      ],
+      "registerCalls": [
+        "T2Epermregisterprovider("
+      ]
+    }
+  ],
+  "integration/wordfilter/providers": [
+    {
+      "file": "T2Editor/integration/wordfilter/providers/host-bridge.php",
+      "bytes": 3652,
+      "lines": 79,
+      "functions": [
+        "T2Ewfhostcontext",
+        "T2Ewfhostadapter",
+        "T2Ewfhostcapable",
+        "T2Ewfhostlabel"
+      ],
+      "registerCalls": [
+        "T2Ewfregisterprovider("
+      ]
+    },
+    {
+      "file": "T2Editor/integration/wordfilter/providers/standalone.php",
+      "bytes": 1591,
+      "lines": 30,
+      "functions": [],
+      "registerCalls": [
+        "T2Ewfregisterprovider("
+      ]
+    }
+  ]
+}

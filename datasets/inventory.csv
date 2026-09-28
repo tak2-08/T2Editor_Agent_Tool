@@ -1,0 +1,25 @@
+area,files,bytes,top_exts
+T2Editor/plugin,232,4115984,.json:96 .js:60 .php:47 .css:26 .html:1
+T2Editor/js,156,3210986,.js:144 .css:10 .json:2
+T2Editor/config,92,1697163,.php:89 .json:1 .js:1 .md:1
+T2Editor/admin,86,2100903,.php:56 .js:15 .css:14 .json:1
+T2Editor/docs,45,428366,.md:44 .txt:1
+T2Editor/law,34,232239,.txt:34
+T2Editor/developer,30,203260,.md:23 .json:3 .php:2 .mjs:2
+T2Editor/vendor,26,13122715,.js:13 (none):5 .wasm:3 .json:2 .bin:2
+T2Editor/integration,24,178089,.php:21 .js:2 .xml:1
+T2Editor/extend,20,241863,.js:6 .php:6 .json:4 .css:2 .inc:1
+T2Editor/fonts,16,2586772,.woff2:14 (none):1 .txt:1
+T2Editor/css,12,371309,.css:11 .md:1
+T2Editor/endpoints,11,51990,.php:11
+T2Editor/modules,11,80748,.json:8 .js:2 .css:1
+T2Editor/(root),8,55890,.txt:3 .php:2 (none):1 .html:1 .xml:1
+T2Editor/examples,7,7777,.json:3 .js:2 .md:1 .css:1
+T2Editor/locales,5,113549,.json:4 .txt:1
+T2Editor/schemas,5,163259,.json:5
+T2Editor/core,1,151090,.php:1
+tools,27,289272,
+tests,304,1999395,
+server,17,495979,
+.github,4,24117,
+backups,10,125273,

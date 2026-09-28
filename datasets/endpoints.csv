@@ -1,0 +1,12 @@
+file,pair,bytes,lines,functions,has_request_guard
+T2Editor/endpoints/install-check.core.php,install-check.php,9669,125,t2ic_check_path,no
+T2Editor/endpoints/install-check.php,install-check.core.php,453,9,,no
+T2Editor/endpoints/plugin-sandbox-worker.core.php,plugin-sandbox-worker.php,10075,158,t2e_worker_headers t2e_worker_token t2e_worker_fail,yes
+T2Editor/endpoints/plugin-sandbox-worker.php,plugin-sandbox-worker.core.php,370,8,,no
+T2Editor/endpoints/run.core.php,run.php,2929,44,,no
+T2Editor/endpoints/run.php,run.core.php,472,9,,no
+T2Editor/endpoints/t2_content_style.core.php,t2_content_style.php,8469,142,,no
+T2Editor/endpoints/t2_css_min.core.php,t2_css_min.php,10137,206,is_safe_path t2_css_group_files t2_css_resolve,no
+T2Editor/endpoints/t2_css_min.php,t2_css_min.core.php,436,9,,no
+T2Editor/endpoints/t2_js_min.core.php,t2_js_min.php,8538,168,t2_js_group_files t2_js_resolve,no
+T2Editor/endpoints/t2_js_min.php,t2_js_min.core.php,442,9,,no

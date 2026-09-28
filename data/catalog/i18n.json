@@ -1,0 +1,31 @@
+{
+  "available": true,
+  "locales": [
+    {
+      "file": "T2Editor/locales/README.txt",
+      "bytes": 1732,
+      "keys": 16
+    },
+    {
+      "file": "T2Editor/locales/en.json",
+      "bytes": 26620,
+      "keys": 459
+    },
+    {
+      "file": "T2Editor/locales/ja.json",
+      "bytes": 30498,
+      "keys": 459
+    },
+    {
+      "file": "T2Editor/locales/ko.json",
+      "bytes": 29239,
+      "keys": 459
+    },
+    {
+      "file": "T2Editor/locales/zh.json",
+      "bytes": 25460,
+      "keys": 459
+    }
+  ],
+  "count": 5
+}

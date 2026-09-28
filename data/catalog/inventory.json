@@ -1,0 +1,227 @@
+{
+  "packageRoot": "T2Editor",
+  "files": 821,
+  "bytes": 29113952,
+  "ext": {
+    ".js": 245,
+    ".php": 235,
+    ".json": 129,
+    ".md": 71,
+    ".css": 65,
+    ".txt": 42,
+    ".woff2": 14,
+    "(none)": 7,
+    ".wasm": 3,
+    ".mjs": 2,
+    ".html": 2,
+    ".xml": 2,
+    ".bin": 2,
+    ".inc": 1,
+    ".markdown": 1
+  },
+  "top": {
+    "plugin": {
+      "files": 232,
+      "bytes": 4115984,
+      "ext": {
+        ".css": 26,
+        ".js": 60,
+        ".php": 47,
+        ".json": 96,
+        ".html": 1,
+        ".txt": 1,
+        ".md": 1
+      }
+    },
+    "js": {
+      "files": 156,
+      "bytes": 3210986,
+      "ext": {
+        ".js": 144,
+        ".css": 10,
+        ".json": 2
+      }
+    },
+    "config": {
+      "files": 92,
+      "bytes": 1697163,
+      "ext": {
+        ".php": 89,
+        ".json": 1,
+        ".js": 1,
+        ".md": 1
+      }
+    },
+    "admin": {
+      "files": 86,
+      "bytes": 2100903,
+      "ext": {
+        ".php": 56,
+        ".css": 14,
+        ".js": 15,
+        ".json": 1
+      }
+    },
+    "docs": {
+      "files": 45,
+      "bytes": 428366,
+      "ext": {
+        ".md": 44,
+        ".txt": 1
+      }
+    },
+    "law": {
+      "files": 34,
+      "bytes": 232239,
+      "ext": {
+        ".txt": 34
+      }
+    },
+    "developer": {
+      "files": 30,
+      "bytes": 203260,
+      "ext": {
+        ".md": 23,
+        ".php": 2,
+        ".json": 3,
+        ".mjs": 2
+      }
+    },
+    "vendor": {
+      "files": 26,
+      "bytes": 13122715,
+      "ext": {
+        ".json": 2,
+        ".js": 13,
+        "(none)": 5,
+        ".markdown": 1,
+        ".bin": 2,
+        ".wasm": 3
+      }
+    },
+    "integration": {
+      "files": 24,
+      "bytes": 178089,
+      "ext": {
+        ".php": 21,
+        ".js": 2,
+        ".xml": 1
+      }
+    },
+    "extend": {
+      "files": 20,
+      "bytes": 241863,
+      "ext": {
+        ".js": 6,
+        ".php": 6,
+        ".inc": 1,
+        ".css": 2,
+        ".txt": 1,
+        ".json": 4
+      }
+    },
+    "fonts": {
+      "files": 16,
+      "bytes": 2586772,
+      "ext": {
+        "(none)": 1,
+        ".woff2": 14,
+        ".txt": 1
+      }
+    },
+    "css": {
+      "files": 12,
+      "bytes": 371309,
+      "ext": {
+        ".md": 1,
+        ".css": 11
+      }
+    },
+    "endpoints": {
+      "files": 11,
+      "bytes": 51990,
+      "ext": {
+        ".php": 11
+      }
+    },
+    "modules": {
+      "files": 11,
+      "bytes": 80748,
+      "ext": {
+        ".js": 2,
+        ".css": 1,
+        ".json": 8
+      }
+    },
+    "(root)": {
+      "files": 8,
+      "bytes": 55890,
+      "ext": {
+        "(none)": 1,
+        ".php": 2,
+        ".html": 1,
+        ".txt": 3,
+        ".xml": 1
+      }
+    },
+    "examples": {
+      "files": 7,
+      "bytes": 7777,
+      "ext": {
+        ".md": 1,
+        ".json": 3,
+        ".js": 2,
+        ".css": 1
+      }
+    },
+    "locales": {
+      "files": 5,
+      "bytes": 113549,
+      "ext": {
+        ".txt": 1,
+        ".json": 4
+      }
+    },
+    "schemas": {
+      "files": 5,
+      "bytes": 163259,
+      "ext": {
+        ".json": 5
+      }
+    },
+    "core": {
+      "files": 1,
+      "bytes": 151090,
+      "ext": {
+        ".php": 1
+      }
+    }
+  },
+  "outside": {
+    "tools": {
+      "exists": true,
+      "files": 27,
+      "bytes": 289272
+    },
+    "tests": {
+      "exists": true,
+      "files": 304,
+      "bytes": 1999395
+    },
+    "server": {
+      "exists": true,
+      "files": 17,
+      "bytes": 495979
+    },
+    ".github": {
+      "exists": true,
+      "files": 4,
+      "bytes": 24117
+    },
+    "backups": {
+      "exists": true,
+      "files": 10,
+      "bytes": 125273
+    }
+  }
+}
